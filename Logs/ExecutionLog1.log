@@ -1,0 +1,319 @@
+2024-11-16 22:34:15,272 [main] INFO Project-Practice - Log- Chrome Browser launching
+2024-11-16 22:34:23,985 [main] INFO Project-Practice - Application is Launching
+2024-11-16 22:34:24,067 [main] INFO Project-Practice - Entering Username
+2024-11-16 22:34:27,356 [main] INFO Project-Practice - Entering Password
+2024-11-16 22:34:30,676 [main] INFO Project-Practice - Clicking on logging button
+2024-11-16 22:34:41,185 [main] INFO Project-Practice - Log - Clicking On Admin Option
+2024-11-16 22:34:41,199 [main] WARN Project-Practice - Log - Verifying the URL....It may be matched or unmatched
+2024-11-16 22:34:41,199 [main] INFO Project-Practice - Log -Validating the admin urls
+2024-11-16 22:34:41,199 [main] INFO Project-Practice - Admin Url validation matched - Test Case Passed
+2024-11-16 22:34:48,479 [main] INFO Project-Practice - Entering Username
+2024-11-16 22:34:51,750 [main] INFO Project-Practice - Entering Password
+2024-11-16 22:34:55,108 [main] INFO Project-Practice - Clicking on logging button
+2024-11-16 22:35:16,085 [main] INFO Project-Practice - Entering Username
+2024-11-16 22:35:19,310 [main] INFO Project-Practice - Entering Password
+2024-11-16 22:35:22,498 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 12:17:50,823 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 12:17:59,198 [main] INFO Project-Practice - Application is Launching
+2025-03-11 12:17:59,390 [main] INFO Project-Practice - Entering Username
+2025-03-11 12:18:02,720 [main] INFO Project-Practice - Entering Password
+2025-03-11 12:18:05,986 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 12:18:14,097 [main] INFO Project-Practice - Log - Clicking On Admin Option
+2025-03-11 12:18:14,110 [main] WARN Project-Practice - Log - Verifying the URL....It may be matched or unmatched
+2025-03-11 12:18:14,111 [main] INFO Project-Practice - Log -Validating the admin urls
+2025-03-11 12:18:14,116 [main] INFO Project-Practice - Admin Url validation matched - Test Case Passed
+2025-03-11 12:18:21,837 [main] INFO Project-Practice - Entering Username
+2025-03-11 12:18:25,077 [main] INFO Project-Practice - Entering Password
+2025-03-11 12:18:28,272 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 12:18:59,163 [main] INFO Project-Practice - Entering Username
+2025-03-11 12:21:36,891 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 12:21:44,868 [main] INFO Project-Practice - Application is Launching
+2025-03-11 12:21:44,930 [main] INFO Project-Practice - Entering Username
+2025-03-11 12:21:48,199 [main] INFO Project-Practice - Entering Password
+2025-03-11 12:21:51,393 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 12:21:59,605 [main] INFO Project-Practice - Log - Clicking On Admin Option
+2025-03-11 12:21:59,620 [main] WARN Project-Practice - Log - Verifying the URL....It may be matched or unmatched
+2025-03-11 12:21:59,621 [main] INFO Project-Practice - Log -Validating the admin urls
+2025-03-11 12:21:59,628 [main] INFO Project-Practice - Admin Url validation matched - Test Case Passed
+2025-03-11 12:22:24,176 [main] INFO Project-Practice - Entering Username
+2025-03-11 12:23:26,712 [main] INFO Project-Practice - Entering Username
+2025-03-11 12:27:05,521 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 12:27:14,603 [main] INFO Project-Practice - Application is Launching
+2025-03-11 12:27:14,679 [main] INFO Project-Practice - Entering Username
+2025-03-11 12:27:17,931 [main] INFO Project-Practice - Entering Password
+2025-03-11 12:27:21,173 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 12:27:29,855 [main] INFO Project-Practice - Log - Clicking On Admin Option
+2025-03-11 12:27:29,865 [main] WARN Project-Practice - Log - Verifying the URL....It may be matched or unmatched
+2025-03-11 12:27:29,865 [main] INFO Project-Practice - Log -Validating the admin urls
+2025-03-11 12:27:29,871 [main] INFO Project-Practice - Admin Url validation matched - Test Case Passed
+2025-03-11 12:27:37,074 [main] INFO Project-Practice - Entering Username
+2025-03-11 12:27:40,291 [main] INFO Project-Practice - Entering Password
+2025-03-11 12:27:43,507 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 12:28:14,382 [main] INFO Project-Practice - Entering Username
+2025-03-11 12:31:47,100 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 12:31:57,337 [main] INFO Project-Practice - Application is Launching
+2025-03-11 12:31:57,386 [main] INFO Project-Practice - Entering Username
+2025-03-11 12:32:00,640 [main] INFO Project-Practice - Entering Password
+2025-03-11 12:32:03,870 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 12:32:13,417 [main] INFO Project-Practice - Log - Clicking On Admin Option
+2025-03-11 12:32:13,422 [main] WARN Project-Practice - Log - Verifying the URL....It may be matched or unmatched
+2025-03-11 12:32:13,422 [main] INFO Project-Practice - Log -Validating the admin urls
+2025-03-11 12:32:13,422 [main] INFO Project-Practice - Admin Url validation matched - Test Case Passed
+2025-03-11 12:32:20,663 [main] INFO Project-Practice - Entering Username
+2025-03-11 12:32:23,837 [main] INFO Project-Practice - Entering Password
+2025-03-11 12:32:27,084 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 12:32:57,762 [main] INFO Project-Practice - Entering Username
+2025-03-11 12:33:56,114 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 12:34:08,645 [main] INFO Project-Practice - Application is Launching
+2025-03-11 12:34:08,698 [main] INFO Project-Practice - Entering Username
+2025-03-11 12:34:11,914 [main] INFO Project-Practice - Entering Password
+2025-03-11 12:34:15,132 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 12:34:24,589 [main] INFO Project-Practice - Log - Clicking On Admin Option
+2025-03-11 12:34:24,606 [main] WARN Project-Practice - Log - Verifying the URL....It may be matched or unmatched
+2025-03-11 12:34:24,606 [main] INFO Project-Practice - Log -Validating the admin urls
+2025-03-11 12:34:24,616 [main] INFO Project-Practice - Admin Url validation matched - Test Case Passed
+2025-03-11 12:34:31,987 [main] INFO Project-Practice - Entering Username
+2025-03-11 12:34:35,160 [main] INFO Project-Practice - Entering Password
+2025-03-11 12:34:38,442 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 12:34:57,329 [main] INFO Project-Practice - Entering Username
+2025-03-11 12:35:00,525 [main] INFO Project-Practice - Entering Password
+2025-03-11 12:35:03,747 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 14:54:14,010 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 14:54:23,029 [main] INFO Project-Practice - Application is Launching
+2025-03-11 14:54:23,093 [main] INFO Project-Practice - Entering Username
+2025-03-11 14:54:26,655 [main] INFO Project-Practice - Entering Password
+2025-03-11 14:54:29,862 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 14:56:55,544 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 14:57:07,908 [main] INFO Project-Practice - Application is Launching
+2025-03-11 14:57:07,949 [main] INFO Project-Practice - Entering Username
+2025-03-11 14:57:11,194 [main] INFO Project-Practice - Entering Password
+2025-03-11 14:57:14,451 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 15:00:57,331 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 15:01:10,721 [main] INFO Project-Practice - Application is Launching
+2025-03-11 15:01:10,772 [main] INFO Project-Practice - Entering Username
+2025-03-11 15:01:13,965 [main] INFO Project-Practice - Entering Password
+2025-03-11 15:01:17,213 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 15:06:46,066 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 15:06:55,256 [main] INFO Project-Practice - Application is Launching
+2025-03-11 15:06:55,325 [main] INFO Project-Practice - Entering Username
+2025-03-11 15:06:58,524 [main] INFO Project-Practice - Entering Password
+2025-03-11 15:07:01,780 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 15:08:44,286 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 15:08:53,936 [main] INFO Project-Practice - Application is Launching
+2025-03-11 15:08:53,978 [main] INFO Project-Practice - Entering Username
+2025-03-11 15:08:57,268 [main] INFO Project-Practice - Entering Password
+2025-03-11 15:09:00,527 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 15:09:23,221 [main] INFO Project-Practice - Entering Username
+2025-03-11 15:09:26,540 [main] INFO Project-Practice - Entering Password
+2025-03-11 15:09:29,724 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 15:09:38,215 [main] INFO Project-Practice - Log - Clicking On Admin Option
+2025-03-11 15:09:38,233 [main] WARN Project-Practice - Log - Verifying the URL....It may be matched or unmatched
+2025-03-11 15:09:38,233 [main] INFO Project-Practice - Log -Validating the admin urls
+2025-03-11 15:09:38,280 [main] INFO Project-Practice - Admin Url validation matched - Test Case Passed
+2025-03-11 15:11:06,176 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 15:11:16,868 [main] INFO Project-Practice - Application is Launching
+2025-03-11 15:11:16,926 [main] INFO Project-Practice - Entering Username
+2025-03-11 15:11:20,143 [main] INFO Project-Practice - Entering Password
+2025-03-11 15:11:23,382 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 15:27:27,262 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 15:27:39,728 [main] INFO Project-Practice - Application is Launching
+2025-03-11 15:27:39,777 [main] INFO Project-Practice - Entering Username
+2025-03-11 15:27:43,124 [main] INFO Project-Practice - Entering Password
+2025-03-11 15:27:46,375 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 15:40:05,405 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 15:40:14,818 [main] INFO Project-Practice - Application is Launching
+2025-03-11 15:40:14,883 [main] INFO Project-Practice - Entering Username
+2025-03-11 15:40:18,162 [main] INFO Project-Practice - Entering Password
+2025-03-11 15:40:21,446 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 15:43:18,301 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 15:43:30,907 [main] INFO Project-Practice - Application is Launching
+2025-03-11 15:43:30,961 [main] INFO Project-Practice - Entering Username
+2025-03-11 15:43:34,166 [main] INFO Project-Practice - Entering Password
+2025-03-11 15:43:37,406 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 16:15:23,338 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 16:15:31,013 [main] INFO Project-Practice - Application is Launching
+2025-03-11 16:15:31,061 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:15:34,257 [main] INFO Project-Practice - Entering Password
+2025-03-11 16:15:37,388 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 16:18:40,399 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 16:18:48,571 [main] INFO Project-Practice - Application is Launching
+2025-03-11 16:18:48,605 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:18:51,759 [main] INFO Project-Practice - Entering Password
+2025-03-11 16:18:54,925 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 16:29:05,382 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 16:29:13,205 [main] INFO Project-Practice - Application is Launching
+2025-03-11 16:29:13,236 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:29:16,372 [main] INFO Project-Practice - Entering Password
+2025-03-11 16:29:19,486 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 16:37:16,095 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 16:37:23,899 [main] INFO Project-Practice - Application is Launching
+2025-03-11 16:37:23,967 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:37:27,195 [main] INFO Project-Practice - Entering Password
+2025-03-11 16:37:30,316 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 16:40:57,005 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 16:41:04,741 [main] INFO Project-Practice - Application is Launching
+2025-03-11 16:41:04,775 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:41:07,971 [main] INFO Project-Practice - Entering Password
+2025-03-11 16:41:11,202 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 16:41:16,373 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:41:16,389 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:41:16,404 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:42:26,803 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 16:42:34,291 [main] INFO Project-Practice - Application is Launching
+2025-03-11 16:42:34,331 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:42:37,494 [main] INFO Project-Practice - Entering Password
+2025-03-11 16:42:40,642 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 16:43:15,445 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:43:15,461 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:43:15,477 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:44:53,740 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 16:45:01,603 [main] INFO Project-Practice - Application is Launching
+2025-03-11 16:45:01,635 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:45:04,765 [main] INFO Project-Practice - Entering Password
+2025-03-11 16:45:07,936 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 16:46:04,326 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:46:49,942 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:46:53,119 [main] INFO Project-Practice - Entering Password
+2025-03-11 16:46:56,216 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 16:47:23,766 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:51:17,763 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 16:51:25,634 [main] INFO Project-Practice - Application is Launching
+2025-03-11 16:51:25,685 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:51:28,846 [main] INFO Project-Practice - Entering Password
+2025-03-11 16:51:32,015 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 16:52:08,986 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:52:23,111 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:52:23,127 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:54:58,409 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 16:55:06,846 [main] INFO Project-Practice - Application is Launching
+2025-03-11 16:55:06,918 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:55:10,072 [main] INFO Project-Practice - Entering Password
+2025-03-11 16:55:13,172 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 16:55:48,934 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:55:48,957 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:55:48,966 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:56:17,568 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 16:56:25,701 [main] INFO Project-Practice - Application is Launching
+2025-03-11 16:56:25,743 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:56:28,890 [main] INFO Project-Practice - Entering Password
+2025-03-11 16:56:32,031 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 16:57:06,969 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:57:06,990 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:57:07,000 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:57:34,371 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 16:57:41,798 [main] INFO Project-Practice - Application is Launching
+2025-03-11 16:57:41,838 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:57:44,964 [main] INFO Project-Practice - Entering Password
+2025-03-11 16:57:48,096 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 16:58:31,279 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:59:14,551 [main] INFO Project-Practice - Entering Username
+2025-03-11 16:59:57,857 [main] INFO Project-Practice - Entering Username
+2025-03-11 17:01:08,714 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 17:01:16,627 [main] INFO Project-Practice - Application is Launching
+2025-03-11 17:01:16,684 [main] INFO Project-Practice - Entering Username
+2025-03-11 17:01:19,859 [main] INFO Project-Practice - Entering Password
+2025-03-11 17:01:23,005 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 17:02:10,103 [main] INFO Project-Practice - Entering Username
+2025-03-11 17:02:13,220 [main] INFO Project-Practice - Entering Password
+2025-03-11 17:02:16,402 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 17:02:26,183 [main] INFO Project-Practice - Log - Clicking On Admin Option
+2025-03-11 17:02:26,199 [main] WARN Project-Practice - Log - Verifying the URL....It may be matched or unmatched
+2025-03-11 17:02:26,199 [main] INFO Project-Practice - Log -Validating the admin urls
+2025-03-11 17:02:26,199 [main] INFO Project-Practice - Admin Url validation matched - Test Case Passed
+2025-03-11 17:02:35,091 [main] INFO Project-Practice - Entering Username
+2025-03-11 17:02:38,242 [main] INFO Project-Practice - Entering Password
+2025-03-11 17:02:41,373 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 17:03:12,950 [main] INFO Project-Practice - Entering Username
+2025-03-11 17:05:50,445 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 17:05:58,305 [main] INFO Project-Practice - Application is Launching
+2025-03-11 17:05:58,337 [main] INFO Project-Practice - Entering Username
+2025-03-11 17:06:01,481 [main] INFO Project-Practice - Entering Password
+2025-03-11 17:06:04,636 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 17:06:53,081 [main] INFO Project-Practice - Entering Username
+2025-03-11 17:06:56,214 [main] INFO Project-Practice - Entering Password
+2025-03-11 17:06:59,380 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 17:07:07,373 [main] INFO Project-Practice - Log - Clicking On Admin Option
+2025-03-11 17:07:07,389 [main] WARN Project-Practice - Log - Verifying the URL....It may be matched or unmatched
+2025-03-11 17:07:07,389 [main] INFO Project-Practice - Log -Validating the admin urls
+2025-03-11 17:07:07,404 [main] INFO Project-Practice - Admin Url validation matched - Test Case Passed
+2025-03-11 17:07:16,399 [main] INFO Project-Practice - Entering Username
+2025-03-11 17:07:19,583 [main] INFO Project-Practice - Entering Password
+2025-03-11 17:07:22,719 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 17:07:55,341 [main] INFO Project-Practice - Entering Username
+2025-03-11 17:11:10,376 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 17:11:18,241 [main] INFO Project-Practice - Application is Launching
+2025-03-11 17:11:18,294 [main] INFO Project-Practice - Entering Username
+2025-03-11 17:11:21,430 [main] INFO Project-Practice - Entering Password
+2025-03-11 17:11:24,573 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 17:12:11,635 [main] INFO Project-Practice - Entering Username
+2025-03-11 17:12:14,775 [main] INFO Project-Practice - Entering Password
+2025-03-11 17:12:17,958 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 17:12:27,011 [main] INFO Project-Practice - Log - Clicking On Admin Option
+2025-03-11 17:12:27,027 [main] WARN Project-Practice - Log - Verifying the URL....It may be matched or unmatched
+2025-03-11 17:12:27,027 [main] INFO Project-Practice - Log -Validating the admin urls
+2025-03-11 17:12:27,027 [main] INFO Project-Practice - Admin Url validation matched - Test Case Passed
+2025-03-11 17:12:36,092 [main] INFO Project-Practice - Entering Username
+2025-03-11 17:12:39,248 [main] INFO Project-Practice - Entering Password
+2025-03-11 17:12:42,409 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 17:13:04,193 [main] INFO Project-Practice - Entering Username
+2025-03-11 17:13:07,314 [main] INFO Project-Practice - Entering Password
+2025-03-11 17:13:10,452 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 17:16:49,715 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 17:16:58,445 [main] INFO Project-Practice - Application is Launching
+2025-03-11 17:16:58,484 [main] INFO Project-Practice - Entering Username
+2025-03-11 17:17:01,628 [main] INFO Project-Practice - Entering Password
+2025-03-11 17:17:04,759 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 17:17:51,644 [main] INFO Project-Practice - Entering Username
+2025-03-11 17:17:54,792 [main] INFO Project-Practice - Entering Password
+2025-03-11 17:17:57,954 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 17:18:05,914 [main] INFO Project-Practice - Log - Clicking On Admin Option
+2025-03-11 17:18:05,930 [main] WARN Project-Practice - Log - Verifying the URL....It may be matched or unmatched
+2025-03-11 17:18:05,930 [main] INFO Project-Practice - Log -Validating the admin urls
+2025-03-11 17:18:05,930 [main] INFO Project-Practice - Admin Url validation matched - Test Case Passed
+2025-03-11 17:18:14,909 [main] INFO Project-Practice - Entering Username
+2025-03-11 17:18:18,013 [main] INFO Project-Practice - Entering Password
+2025-03-11 17:18:21,112 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 17:18:42,729 [main] INFO Project-Practice - Entering Username
+2025-03-11 17:18:45,848 [main] INFO Project-Practice - Entering Password
+2025-03-11 17:18:48,999 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 17:23:29,324 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 17:23:37,333 [main] INFO Project-Practice - Application is Launching
+2025-03-11 17:23:37,381 [main] INFO Project-Practice - Entering Username
+2025-03-11 17:23:40,498 [main] INFO Project-Practice - Entering Password
+2025-03-11 17:23:43,609 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 17:24:30,573 [main] INFO Project-Practice - Entering Username
+2025-03-11 17:24:33,697 [main] INFO Project-Practice - Entering Password
+2025-03-11 17:24:36,826 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 17:24:44,849 [main] INFO Project-Practice - Log - Clicking On Admin Option
+2025-03-11 17:24:44,865 [main] WARN Project-Practice - Log - Verifying the URL....It may be matched or unmatched
+2025-03-11 17:24:44,865 [main] INFO Project-Practice - Log -Validating the admin urls
+2025-03-11 17:24:44,865 [main] INFO Project-Practice - Admin Url validation matched - Test Case Passed
+2025-03-11 17:24:53,964 [main] INFO Project-Practice - Entering Username
+2025-03-11 17:24:57,083 [main] INFO Project-Practice - Entering Password
+2025-03-11 17:25:00,216 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 17:25:21,730 [main] INFO Project-Practice - Entering Username
+2025-03-11 17:25:24,854 [main] INFO Project-Practice - Entering Password
+2025-03-11 17:25:28,001 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 19:39:09,356 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 19:39:18,043 [main] INFO Project-Practice - Application is Launching
+2025-03-11 19:39:18,104 [main] INFO Project-Practice - Entering Username
+2025-03-11 19:39:21,368 [main] INFO Project-Practice - Entering Password
+2025-03-11 19:39:24,641 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 19:41:15,378 [main] INFO Project-Practice - Log- Chrome Browser launching
+2025-03-11 19:41:24,613 [main] INFO Project-Practice - Application is Launching
+2025-03-11 19:41:24,685 [main] INFO Project-Practice - Entering Username
+2025-03-11 19:41:27,934 [main] INFO Project-Practice - Entering Password
+2025-03-11 19:41:31,183 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 19:42:19,866 [main] INFO Project-Practice - Entering Username
+2025-03-11 19:42:23,082 [main] INFO Project-Practice - Entering Password
+2025-03-11 19:42:26,358 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 19:42:34,851 [main] INFO Project-Practice - Log - Clicking On Admin Option
+2025-03-11 19:42:34,873 [main] WARN Project-Practice - Log - Verifying the URL....It may be matched or unmatched
+2025-03-11 19:42:34,873 [main] INFO Project-Practice - Log -Validating the admin urls
+2025-03-11 19:42:34,876 [main] INFO Project-Practice - Admin Url validation matched - Test Case Passed
+2025-03-11 19:42:44,314 [main] INFO Project-Practice - Entering Username
+2025-03-11 19:42:47,509 [main] INFO Project-Practice - Entering Password
+2025-03-11 19:42:50,720 [main] INFO Project-Practice - Clicking on logging button
+2025-03-11 19:43:12,684 [main] INFO Project-Practice - Entering Username
+2025-03-11 19:43:15,836 [main] INFO Project-Practice - Entering Password
+2025-03-11 19:43:19,205 [main] INFO Project-Practice - Clicking on logging button

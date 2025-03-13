@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="test_package.HomePage_TestingClass">
+        <methods>
+          <include name="LoginInToTheApplication"/>
+          <include name="launchApplication"/>
+          <include name="cleanObjects"/>
+          <include name="ClosedTheApplication"/>
+          <include name="launchBrowser"/>
+          <include name="verifyEmployeeTableData"/>
+          <include name="verifyCompanyNameInAboutWindowOption"/>
+          <include name="verifyAdminOption"/>
+          <include name="verifyUserCreationData"/>
+          <include name="closedBrowser"/>
+        </methods>
+      </class> <!-- test_package.HomePage_TestingClass -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
