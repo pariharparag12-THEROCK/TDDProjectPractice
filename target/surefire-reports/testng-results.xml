@@ -1,64 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[UserName Entered]]>
-    </line>
-    <line>
-      <![CDATA[Password Entered]]>
-    </line>
-    <line>
-      <![CDATA[Login button Clicked]]>
-    </line>
-    <line>
-      <![CDATA[UserName Entered]]>
-    </line>
-    <line>
-      <![CDATA[Password Entered]]>
-    </line>
-    <line>
-      <![CDATA[Login button Clicked]]>
-    </line>
-    <line>
-      <![CDATA[Admin Urls matched successfully]]>
-    </line>
-    <line>
-      <![CDATA[UserName Entered]]>
-    </line>
-    <line>
-      <![CDATA[Password Entered]]>
-    </line>
-    <line>
-      <![CDATA[Login button Clicked]]>
-    </line>
-    <line>
-      <![CDATA[UserName Entered]]>
-    </line>
-    <line>
-      <![CDATA[Password Entered]]>
-    </line>
-    <line>
-      <![CDATA[Login button Clicked]]>
-    </line>
   </reporter-output>
-  <suite started-at="2025-03-11T17:11:08 IST" name="Suite" finished-at="2025-03-11T17:13:36 IST" duration-ms="147441">
+  <suite started-at="2025-07-02T19:09:34 IST" name="Suite" finished-at="2025-07-02T19:09:48 IST" duration-ms="13265">
     <groups>
-      <group name="Sanity">
-        <method signature="HomePage_TestingClass.verifyAdminOption()[pri:-1, instance:test_package.HomePage_TestingClass@1fa268de]" name="verifyAdminOption" class="test_package.HomePage_TestingClass"/>
-      </group> <!-- Sanity -->
-      <group name="Parag">
-        <method signature="HomePage_TestingClass.verifyUserCreationData()[pri:-5, instance:test_package.HomePage_TestingClass@1fa268de]" name="verifyUserCreationData" class="test_package.HomePage_TestingClass"/>
-      </group> <!-- Parag -->
-      <group name="Regression">
-        <method signature="HomePage_TestingClass.verifyEmployeeTableData()[pri:3, instance:test_package.HomePage_TestingClass@1fa268de]" name="verifyEmployeeTableData" class="test_package.HomePage_TestingClass"/>
-      </group> <!-- Regression -->
-      <group name="Smoke">
-        <method signature="HomePage_TestingClass.verifyCompanyNameInAboutWindowOption()[pri:2, instance:test_package.HomePage_TestingClass@1fa268de]" name="verifyCompanyNameInAboutWindowOption" class="test_package.HomePage_TestingClass"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2025-03-11T17:11:08 IST" name="ChromTest1" finished-at="2025-03-11T17:13:36 IST" duration-ms="147441">
-      <class name="test_package.HomePage_TestingClass">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test_package.HomePage_TestingClass@1fa268de]" started-at="2025-03-11T17:11:08 IST" name="launchBrowser" finished-at="2025-03-11T17:11:12 IST" duration-ms="3494" status="PASS">
+    <test started-at="2025-07-02T19:09:34 IST" name="ChromTest1" finished-at="2025-07-02T19:09:48 IST" duration-ms="13265">
+      <class name="test_package.LoginPage_TestingClass">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test_package.LoginPage_TestingClass@6c64cb25]" started-at="2025-07-02T19:09:34 IST" name="launchBrowser" finished-at="2025-07-02T19:09:39 IST" duration-ms="4379" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,106 +18,63 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test_package.HomePage_TestingClass@1fa268de]" started-at="2025-03-11T17:11:12 IST" name="launchApplication" finished-at="2025-03-11T17:11:18 IST" duration-ms="5881" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test_package.LoginPage_TestingClass@6c64cb25]" started-at="2025-07-02T19:09:39 IST" name="launchApplication" finished-at="2025-07-02T19:09:47 IST" duration-ms="8452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method is-config="true" signature="LoginInToTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@1fa268de]" started-at="2025-03-11T17:11:18 IST" name="LoginInToTheApplication" finished-at="2025-03-11T17:11:29 IST" duration-ms="11408" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[UserName Entered]]>
-            </line>
-            <line>
-              <![CDATA[Password Entered]]>
-            </line>
-            <line>
-              <![CDATA[Login button Clicked]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LoginInToTheApplication -->
-        <test-method signature="verifyUserCreationData()[pri:-5, instance:test_package.HomePage_TestingClass@1fa268de]" started-at="2025-03-11T17:11:29 IST" name="verifyUserCreationData" finished-at="2025-03-11T17:12:04 IST" duration-ms="34681" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserCreationData -->
-        <test-method is-config="true" signature="ClosedTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@1fa268de]" started-at="2025-03-11T17:12:04 IST" name="ClosedTheApplication" finished-at="2025-03-11T17:12:11 IST" duration-ms="7251" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClosedTheApplication -->
-        <test-method is-config="true" signature="LoginInToTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@1fa268de]" started-at="2025-03-11T17:12:11 IST" name="LoginInToTheApplication" finished-at="2025-03-11T17:12:24 IST" duration-ms="12522" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[UserName Entered]]>
-            </line>
-            <line>
-              <![CDATA[Password Entered]]>
-            </line>
-            <line>
-              <![CDATA[Login button Clicked]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LoginInToTheApplication -->
-        <test-method signature="verifyAdminOption()[pri:-1, instance:test_package.HomePage_TestingClass@1fa268de]" started-at="2025-03-11T17:12:24 IST" name="verifyAdminOption" finished-at="2025-03-11T17:12:29 IST" duration-ms="4890" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Admin Urls matched successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyAdminOption -->
-        <test-method is-config="true" signature="ClosedTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@1fa268de]" started-at="2025-03-11T17:12:29 IST" name="ClosedTheApplication" finished-at="2025-03-11T17:12:36 IST" duration-ms="7043" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClosedTheApplication -->
-        <test-method is-config="true" signature="LoginInToTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@1fa268de]" started-at="2025-03-11T17:12:36 IST" name="LoginInToTheApplication" finished-at="2025-03-11T17:12:47 IST" duration-ms="11469" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[UserName Entered]]>
-            </line>
-            <line>
-              <![CDATA[Password Entered]]>
-            </line>
-            <line>
-              <![CDATA[Login button Clicked]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LoginInToTheApplication -->
-        <test-method signature="verifyCompanyNameInAboutWindowOption()[pri:2, instance:test_package.HomePage_TestingClass@1fa268de]" started-at="2025-03-11T17:12:47 IST" name="verifyCompanyNameInAboutWindowOption" finished-at="2025-03-11T17:12:56 IST" duration-ms="9371" status="PASS">
+        <test-method signature="verifyloginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test_package.LoginPage_TestingClass@6c64cb25]" started-at="2025-07-02T19:09:47 IST" name="verifyloginTest" finished-at="2025-07-02T19:09:47 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void test_package.LoginPage_TestingClass.verifyloginTest(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException requires a @DataProvider named : logindata]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void test_package.LoginPage_TestingClass.verifyloginTest(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException requires a @DataProvider named : logindata
+at org.testng.internal.Parameters.findDataProvider(Parameters.java:526)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:763)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCompanyNameInAboutWindowOption -->
-        <test-method is-config="true" signature="ClosedTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@1fa268de]" started-at="2025-03-11T17:12:56 IST" name="ClosedTheApplication" finished-at="2025-03-11T17:13:04 IST" duration-ms="7261" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClosedTheApplication -->
-        <test-method is-config="true" signature="LoginInToTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@1fa268de]" started-at="2025-03-11T17:13:04 IST" name="LoginInToTheApplication" finished-at="2025-03-11T17:13:18 IST" duration-ms="14339" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[UserName Entered]]>
-            </line>
-            <line>
-              <![CDATA[Password Entered]]>
-            </line>
-            <line>
-              <![CDATA[Login button Clicked]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LoginInToTheApplication -->
-        <test-method signature="verifyEmployeeTableData()[pri:3, instance:test_package.HomePage_TestingClass@1fa268de]" started-at="2025-03-11T17:13:18 IST" name="verifyEmployeeTableData" finished-at="2025-03-11T17:13:29 IST" duration-ms="10542" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyEmployeeTableData -->
-        <test-method is-config="true" signature="ClosedTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@1fa268de]" started-at="2025-03-11T17:13:29 IST" name="ClosedTheApplication" finished-at="2025-03-11T17:13:36 IST" duration-ms="7035" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClosedTheApplication -->
-        <test-method is-config="true" signature="cleanObjects()[pri:0, instance:test_package.HomePage_TestingClass@1fa268de]" started-at="2025-03-11T17:13:36 IST" name="cleanObjects" finished-at="2025-03-11T17:13:36 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- verifyloginTest -->
+        <test-method is-config="true" signature="cleanObjects()[pri:0, instance:test_package.LoginPage_TestingClass@6c64cb25]" started-at="2025-07-02T19:09:47 IST" name="cleanObjects" finished-at="2025-07-02T19:09:47 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanObjects -->
-        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:test_package.HomePage_TestingClass@1fa268de]" started-at="2025-03-11T17:13:36 IST" name="closedBrowser" finished-at="2025-03-11T17:13:36 IST" duration-ms="226" status="PASS">
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:test_package.LoginPage_TestingClass@6c64cb25]" started-at="2025-07-02T19:09:47 IST" name="closedBrowser" finished-at="2025-07-02T19:09:48 IST" duration-ms="350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedBrowser -->
-      </class> <!-- test_package.HomePage_TestingClass -->
+      </class> <!-- test_package.LoginPage_TestingClass -->
     </test> <!-- ChromTest1 -->
   </suite> <!-- Suite -->
 </testng-results>

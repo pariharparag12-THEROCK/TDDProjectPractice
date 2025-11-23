@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class ScrollView {
 
-	public static void scrollIntoView(WebDriver driver, WebElement element) {
+	/*public static void scrollIntoView(WebDriver driver, WebElement element) {
 		
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		
@@ -14,5 +14,16 @@ public class ScrollView {
 		
 		js.executeScript("arguments[0].scrollIntoView();", element);
 		
+	}*/
+	
+	
+	public static void scrollIntoView(WebDriver driver, WebElement element) {
+		
+		JavascriptExecutor js = (JavascriptExecutor)driver; 
+		
+		js.executeScript("arguments[0].scrollIntoView();", element);
+		
 	}
+	
+	//23 nov 2025
 }

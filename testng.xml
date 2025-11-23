@@ -3,30 +3,70 @@
 
 
 <suite name="Suite" thread-count="5">
-	
+	<!--
 	<listeners>
 		<listener class-name="listner.ListnerClass"></listener>		
-	</listeners>
+	</listeners>-->
 	
 	
-  <test  name="ChromTest1">	
+  <!--<test  name="ChromTest1">	
 	<parameter name="browser1" value="chrome"></parameter>
 	
-	<!--<groups>
+	<groups>
 		<run>
-			<include name="Parag"></include>
+			<include name="@PARAG123456789"></include>
+			<include name="PP@Parihar@PP"></include>
 			<include name="Sanity"></include>
 			<exclude name="Smoke"></exclude>
 			<exclude name="Regression"></exclude>
 			<exclude name="Sanity"></exclude>
+				<include name="PPparihar"></include>
+				<include name="PPparihar123"></include>
+				<include name="PPpariharXYZ"></include>
+				<include name="PPpariharPQR"></include>
+				
 		</run>	
-	</groups>-->
+	</groups>
 	
 	<classes>
 		<class name="test_package.LoginPage_TestingClass"></class>
-		<!--<class name="test_package.HomePage_TestingClass"></class>-->
+		<class name="test_package.HomePage_TestingClass"></class>
+	</classes>
+	
+  </test>  Test 
+  -->
+  
+  
+  <test  name="ChromTest1">	
+	<parameter name="browser1" value="chrome"></parameter>
+	<parameter name="EnviromentUrl" value="India"></parameter>
+<!--	<parameter name="EnviromentUrl" value="Australia"></parameter>-->
+<!--	<parameter name="EnviromentUrl" value="Japan"></parameter>-->
+<!--	<parameter name="EnviromentUrl" value="Turkey"></parameter>-->
+	
+	<groups>
+		<run>
+			<include name="@PARAG123456789"></include>
+			<!--<include name="PP@Parihar@PP"></include>
+			<include name="Sanity"></include>
+			<exclude name="Smoke"></exclude>
+			<exclude name="Regression"></exclude>
+			<exclude name="Sanity"></exclude>
+				<include name="PPparihar"></include>
+				<include name="PPparihar123"></include>
+				<include name="PPpariharXYZ"></include>
+				<include name="PPpariharPQR"></include>-->
+				
+		</run>	
+	</groups>
+	
+
+	<classes>
+		<!--<class name="test_package.LoginPage_TestingClass"></class>-->
+		<class name="test_package.HomePage_TestingClass"></class>
 	</classes>
 	
   </test> <!-- Test -->
+  
   
 </suite> <!-- Suite -->

@@ -13,7 +13,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class Utility_Parametrization {
 
-	String path;
+	/*String path;
 	FileInputStream fis;
 	Workbook workbook;
 	Sheet sheet;
@@ -76,6 +76,66 @@ public class Utility_Parametrization {
 		workbook.close();	
 		return data;
 
+	}*/
+	
+	
+	
+	String path;
+	FileInputStream fis;
+	
+	
+	public Utility_Parametrization(String path) {
+		
+		this.path =path;
 	}
+	
+	public int getRowCount(String sheetname) throws EncryptedDocumentException, IOException {
+		
+		fis = new FileInputStream(path);
+		
+		int rowcount = WorkbookFactory.create(fis).getSheet(sheetname).getLastRowNum();
+
+		return rowcount;
+
+	}
+	
+	public int getCellCount(String sheetname, int rownum) throws EncryptedDocumentException, IOException {
+		
+		fis = new FileInputStream(path);
+				
+		int cellcount = WorkbookFactory.create(fis).getSheet(sheetname).getRow(rownum).getLastCellNum();
+
+		return cellcount;
+		
+	}
+	
+	
+	public String getCellData(String sheetname, int rownum, int cellnum) throws EncryptedDocumentException, IOException {
+		
+		fis = new FileInputStream(path);
+		
+		//String StringData = WorkbookFactory.create(fis).getSheet(sheetname).getRow(rownum).getCell(cellnum).getStringCellValue();
+		
+		Cell cell = WorkbookFactory.create(fis).getSheet(sheetname).getRow(rownum).getCell(cellnum);
+		
+		DataFormatter formatter = new DataFormatter();
+		
+		String data = "";
+		
+		try{
+			
+			data = formatter.formatCellValue(cell);
+		}
+		
+		catch(Exception e) {
+			
+			e.printStackTrace();
+		}
+		
+		
+		return data;
+	}
+	
+	
 	
 }

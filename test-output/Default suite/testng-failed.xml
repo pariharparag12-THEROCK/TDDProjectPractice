@@ -7,10 +7,12 @@
         <methods>
           <include name="LoginInToTheApplication"/>
           <include name="launchApplication"/>
+          <include name="validateFileUploadAndImageUpload"/>
+          <include name="validateInfoImageupdated"/>
           <include name="cleanObjects"/>
           <include name="ClosedTheApplication"/>
-          <include name="launchBrowser"/>
           <include name="verifyEmployeeTableData"/>
+          <include name="launchBrowser"/>
           <include name="verifyCompanyNameInAboutWindowOption"/>
           <include name="verifyAdminOption"/>
           <include name="verifyUserCreationData"/>
