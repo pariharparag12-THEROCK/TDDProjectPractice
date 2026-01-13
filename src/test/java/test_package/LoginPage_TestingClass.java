@@ -195,8 +195,8 @@ public class LoginPage_TestingClass extends BaseClass{
 	}
 	*/
 	
-	
-	@Test(invocationCount =4, alwaysRun=true)
+
+	@Test(invocationCount =4, groups= {"Smoke"}, priority=7, alwaysRun=true)
 	public void verifyloginTest() throws InterruptedException, EncryptedDocumentException, IOException {
 		
 		

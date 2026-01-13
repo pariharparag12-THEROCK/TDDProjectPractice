@@ -26,13 +26,13 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-
 import base_package.BaseClass;
 import pom_package.HomePageOrangeHRM;
 import pom_package.LoginPageOrangeHRM;
 import utility_package.FetchExcelData;
 import utility_package.Property_Utils;
 import utility_package.ScrollView;
+
 
 public class HomePage_TestingClass extends BaseClass{
 	
@@ -128,43 +128,8 @@ public class HomePage_TestingClass extends BaseClass{
 	
 	
 
-	/* @Test (groups = {"Sanity"},priority =-1) */
-	@Test (groups = {"PPparihar"},priority =-1)
+	@Test (groups = {"Sanity"},priority =-1)
 	public void verifyAdminOption() throws InterruptedException {
-		
-		/*
-		 * homepageoranghrm.clickOnAdminOption();
-		 * System.out.println("Clicking on Admin Option");
-		 * logger.info("Log - Clicking On Admin Option");
-		 * 
-		 * String actURLAdminPage = driver.getCurrentUrl(); String expectedURLAdminPage
-		 * =
-		 * "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers";
-		 * 
-		 * logger.warn("Log - Verifying the URL....It may be matched or unmatched");
-		 * 
-		 * if (actURLAdminPage.equals(expectedURLAdminPage)) {
-		 * 
-		 * logger.info("Log -Validating the admin urls");
-		 * softassert.assertEquals(actURLAdminPage, expectedURLAdminPage);
-		 * System.out.println("Admin URL matched Successfully");
-		 * Reporter.log("Admin Urls matched successfully",true);
-		 * logger.info("Admin Url validation matched - Test Case Passed");
-		 * 
-		 * }
-		 * 
-		 * else {
-		 * 
-		 * logger.fatal("Admin Urls are not matching");
-		 * softassert.assertEquals(actURLAdminPage, expectedURLAdminPage);
-		 * System.out.println("Admin URL in not matched- TEST CASE FAILED");
-		 * Reporter.log("Admin Urls are not matched ",false);
-		 * logger.info("Admin Url validation is not matched - Test Case Failed"); }
-		 * 
-		 * softassert.assertAll();
-		 * 
-		 * Thread.sleep(2000);
-		 */
 		
 		homepageoranghrm.clickOnAdminOption();
 		String actUrl = driver.getCurrentUrl();
@@ -176,35 +141,17 @@ public class HomePage_TestingClass extends BaseClass{
 		
 		softassert.assertAll();
 		
-		
+//		logger.fatal("Admin Urls are not matching");
+//		Reporter.log("Admin Urls are not matched ",false);
+//		logger.info("Log -Validating the admin urls");
+//		logger.warn("Log - Verifying the URL....It may be matched or unmatched");
 		
 	}
 	
 	
-	//@Test(groups = {"Smoke"},priority =2)
-	@Test(groups = {"PPparihar123"},priority =2)
+	@Test(groups = {"Smoke"},priority = 2)
 	public void verifyCompanyNameInAboutWindowOption() throws InterruptedException {
-		/*
-		 * homepageoranghrm.clickAccoutDropDown();
-		 * 
-		 * String ActualCompanyValue = homepageoranghrm.ClickOnAccountOption();
-		 * 
-		 * if(ActualCompanyValue.equals("OrangeHRM")) {
-		 * softassert.assertEquals(ActualCompanyValue, "OrangeHRM");
-		 * System.out.println("Comapny Nmae is Matched Successfully"); }
-		 * 
-		 * else { softassert.assertEquals(ActualCompanyValue, "OrangeHRM");
-		 * System.out.println("Comapny Nmae is not matched"); }
-		 * 
-		 * 
-		 * homepageoranghrm.clickingOnAboutWindowClosebutton();
-		 * 
-		 * 
-		 * softassert.assertAll();
-		 * 
-		 * Thread.sleep(2000);
-		 */
-		
+
 		homepageoranghrm.clickAccoutDropDown();
 		Thread.sleep(1000);
 		
@@ -237,45 +184,8 @@ public class HomePage_TestingClass extends BaseClass{
 	
 	
 	
-	//@Test(groups = {"Sanity"},priority=3)
-	@Test(groups = {"PPpariharXYZ"},priority=3)
+	@Test(groups = {"Sanity"},priority=9)
 	public void verifyEmployeeTableData() throws InterruptedException {
-		
-		/*
-		homepageoranghrm.clickOnAdminOption();
-		
-		int statuscount = homepageoranghrm.getEmployeeData();
-		
-		if (statuscount!=0) {
-			
-			softassert.assertNotNull(statuscount);
-			System.out.println("Total number of employee whose status are enabled : "+ statuscount+"\n"+"TestCase Passed");
-		}
-		
-		else {
-			softassert.assertNotNull(statuscount);
-			System.out.println("Total number of employee whose status are enabled : "+ statuscount+"\n"+"TestCase Failed");
-		}
-		
-		Thread.sleep(2000);
-		*/
-		
-		
-		/*homepageoranghrm.clickOnAdminOption();
-		
-		int statuscount = homepageoranghrm.getEmployeeData();
-		
-		
-		if (statuscount!=0) {
-			Assert.assertNotNull(statuscount);
-			System.out.println(" The number of employees whose status are enabled are : "+statuscount);
-		}
-		
-		else {
-			Assert.assertNotNull(statuscount);
-			System.out.println("Assertion Failed");
-		}
-		*/
 		
 		homepageoranghrm.clickOnAdminOption();
 		
@@ -301,61 +211,8 @@ public class HomePage_TestingClass extends BaseClass{
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	//@Test(groups= {"Sanity"},priority=-5)
-	@Test(groups= {"PPpariharPQR"},priority=-5)
+	@Test(groups= {"Sanity"},priority=1)
 	public void verifyUserCreationData() throws InterruptedException, EncryptedDocumentException, IOException {
-		
-		
-		
-		/*Actions action = new Actions(driver);
-		
-		
-		homepageoranghrm.clickOnAdminOption();
-		homepageoranghrm.clickOnAddButton();
-		System.out.println("User Clicked On Add button");
-		homepageoranghrm.selectUserRole();
-		action.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
-		
-		homepageoranghrm.selectStatus();
-		action.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
-		
-		homepageoranghrm.enterEmployeeName(FetchExcelData.getExcelFileData(1, 0));
-		System.out.println("User entered Employeename");	
-        action.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
-        
-        
-		homepageoranghrm.enterUsername(FetchExcelData.getExcelFileData(1, 1));
-		System.out.println("User entered Username");
-		homepageoranghrm.enterPassword(FetchExcelData.getExcelFileData(1, 2));
-		System.out.println("User entered Password");
-		homepageoranghrm.enterConfirmPassord(FetchExcelData.getExcelFileData(1, 3));
-		System.out.println("User entered ConfirmPassord");
-		homepageoranghrm.clickOnSaveButton();
-		System.out.println("User Clicked on save button");
-		String toastmsg = homepageoranghrm.getSaveToastMessage();
-		System.out.println("User captured toast msg");
-		
-		
-		if(toastmsg.contains("Successfully")) {
-			
-			Assert.assertEquals(toastmsg, "Successfully Saved");
-			Thread.sleep(3000);
-			System.out.println("Toast messsage Validation successfull");
-			
-			WebElement ExpectedUser = driver.findElement(By.xpath("//div[text()='SanathJaysuriya']"));
-			ScrollView.scrollIntoView(driver, ExpectedUser);
-			
-			boolean IsPresent = ExpectedUser.getText().contains("SanathJaysuriya");
-			Assert.assertEquals(IsPresent, true);
-			System.out.println("Particular Username is Present");
-			
-		}*/
 		
 		Actions action = new Actions(driver);
 		
@@ -373,7 +230,7 @@ public class HomePage_TestingClass extends BaseClass{
 		
 		homepageoranghrm.enterEmployeeName(FetchExcelData.getExcelFileData(2, 0));
 		logger.info("User entered emplyeee Name");
-		action.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
+		action.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
 		
 		homepageoranghrm.enterUsername(FetchExcelData.getExcelFileData(2, 1));
 		logger.info("User entered USERNAME");
@@ -393,15 +250,22 @@ public class HomePage_TestingClass extends BaseClass{
 		
 		Thread.sleep(3000);
 		
-		WebElement expectedUser = driver.findElement(By.xpath("//div[contains(text(),'Rahul Dravid')]"));
+		WebElement expectedUser = driver.findElement(By.xpath("//div[contains(text(),'"+FetchExcelData.getExcelFileData(2, 1)+"')]"));
 		
 		ScrollView.scrollIntoView(driver, expectedUser);
 		
 		Thread.sleep(2000);
 		
-		boolean IsPresent1 = expectedUser.getText().contains("Rahul Dravid");
+		boolean IsPresent1 = expectedUser.getText().contains(FetchExcelData.getExcelFileData(2, 1));
 		
 		softassert.assertTrue(IsPresent);
+		
+		//delete element created row
+		driver.findElement(By.xpath("//div[contains(text(),'"+FetchExcelData.getExcelFileData(2, 1)+"')]/ancestor::div[@class='oxd-table-row oxd-table-row--with-border']/descendant::button[1]//i")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//button[text()=' Yes, Delete ']")).click();
+		
+		
 		logger.info("Particular Username is Present");
 		Thread.sleep(3000);
 		softassert.assertAll();
@@ -409,7 +273,7 @@ public class HomePage_TestingClass extends BaseClass{
 	
 	
 	
-	@Test(groups= {"PP@Parihar@PP"})
+	@Test(groups= {"Regression"}, priority=3)
 	public void validateFileUploadAndImageUpload() throws InterruptedException, IOException {
 		
 		homepageoranghrm.NavigateToPIMOption();
@@ -464,41 +328,14 @@ public class HomePage_TestingClass extends BaseClass{
 		
 		//Click On save button
 		driver.findElement(By.xpath("//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']")).click();
-		Thread.sleep(6000);
+		//Thread.sleep(2000);
 	}
 	
 
 	
 	
-	@Test(groups ="@PARAG123456789")
+	@Test(groups ="Regression", priority =4)
 	public void validateInfoImageupdated() throws InterruptedException, IOException {
-	
-		/*homepageoranghrm.NavigateToMyInfoOption();
-		
-		//Click on Image
-		driver.findElement(By.xpath("//div[@class='orangehrm-edit-employee-image']")).click();
-		Thread.sleep(1000);
-		
-		//Click on uploadImageIcon/plusicon
-		driver.findElement(By.xpath("//i[@class='oxd-icon bi-plus']")).click();
-		
-		Thread.sleep(5000);
-		
-		String path2 = System.getProperty("user.dir")+"\\ImageUploadAtMyInfoOption.exe";
-		Runtime.getRuntime().exec(path2);
-		Thread.sleep(3000);
-		
-		//Click On Save Button
-		WebElement saveButton = driver.findElement(By.xpath("//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']"));
-		saveButton.click();
-		Thread.sleep(3000);
-		
-		//verifyToastMsg
-		 String toastMessage2 = driver.findElement(By.xpath("//p[contains(.,'Successfully Updated')]")).getText();
-		 boolean IsPresent = toastMessage2.contains("Successfully Updat");
-		 Assert.assertEquals(IsPresent, true);
-		 Thread.sleep(6000); */
-		
 		
 		homepageoranghrm.NavigateToMyInfoOption();
 		

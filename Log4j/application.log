@@ -1,0 +1,79 @@
+2025-11-24 01:24:02 INFO  Project-Practice:73 - Log- Chrome Browser launching
+2025-11-24 01:24:10 INFO  Project-Practice:94 - Application is Launching
+2025-11-24 01:24:10 INFO  Project-Practice:114 - Entering Username
+2025-11-24 01:24:14 INFO  Project-Practice:118 - Entering Password
+2025-11-24 01:24:17 INFO  Project-Practice:122 - Clicking on logging button
+2025-11-24 01:24:28 INFO  Project-Practice:140 - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2025-11-24 01:24:35 INFO  Project-Practice:114 - Entering Username
+2025-11-24 01:24:38 INFO  Project-Practice:118 - Entering Password
+2025-11-24 01:24:41 INFO  Project-Practice:122 - Clicking on logging button
+2025-11-24 01:24:58 INFO  Project-Practice:197 - Total number of employee whose status are enabled : 45
+TestCase Passed
+2025-11-24 01:25:08 INFO  Project-Practice:114 - Entering Username
+2025-11-24 01:25:11 INFO  Project-Practice:118 - Entering Password
+2025-11-24 01:25:15 INFO  Project-Practice:122 - Clicking on logging button
+2025-11-24 01:25:40 INFO  Project-Practice:232 - User entered emplyeee Name
+2025-11-24 01:25:43 INFO  Project-Practice:236 - User entered USERNAME
+2025-11-24 01:25:46 INFO  Project-Practice:239 - User entered PASSWORD
+2025-11-24 01:26:06 INFO  Project-Practice:114 - Entering Username
+2025-11-24 01:26:06 INFO  Project-Practice:114 - Entering Username
+2025-11-24 01:26:06 INFO  Project-Practice:114 - Entering Username
+2025-11-24 01:26:58 INFO  Project-Practice:73 - Log- Chrome Browser launching
+2025-11-24 01:27:06 INFO  Project-Practice:94 - Application is Launching
+2025-11-24 01:27:06 INFO  Project-Practice:114 - Entering Username
+2025-11-24 01:27:09 INFO  Project-Practice:118 - Entering Password
+2025-11-24 01:27:12 INFO  Project-Practice:122 - Clicking on logging button
+2025-11-24 01:27:23 INFO  Project-Practice:140 - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2025-11-24 01:27:30 INFO  Project-Practice:114 - Entering Username
+2025-11-24 01:27:33 INFO  Project-Practice:118 - Entering Password
+2025-11-24 01:27:36 INFO  Project-Practice:122 - Clicking on logging button
+2025-11-24 01:27:54 INFO  Project-Practice:197 - Total number of employee whose status are enabled : 45
+TestCase Passed
+2025-11-24 01:28:04 INFO  Project-Practice:114 - Entering Username
+2025-11-24 01:28:07 INFO  Project-Practice:118 - Entering Password
+2025-11-24 01:28:10 INFO  Project-Practice:122 - Clicking on logging button
+2025-11-24 01:28:35 INFO  Project-Practice:232 - User entered emplyeee Name
+2025-11-24 01:28:38 INFO  Project-Practice:236 - User entered USERNAME
+2025-11-24 01:28:42 INFO  Project-Practice:239 - User entered PASSWORD
+2025-11-24 01:28:45 INFO  Project-Practice:242 - User entered CONFIRM PASSWORD
+2025-11-24 01:28:51 INFO  Project-Practice:249 - User Created the Data successfully
+2025-11-24 01:28:56 INFO  Project-Practice:262 - Particular Username is Present
+2025-11-24 01:29:06 INFO  Project-Practice:114 - Entering Username
+2025-11-24 01:29:09 INFO  Project-Practice:118 - Entering Password
+2025-11-24 01:29:12 INFO  Project-Practice:122 - Clicking on logging button
+2025-11-24 01:29:22 INFO  Project-Practice:166 - company value matched - TC passed
+2025-11-24 01:29:33 INFO  Project-Practice:114 - Entering Username
+2025-11-24 01:29:36 INFO  Project-Practice:118 - Entering Password
+2025-11-24 01:29:39 INFO  Project-Practice:122 - Clicking on logging button
+2025-11-24 01:30:32 INFO  Project-Practice:114 - Entering Username
+2025-11-24 01:30:36 INFO  Project-Practice:118 - Entering Password
+2025-11-24 01:30:39 INFO  Project-Practice:122 - Clicking on logging button
+2025-11-24 01:39:19 INFO  Project-Practice:73 - Log- Chrome Browser launching
+2025-11-24 01:39:27 INFO  Project-Practice:94 - Application is Launching
+2025-11-24 01:39:27 INFO  Project-Practice:114 - Entering Username
+2025-11-24 01:39:30 INFO  Project-Practice:118 - Entering Password
+2025-11-24 01:39:33 INFO  Project-Practice:122 - Clicking on logging button
+2025-11-24 01:39:44 INFO  Project-Practice:140 - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2025-11-24 01:39:51 INFO  Project-Practice:114 - Entering Username
+2025-11-24 01:39:54 INFO  Project-Practice:118 - Entering Password
+2025-11-24 01:39:58 INFO  Project-Practice:122 - Clicking on logging button
+2025-11-24 01:40:11 INFO  Project-Practice:197 - Total number of employee whose status are enabled : 7
+TestCase Passed
+2025-11-24 01:40:22 INFO  Project-Practice:114 - Entering Username
+2025-11-24 01:40:25 INFO  Project-Practice:118 - Entering Password
+2025-11-24 01:40:28 INFO  Project-Practice:122 - Clicking on logging button
+2025-11-24 01:40:53 INFO  Project-Practice:232 - User entered emplyeee Name
+2025-11-24 01:40:56 INFO  Project-Practice:236 - User entered USERNAME
+2025-11-24 01:40:59 INFO  Project-Practice:239 - User entered PASSWORD
+2025-11-24 01:41:03 INFO  Project-Practice:242 - User entered CONFIRM PASSWORD
+2025-11-24 01:41:09 INFO  Project-Practice:249 - User Created the Data successfully
+2025-11-24 01:41:39 INFO  Project-Practice:114 - Entering Username
+2025-11-24 01:41:42 INFO  Project-Practice:118 - Entering Password
+2025-11-24 01:41:45 INFO  Project-Practice:122 - Clicking on logging button
+2025-11-24 01:41:57 INFO  Project-Practice:166 - company value matched - TC passed
+2025-11-24 01:42:08 INFO  Project-Practice:114 - Entering Username
+2025-11-24 01:42:11 INFO  Project-Practice:118 - Entering Password
+2025-11-24 01:42:14 INFO  Project-Practice:122 - Clicking on logging button
+2025-11-24 01:43:08 INFO  Project-Practice:114 - Entering Username
+2025-11-24 01:43:11 INFO  Project-Practice:118 - Entering Password
+2025-11-24 01:43:14 INFO  Project-Practice:122 - Clicking on logging button

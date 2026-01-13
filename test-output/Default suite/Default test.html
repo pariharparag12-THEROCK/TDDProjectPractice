@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/6</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Oct 28 12:55:06 IST 2025</td>
+<td>Started on:</td><td>Tue Jan 13 17:16:29 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (135 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (78 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,9 +76,67 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='test_package.HomePage_TestingClass.launchApplication()'><b>launchApplication</b><br>Test class: test_package.HomePage_TestingClass</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;EnviromentUrl&apos; is required by BeforeClass on method launchApplication but has not been marked @Optional or defined
+in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--1472534080\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1600667055", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1600667055'><pre>org.testng.TestNGException: 
+Parameter &apos;EnviromentUrl&apos; is required by BeforeClass on method launchApplication but has not been marked @Optional or defined
+in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--1472534080\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>-1768304789</td>
+<td>test_package.HomePage_TestingClass@34e9fd99</td></tr>
+<tr>
 <td title='test_package.HomePage_TestingClass.ClosedTheApplication()'><b>ClosedTheApplication</b><br>Test class: test_package.HomePage_TestingClass</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;pom_package.HomePageOrangeHRM.clickAccoutDropDown()&quot; because &quot;this.homepageoranghrm&quot; is null
-	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:537)
+	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:377)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -112,7 +170,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace726181440", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
 <div class='stack-trace' id='stack-trace726181440'><pre>java.lang.NullPointerException: Cannot invoke &quot;pom_package.HomePageOrangeHRM.clickAccoutDropDown()&quot; because &quot;this.homepageoranghrm&quot; is null
-	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:537)
+	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:377)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -146,81 +204,11 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test_package.HomePage_TestingClass@45752059</td></tr>
+<td>test_package.HomePage_TestingClass@34e9fd99</td></tr>
 <tr>
 <td title='test_package.HomePage_TestingClass.LoginInToTheApplication()'><b>LoginInToTheApplication</b><br>Test class: test_package.HomePage_TestingClass</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.log4j.Logger.info(Object)&quot; because &quot;test_package.HomePage_TestingClass.logger&quot; is null
-	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:111)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace671046933", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace671046933'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.log4j.Logger.info(Object)&quot; because &quot;test_package.HomePage_TestingClass.logger&quot; is null
-	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:111)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>test_package.HomePage_TestingClass@45752059</td></tr>
-<tr>
-<td title='test_package.HomePage_TestingClass.LoginInToTheApplication()'><b>LoginInToTheApplication</b><br>Test class: test_package.HomePage_TestingClass</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.log4j.Logger.info(Object)&quot; because &quot;test_package.HomePage_TestingClass.logger&quot; is null
-	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:111)
+	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:114)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -253,7 +241,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace1068586139", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
 <div class='stack-trace' id='stack-trace1068586139'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.log4j.Logger.info(Object)&quot; because &quot;test_package.HomePage_TestingClass.logger&quot; is null
-	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:111)
+	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:114)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -286,11 +274,11 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test_package.HomePage_TestingClass@45752059</td></tr>
+<td>test_package.HomePage_TestingClass@34e9fd99</td></tr>
 <tr>
 <td title='test_package.HomePage_TestingClass.LoginInToTheApplication()'><b>LoginInToTheApplication</b><br>Test class: test_package.HomePage_TestingClass</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.log4j.Logger.info(Object)&quot; because &quot;test_package.HomePage_TestingClass.logger&quot; is null
-	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:111)
+	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:114)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -323,7 +311,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace363509958", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
 <div class='stack-trace' id='stack-trace363509958'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.log4j.Logger.info(Object)&quot; because &quot;test_package.HomePage_TestingClass.logger&quot; is null
-	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:111)
+	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:114)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -356,11 +344,11 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test_package.HomePage_TestingClass@45752059</td></tr>
+<td>test_package.HomePage_TestingClass@34e9fd99</td></tr>
 <tr>
 <td title='test_package.HomePage_TestingClass.ClosedTheApplication()'><b>ClosedTheApplication</b><br>Test class: test_package.HomePage_TestingClass</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;pom_package.HomePageOrangeHRM.clickAccoutDropDown()&quot; because &quot;this.homepageoranghrm&quot; is null
-	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:537)
+	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:377)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -394,7 +382,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace460201727", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
 <div class='stack-trace' id='stack-trace460201727'><pre>java.lang.NullPointerException: Cannot invoke &quot;pom_package.HomePageOrangeHRM.clickAccoutDropDown()&quot; because &quot;this.homepageoranghrm&quot; is null
-	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:537)
+	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:377)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -428,11 +416,11 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test_package.HomePage_TestingClass@45752059</td></tr>
+<td>test_package.HomePage_TestingClass@34e9fd99</td></tr>
 <tr>
 <td title='test_package.HomePage_TestingClass.ClosedTheApplication()'><b>ClosedTheApplication</b><br>Test class: test_package.HomePage_TestingClass</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;pom_package.HomePageOrangeHRM.clickAccoutDropDown()&quot; because &quot;this.homepageoranghrm&quot; is null
-	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:537)
+	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:377)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -466,7 +454,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace620557167", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
 <div class='stack-trace' id='stack-trace620557167'><pre>java.lang.NullPointerException: Cannot invoke &quot;pom_package.HomePageOrangeHRM.clickAccoutDropDown()&quot; because &quot;this.homepageoranghrm&quot; is null
-	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:537)
+	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:377)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -500,11 +488,11 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test_package.HomePage_TestingClass@45752059</td></tr>
+<td>test_package.HomePage_TestingClass@34e9fd99</td></tr>
 <tr>
 <td title='test_package.HomePage_TestingClass.ClosedTheApplication()'><b>ClosedTheApplication</b><br>Test class: test_package.HomePage_TestingClass</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;pom_package.HomePageOrangeHRM.clickAccoutDropDown()&quot; because &quot;this.homepageoranghrm&quot; is null
-	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:537)
+	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:377)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -538,7 +526,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace890545344", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
 <div class='stack-trace' id='stack-trace890545344'><pre>java.lang.NullPointerException: Cannot invoke &quot;pom_package.HomePageOrangeHRM.clickAccoutDropDown()&quot; because &quot;this.homepageoranghrm&quot; is null
-	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:537)
+	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:377)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -572,11 +560,11 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test_package.HomePage_TestingClass@45752059</td></tr>
+<td>test_package.HomePage_TestingClass@34e9fd99</td></tr>
 <tr>
 <td title='test_package.HomePage_TestingClass.LoginInToTheApplication()'><b>LoginInToTheApplication</b><br>Test class: test_package.HomePage_TestingClass</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.log4j.Logger.info(Object)&quot; because &quot;test_package.HomePage_TestingClass.logger&quot; is null
-	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:111)
+	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:114)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -609,7 +597,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace1806431167", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
 <div class='stack-trace' id='stack-trace1806431167'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.log4j.Logger.info(Object)&quot; because &quot;test_package.HomePage_TestingClass.logger&quot; is null
-	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:111)
+	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:114)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -642,11 +630,65 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test_package.HomePage_TestingClass@45752059</td></tr>
+<td>test_package.HomePage_TestingClass@34e9fd99</td></tr>
+<tr>
+<td title='test_package.HomePage_TestingClass.launchBrowser()'><b>launchBrowser</b><br>Test class: test_package.HomePage_TestingClass</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser1&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--1472534080\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1462044018", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1462044018'><pre>org.testng.TestNGException: 
+Parameter &apos;browser1&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--1472534080\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>-1768304789</td>
+<td>test_package.HomePage_TestingClass@34e9fd99</td></tr>
 <tr>
 <td title='test_package.HomePage_TestingClass.ClosedTheApplication()'><b>ClosedTheApplication</b><br>Test class: test_package.HomePage_TestingClass</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;pom_package.HomePageOrangeHRM.clickAccoutDropDown()&quot; because &quot;this.homepageoranghrm&quot; is null
-	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:537)
+	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:377)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -680,7 +722,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace1354083458", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
 <div class='stack-trace' id='stack-trace1354083458'><pre>java.lang.NullPointerException: Cannot invoke &quot;pom_package.HomePageOrangeHRM.clickAccoutDropDown()&quot; because &quot;this.homepageoranghrm&quot; is null
-	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:537)
+	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:377)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -714,19 +756,25 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test_package.HomePage_TestingClass@45752059</td></tr>
+<td>test_package.HomePage_TestingClass@34e9fd99</td></tr>
 <tr>
-<td title='test_package.HomePage_TestingClass.launchApplication()'><b>launchApplication</b><br>Test class: test_package.HomePage_TestingClass</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.log4j.Logger.error(Object)&quot; because &quot;test_package.HomePage_TestingClass.logger&quot; is null
-	at test_package.HomePage_TestingClass.launchApplication(HomePage_TestingClass.java:101)
+<td title='test_package.HomePage_TestingClass.LoginInToTheApplication()'><b>LoginInToTheApplication</b><br>Test class: test_package.HomePage_TestingClass</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.log4j.Logger.info(Object)&quot; because &quot;test_package.HomePage_TestingClass.logger&quot; is null
+	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:114)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at org.testng.TestRunner.privateRun(TestRunner.java:848)
 	at org.testng.TestRunner.run(TestRunner.java:621)
@@ -743,17 +791,23 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace532087022", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace532087022'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.log4j.Logger.error(Object)&quot; because &quot;test_package.HomePage_TestingClass.logger&quot; is null
-	at test_package.HomePage_TestingClass.launchApplication(HomePage_TestingClass.java:101)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1728579441", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1728579441'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.log4j.Logger.info(Object)&quot; because &quot;test_package.HomePage_TestingClass.logger&quot; is null
+	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:114)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at org.testng.TestRunner.privateRun(TestRunner.java:848)
 	at org.testng.TestRunner.run(TestRunner.java:621)
@@ -772,11 +826,11 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test_package.HomePage_TestingClass@45752059</td></tr>
+<td>test_package.HomePage_TestingClass@34e9fd99</td></tr>
 <tr>
 <td title='test_package.HomePage_TestingClass.ClosedTheApplication()'><b>ClosedTheApplication</b><br>Test class: test_package.HomePage_TestingClass</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;pom_package.HomePageOrangeHRM.clickAccoutDropDown()&quot; because &quot;this.homepageoranghrm&quot; is null
-	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:537)
+	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:377)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -810,7 +864,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace48208774", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
 <div class='stack-trace' id='stack-trace48208774'><pre>java.lang.NullPointerException: Cannot invoke &quot;pom_package.HomePageOrangeHRM.clickAccoutDropDown()&quot; because &quot;this.homepageoranghrm&quot; is null
-	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:537)
+	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:377)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -844,65 +898,11 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test_package.HomePage_TestingClass@45752059</td></tr>
-<tr>
-<td title='test_package.HomePage_TestingClass.launchBrowser()'><b>launchBrowser</b><br>Test class: test_package.HomePage_TestingClass</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browser1&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
-in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--817598229\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:267)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace565372776", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace565372776'><pre>org.testng.TestNGException: 
-Parameter &apos;browser1&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
-in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--817598229\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:267)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>-1761636306</td>
-<td>test_package.HomePage_TestingClass@45752059</td></tr>
+<td>test_package.HomePage_TestingClass@34e9fd99</td></tr>
 <tr>
 <td title='test_package.HomePage_TestingClass.LoginInToTheApplication()'><b>LoginInToTheApplication</b><br>Test class: test_package.HomePage_TestingClass</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.log4j.Logger.info(Object)&quot; because &quot;test_package.HomePage_TestingClass.logger&quot; is null
-	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:111)
+	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:114)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -935,7 +935,7 @@ in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--817598229\testng-customsuit
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace13803304", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
 <div class='stack-trace' id='stack-trace13803304'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.log4j.Logger.info(Object)&quot; because &quot;test_package.HomePage_TestingClass.logger&quot; is null
-	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:111)
+	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:114)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -968,11 +968,11 @@ in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--817598229\testng-customsuit
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test_package.HomePage_TestingClass@45752059</td></tr>
+<td>test_package.HomePage_TestingClass@34e9fd99</td></tr>
 <tr>
 <td title='test_package.HomePage_TestingClass.LoginInToTheApplication()'><b>LoginInToTheApplication</b><br>Test class: test_package.HomePage_TestingClass</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.log4j.Logger.info(Object)&quot; because &quot;test_package.HomePage_TestingClass.logger&quot; is null
-	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:111)
+	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:114)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -1005,7 +1005,7 @@ in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--817598229\testng-customsuit
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace71706941", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
 <div class='stack-trace' id='stack-trace71706941'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.log4j.Logger.info(Object)&quot; because &quot;test_package.HomePage_TestingClass.logger&quot; is null
-	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:111)
+	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:114)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -1038,11 +1038,11 @@ in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--817598229\testng-customsuit
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test_package.HomePage_TestingClass@45752059</td></tr>
+<td>test_package.HomePage_TestingClass@34e9fd99</td></tr>
 <tr>
 <td title='test_package.HomePage_TestingClass.closedBrowser()'><b>closedBrowser</b><br>Test class: test_package.HomePage_TestingClass</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
-	at test_package.HomePage_TestingClass.closedBrowser(HomePage_TestingClass.java:561)
+	at test_package.HomePage_TestingClass.closedBrowser(HomePage_TestingClass.java:401)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -1067,7 +1067,7 @@ in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--817598229\testng-customsuit
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace341138954", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
 <div class='stack-trace' id='stack-trace341138954'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
-	at test_package.HomePage_TestingClass.closedBrowser(HomePage_TestingClass.java:561)
+	at test_package.HomePage_TestingClass.closedBrowser(HomePage_TestingClass.java:401)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -1092,7 +1092,7 @@ in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--817598229\testng-customsuit
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test_package.HomePage_TestingClass@45752059</td></tr>
+<td>test_package.HomePage_TestingClass@34e9fd99</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -1103,9 +1103,9 @@ in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--817598229\testng-customsuit
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='test_package.HomePage_TestingClass.validateFileUploadAndImageUpload()'><b>validateFileUploadAndImageUpload</b><br>Test class: test_package.HomePage_TestingClass</td>
+<td title='test_package.HomePage_TestingClass.verifyCompanyNameInAboutWindowOption()'><b>verifyCompanyNameInAboutWindowOption</b><br>Test class: test_package.HomePage_TestingClass</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;pom_package.HomePageOrangeHRM.clickAccoutDropDown()&quot; because &quot;this.homepageoranghrm&quot; is null
-	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:537)
+	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:377)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -1139,7 +1139,7 @@ in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--817598229\testng-customsuit
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace2033968586", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
 <div class='stack-trace' id='stack-trace2033968586'><pre>java.lang.NullPointerException: Cannot invoke &quot;pom_package.HomePageOrangeHRM.clickAccoutDropDown()&quot; because &quot;this.homepageoranghrm&quot; is null
-	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:537)
+	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:377)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -1173,11 +1173,11 @@ in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--817598229\testng-customsuit
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test_package.HomePage_TestingClass@45752059</td></tr>
+<td>test_package.HomePage_TestingClass@34e9fd99</td></tr>
 <tr>
-<td title='test_package.HomePage_TestingClass.verifyAdminOption()'><b>verifyAdminOption</b><br>Test class: test_package.HomePage_TestingClass</td>
+<td title='test_package.HomePage_TestingClass.verifyUserCreationData()'><b>verifyUserCreationData</b><br>Test class: test_package.HomePage_TestingClass</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;pom_package.HomePageOrangeHRM.clickAccoutDropDown()&quot; because &quot;this.homepageoranghrm&quot; is null
-	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:537)
+	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:377)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -1211,7 +1211,7 @@ in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--817598229\testng-customsuit
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace702061917", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
 <div class='stack-trace' id='stack-trace702061917'><pre>java.lang.NullPointerException: Cannot invoke &quot;pom_package.HomePageOrangeHRM.clickAccoutDropDown()&quot; because &quot;this.homepageoranghrm&quot; is null
-	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:537)
+	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:377)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -1245,11 +1245,11 @@ in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--817598229\testng-customsuit
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test_package.HomePage_TestingClass@45752059</td></tr>
+<td>test_package.HomePage_TestingClass@34e9fd99</td></tr>
 <tr>
-<td title='test_package.HomePage_TestingClass.validateInfoImageupdated()'><b>validateInfoImageupdated</b><br>Test class: test_package.HomePage_TestingClass</td>
+<td title='test_package.HomePage_TestingClass.validateFileUploadAndImageUpload()'><b>validateFileUploadAndImageUpload</b><br>Test class: test_package.HomePage_TestingClass</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;pom_package.HomePageOrangeHRM.clickAccoutDropDown()&quot; because &quot;this.homepageoranghrm&quot; is null
-	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:537)
+	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:377)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -1283,7 +1283,7 @@ in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--817598229\testng-customsuit
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace1306834002", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
 <div class='stack-trace' id='stack-trace1306834002'><pre>java.lang.NullPointerException: Cannot invoke &quot;pom_package.HomePageOrangeHRM.clickAccoutDropDown()&quot; because &quot;this.homepageoranghrm&quot; is null
-	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:537)
+	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:377)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -1317,22 +1317,20 @@ in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--817598229\testng-customsuit
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test_package.HomePage_TestingClass@45752059</td></tr>
+<td>test_package.HomePage_TestingClass@34e9fd99</td></tr>
 <tr>
-<td title='test_package.HomePage_TestingClass.verifyUserCreationData()'><b>verifyUserCreationData</b><br>Test class: test_package.HomePage_TestingClass</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.log4j.Logger.error(Object)&quot; because &quot;test_package.HomePage_TestingClass.logger&quot; is null
-	at test_package.HomePage_TestingClass.launchApplication(HomePage_TestingClass.java:101)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
+<td title='test_package.HomePage_TestingClass.verifyAdminOption()'><b>verifyAdminOption</b><br>Test class: test_package.HomePage_TestingClass</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser1&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--1472534080\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
@@ -1347,19 +1345,17 @@ in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--817598229\testng-customsuit
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace1720339", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1720339'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.log4j.Logger.error(Object)&quot; because &quot;test_package.HomePage_TestingClass.logger&quot; is null
-	at test_package.HomePage_TestingClass.launchApplication(HomePage_TestingClass.java:101)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
+<div class='stack-trace' id='stack-trace1720339'><pre>org.testng.TestNGException: 
+Parameter &apos;browser1&apos; is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--1472534080\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
@@ -1375,11 +1371,11 @@ in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--817598229\testng-customsuit
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test_package.HomePage_TestingClass@45752059</td></tr>
+<td>test_package.HomePage_TestingClass@34e9fd99</td></tr>
 <tr>
-<td title='test_package.HomePage_TestingClass.verifyCompanyNameInAboutWindowOption()'><b>verifyCompanyNameInAboutWindowOption</b><br>Test class: test_package.HomePage_TestingClass</td>
+<td title='test_package.HomePage_TestingClass.validateInfoImageupdated()'><b>validateInfoImageupdated</b><br>Test class: test_package.HomePage_TestingClass</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;pom_package.HomePageOrangeHRM.clickAccoutDropDown()&quot; because &quot;this.homepageoranghrm&quot; is null
-	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:537)
+	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:377)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -1413,7 +1409,7 @@ in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--817598229\testng-customsuit
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace2125062626", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
 <div class='stack-trace' id='stack-trace2125062626'><pre>java.lang.NullPointerException: Cannot invoke &quot;pom_package.HomePageOrangeHRM.clickAccoutDropDown()&quot; because &quot;this.homepageoranghrm&quot; is null
-	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:537)
+	at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:377)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -1447,25 +1443,19 @@ in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--817598229\testng-customsuit
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test_package.HomePage_TestingClass@45752059</td></tr>
+<td>test_package.HomePage_TestingClass@34e9fd99</td></tr>
 <tr>
 <td title='test_package.HomePage_TestingClass.verifyEmployeeTableData()'><b>verifyEmployeeTableData</b><br>Test class: test_package.HomePage_TestingClass</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.log4j.Logger.info(Object)&quot; because &quot;test_package.HomePage_TestingClass.logger&quot; is null
-	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:111)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;EnviromentUrl&apos; is required by BeforeClass on method launchApplication but has not been marked @Optional or defined
+in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--1472534080\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at org.testng.TestRunner.privateRun(TestRunner.java:848)
 	at org.testng.TestRunner.run(TestRunner.java:621)
@@ -1483,22 +1473,16 @@ in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--817598229\testng-customsuit
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace1292040526", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1292040526'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.log4j.Logger.info(Object)&quot; because &quot;test_package.HomePage_TestingClass.logger&quot; is null
-	at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:111)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+<div class='stack-trace' id='stack-trace1292040526'><pre>org.testng.TestNGException: 
+Parameter &apos;EnviromentUrl&apos; is required by BeforeClass on method launchApplication but has not been marked @Optional or defined
+in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--1472534080\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at org.testng.TestRunner.privateRun(TestRunner.java:848)
 	at org.testng.TestRunner.run(TestRunner.java:621)
@@ -1517,7 +1501,7 @@ in C:\Users\ppiyu\AppData\Local\Temp\testng-eclipse--817598229\testng-customsuit
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>test_package.HomePage_TestingClass@45752059</td></tr>
+<td>test_package.HomePage_TestingClass@34e9fd99</td></tr>
 </table><p>
 </body>
 </html>

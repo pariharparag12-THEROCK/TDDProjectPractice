@@ -707,3 +707,485 @@ Session ID: bd54203e44ed7b357b12cdae81d242d1
 2025-10-28 13:58:07,627 [main] INFO Project-Practice - Entering Username
 2025-10-28 13:58:10,746 [main] INFO Project-Practice - Entering Password
 2025-10-28 13:58:13,873 [main] INFO Project-Practice - Clicking on logging button
+2025-11-24 00:16:08,032 [TestNG-tests-2] INFO Project-Practice - Log- Chrome Browser launching
+2025-11-24 00:16:11,503 [TestNG-tests-1] INFO Project-Practice - Log- Chrome Browser launching
+2025-11-24 00:16:12,518 [TestNG-tests-3] INFO Project-Practice - Log- Chrome Browser launching
+2025-11-24 00:16:17,115 [TestNG-tests-2] INFO Project-Practice - Application is Launching
+2025-11-24 00:16:17,233 [TestNG-tests-2] INFO Project-Practice - Entering Username
+2025-11-24 00:16:19,069 [TestNG-tests-1] INFO Project-Practice - Application is Launching
+2025-11-24 00:16:19,078 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 00:16:19,571 [TestNG-tests-3] INFO Project-Practice - Application is Launching
+2025-11-24 00:16:19,581 [TestNG-tests-3] INFO Project-Practice - Entering Username
+2025-11-24 00:16:20,932 [TestNG-tests-2] INFO Project-Practice - Entering Password
+2025-11-24 00:16:23,148 [TestNG-tests-3] INFO Project-Practice - Entering Password
+2025-11-24 00:16:24,573 [TestNG-tests-2] INFO Project-Practice - Clicking on logging button
+2025-11-24 00:16:26,518 [TestNG-tests-3] INFO Project-Practice - Clicking on logging button
+2025-11-24 00:16:37,406 [TestNG-tests-2] INFO Project-Practice - company value matched - TC passed
+2025-11-24 00:34:27,568 [TestNG-tests-1] INFO Project-Practice - Log- Chrome Browser launching
+2025-11-24 00:34:35,644 [TestNG-tests-1] INFO Project-Practice - Application is Launching
+2025-11-24 00:34:35,701 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 00:34:38,836 [TestNG-tests-1] INFO Project-Practice - Entering Password
+2025-11-24 00:34:41,958 [TestNG-tests-1] INFO Project-Practice - Clicking on logging button
+2025-11-24 00:34:53,312 [TestNG-tests-1] INFO Project-Practice - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2025-11-24 00:35:00,438 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 00:35:03,544 [TestNG-tests-1] INFO Project-Practice - Entering Password
+2025-11-24 00:35:06,656 [TestNG-tests-1] INFO Project-Practice - Clicking on logging button
+2025-11-24 00:35:23,030 [TestNG-tests-1] INFO Project-Practice - Total number of employee whose status are enabled : 34
+TestCase Passed
+2025-11-24 00:35:32,956 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 00:35:36,041 [TestNG-tests-1] INFO Project-Practice - Entering Password
+2025-11-24 00:35:39,147 [TestNG-tests-1] INFO Project-Practice - Clicking on logging button
+2025-11-24 00:36:04,559 [TestNG-tests-1] INFO Project-Practice - User entered emplyeee Name
+2025-11-24 00:36:07,678 [TestNG-tests-1] INFO Project-Practice - User entered USERNAME
+2025-11-24 00:36:10,818 [TestNG-tests-1] INFO Project-Practice - User entered PASSWORD
+2025-11-24 00:36:13,922 [TestNG-tests-1] INFO Project-Practice - User entered CONFIRM PASSWORD
+2025-11-24 00:37:03,985 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 00:37:07,113 [TestNG-tests-1] INFO Project-Practice - Entering Password
+2025-11-24 00:37:10,244 [TestNG-tests-1] INFO Project-Practice - Clicking on logging button
+2025-11-24 00:37:20,325 [TestNG-tests-1] INFO Project-Practice - company value matched - TC passed
+2025-11-24 00:37:32,298 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 00:37:35,418 [TestNG-tests-1] INFO Project-Practice - Entering Password
+2025-11-24 00:37:38,502 [TestNG-tests-1] INFO Project-Practice - Clicking on logging button
+2025-11-24 00:38:31,968 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 00:38:35,158 [TestNG-tests-1] INFO Project-Practice - Entering Password
+2025-11-24 00:38:38,301 [TestNG-tests-1] INFO Project-Practice - Clicking on logging button
+2025-11-24 00:59:00,177 [TestNG-tests-1] INFO Project-Practice - Log- Chrome Browser launching
+2025-11-24 00:59:08,100 [TestNG-tests-1] INFO Project-Practice - Application is Launching
+2025-11-24 00:59:08,136 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 00:59:11,315 [TestNG-tests-1] INFO Project-Practice - Entering Password
+2025-11-24 00:59:14,461 [TestNG-tests-1] INFO Project-Practice - Clicking on logging button
+2025-11-24 00:59:25,419 [TestNG-tests-1] INFO Project-Practice - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2025-11-24 00:59:32,337 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 00:59:35,429 [TestNG-tests-1] INFO Project-Practice - Entering Password
+2025-11-24 00:59:38,541 [TestNG-tests-1] INFO Project-Practice - Clicking on logging button
+2025-11-24 00:59:55,479 [TestNG-tests-1] INFO Project-Practice - Total number of employee whose status are enabled : 42
+TestCase Passed
+2025-11-24 01:00:05,484 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 01:00:08,571 [TestNG-tests-1] INFO Project-Practice - Entering Password
+2025-11-24 01:00:11,656 [TestNG-tests-1] INFO Project-Practice - Clicking on logging button
+2025-11-24 01:00:37,050 [TestNG-tests-1] INFO Project-Practice - User entered emplyeee Name
+2025-11-24 01:00:40,170 [TestNG-tests-1] INFO Project-Practice - User entered USERNAME
+2025-11-24 01:00:43,291 [TestNG-tests-1] INFO Project-Practice - User entered PASSWORD
+2025-11-24 01:00:46,390 [TestNG-tests-1] INFO Project-Practice - User entered CONFIRM PASSWORD
+2025-11-24 01:00:52,157 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 01:00:52,168 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 01:00:52,175 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 01:02:21,300 [TestNG-tests-1] INFO Project-Practice - Log- Chrome Browser launching
+2025-11-24 01:02:29,163 [TestNG-tests-1] INFO Project-Practice - Application is Launching
+2025-11-24 01:02:29,212 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 01:02:32,345 [TestNG-tests-1] INFO Project-Practice - Entering Password
+2025-11-24 01:02:35,500 [TestNG-tests-1] INFO Project-Practice - Clicking on logging button
+2025-11-24 01:02:46,447 [TestNG-tests-1] INFO Project-Practice - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2025-11-24 01:02:53,320 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 01:02:56,443 [TestNG-tests-1] INFO Project-Practice - Entering Password
+2025-11-24 01:02:59,575 [TestNG-tests-1] INFO Project-Practice - Clicking on logging button
+2025-11-24 01:03:16,601 [TestNG-tests-1] INFO Project-Practice - Total number of employee whose status are enabled : 42
+TestCase Passed
+2025-11-24 01:03:26,589 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 01:03:29,679 [TestNG-tests-1] INFO Project-Practice - Entering Password
+2025-11-24 01:03:32,803 [TestNG-tests-1] INFO Project-Practice - Clicking on logging button
+2025-11-24 01:03:58,091 [TestNG-tests-1] INFO Project-Practice - User entered emplyeee Name
+2025-11-24 01:04:01,210 [TestNG-tests-1] INFO Project-Practice - User entered USERNAME
+2025-11-24 01:04:04,297 [TestNG-tests-1] INFO Project-Practice - User entered PASSWORD
+2025-11-24 01:04:07,399 [TestNG-tests-1] INFO Project-Practice - User entered CONFIRM PASSWORD
+2025-11-24 01:04:13,574 [TestNG-tests-1] INFO Project-Practice - User Created the Data successfully
+2025-11-24 01:04:18,633 [TestNG-tests-1] INFO Project-Practice - Particular Username is Present
+2025-11-24 01:04:28,597 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 01:04:31,705 [TestNG-tests-1] INFO Project-Practice - Entering Password
+2025-11-24 01:04:34,845 [TestNG-tests-1] INFO Project-Practice - Clicking on logging button
+2025-11-24 01:04:44,641 [TestNG-tests-1] INFO Project-Practice - company value matched - TC passed
+2025-11-24 01:04:55,568 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 01:04:58,653 [TestNG-tests-1] INFO Project-Practice - Entering Password
+2025-11-24 01:05:01,790 [TestNG-tests-1] INFO Project-Practice - Clicking on logging button
+2025-11-24 01:05:55,921 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 01:05:59,082 [TestNG-tests-1] INFO Project-Practice - Entering Password
+2025-11-24 01:06:02,184 [TestNG-tests-1] INFO Project-Practice - Clicking on logging button
+2025-11-24 01:57:56,601 [TestNG-tests-1] INFO Project-Practice - Log- Chrome Browser launching
+2025-11-24 01:58:04,471 [TestNG-tests-1] INFO Project-Practice - Application is Launching
+2025-11-24 01:58:04,495 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 01:58:07,634 [TestNG-tests-1] INFO Project-Practice - Entering Password
+2025-11-24 01:58:10,756 [TestNG-tests-1] INFO Project-Practice - Clicking on logging button
+2025-11-24 01:58:22,215 [TestNG-tests-1] INFO Project-Practice - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2025-11-24 01:58:29,173 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 01:58:32,285 [TestNG-tests-1] INFO Project-Practice - Entering Password
+2025-11-24 01:58:35,387 [TestNG-tests-1] INFO Project-Practice - Clicking on logging button
+2025-11-24 01:59:01,459 [TestNG-tests-1] INFO Project-Practice - User entered emplyeee Name
+2025-11-24 01:59:04,576 [TestNG-tests-1] INFO Project-Practice - User entered USERNAME
+2025-11-24 01:59:07,679 [TestNG-tests-1] INFO Project-Practice - User entered PASSWORD
+2025-11-24 01:59:10,779 [TestNG-tests-1] INFO Project-Practice - User entered CONFIRM PASSWORD
+2025-11-24 01:59:16,979 [TestNG-tests-1] INFO Project-Practice - User Created the Data successfully
+2025-11-24 01:59:24,132 [TestNG-tests-1] INFO Project-Practice - Particular Username is Present
+2025-11-24 01:59:28,278 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 02:00:02,387 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 02:00:02,394 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2025-11-24 02:00:02,402 [TestNG-tests-1] INFO Project-Practice - Entering Username
+2026-01-13 15:45:57,317 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 15:46:06,049 [main] INFO Project-Practice - Application is Launching
+2026-01-13 15:46:06,096 [main] INFO Project-Practice - Entering Username
+2026-01-13 15:46:09,221 [main] INFO Project-Practice - Entering Password
+2026-01-13 15:46:12,325 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 15:46:57,920 [main] INFO Project-Practice - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-13 15:47:40,803 [main] INFO Project-Practice - Entering Username
+2026-01-13 15:47:51,209 [main] INFO Project-Practice - Entering Password
+2026-01-13 15:47:54,333 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 15:49:12,751 [main] INFO Project-Practice - User entered emplyeee Name
+2026-01-13 15:49:15,887 [main] INFO Project-Practice - User entered USERNAME
+2026-01-13 15:49:18,990 [main] INFO Project-Practice - User entered PASSWORD
+2026-01-13 15:49:22,966 [main] INFO Project-Practice - User entered CONFIRM PASSWORD
+2026-01-13 15:50:33,867 [main] INFO Project-Practice - Entering Username
+2026-01-13 15:50:45,202 [main] INFO Project-Practice - Entering Password
+2026-01-13 15:50:48,342 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 15:51:57,897 [main] INFO Project-Practice - Entering Username
+2026-01-13 15:52:39,140 [main] INFO Project-Practice - Entering Username
+2026-01-13 15:52:55,102 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:03:18,424 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 16:03:28,536 [main] INFO Project-Practice - Application is Launching
+2026-01-13 16:03:28,584 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:03:31,767 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:03:34,928 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:03:50,226 [main] INFO Project-Practice - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-13 16:03:59,613 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:04:02,728 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:04:05,861 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:04:53,671 [main] INFO Project-Practice - User entered emplyeee Name
+2026-01-13 16:04:56,785 [main] INFO Project-Practice - User entered USERNAME
+2026-01-13 16:04:59,918 [main] INFO Project-Practice - User entered PASSWORD
+2026-01-13 16:05:03,056 [main] INFO Project-Practice - User entered CONFIRM PASSWORD
+2026-01-13 16:05:10,603 [main] INFO Project-Practice - User Created the Data successfully
+2026-01-13 16:05:47,787 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:05:50,909 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:05:54,190 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:06:04,383 [main] INFO Project-Practice - company value matched - TC passed
+2026-01-13 16:06:15,900 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:06:19,000 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:06:22,136 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:06:43,284 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 16:06:52,706 [main] INFO Project-Practice - Application is Launching
+2026-01-13 16:06:52,751 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:06:55,895 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:06:59,009 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:07:11,107 [main] INFO Project-Practice - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-13 16:07:19,570 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:07:20,427 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:07:23,543 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:07:26,668 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:07:31,819 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:07:31,834 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:07:31,848 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:07:31,861 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:07:34,485 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:08:37,708 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 16:08:50,302 [main] INFO Project-Practice - Application is Launching
+2026-01-13 16:08:50,325 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:08:53,957 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:08:57,056 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:09:16,652 [main] INFO Project-Practice - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-13 16:09:29,914 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:09:33,014 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:09:36,109 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:10:39,008 [main] INFO Project-Practice - User entered emplyeee Name
+2026-01-13 16:10:42,140 [main] INFO Project-Practice - User entered USERNAME
+2026-01-13 16:10:45,236 [main] INFO Project-Practice - User entered PASSWORD
+2026-01-13 16:10:56,952 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:10:56,972 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:10:56,985 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:10:56,995 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:16:07,764 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 16:16:16,909 [main] INFO Project-Practice - Application is Launching
+2026-01-13 16:16:16,961 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:16:20,106 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:16:23,210 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:16:36,123 [main] INFO Project-Practice - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-13 16:16:43,674 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:16:46,764 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:16:49,916 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:17:17,279 [main] INFO Project-Practice - User entered emplyeee Name
+2026-01-13 16:17:20,408 [main] INFO Project-Practice - User entered USERNAME
+2026-01-13 16:17:23,507 [main] INFO Project-Practice - User entered PASSWORD
+2026-01-13 16:17:26,619 [main] INFO Project-Practice - User entered CONFIRM PASSWORD
+2026-01-13 16:17:33,742 [main] INFO Project-Practice - User Created the Data successfully
+2026-01-13 16:18:07,701 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:18:10,814 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:18:13,933 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:18:25,897 [main] INFO Project-Practice - company value matched - TC passed
+2026-01-13 16:18:37,614 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:18:40,715 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:18:43,820 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:19:59,202 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:21:04,375 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:21:07,502 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:21:10,671 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:23:48,413 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 16:24:00,701 [main] INFO Project-Practice - Application is Launching
+2026-01-13 16:24:00,748 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:24:05,886 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:24:09,019 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:24:30,414 [main] INFO Project-Practice - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-13 16:24:43,896 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:24:46,991 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:24:50,140 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:25:26,815 [main] INFO Project-Practice - User entered emplyeee Name
+2026-01-13 16:25:29,939 [main] INFO Project-Practice - User entered USERNAME
+2026-01-13 16:25:33,031 [main] INFO Project-Practice - User entered PASSWORD
+2026-01-13 16:25:55,167 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:25:55,174 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:25:55,180 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:25:55,186 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:26:57,925 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 16:27:08,454 [main] INFO Project-Practice - Application is Launching
+2026-01-13 16:27:08,496 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:27:11,618 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:27:14,714 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:27:28,724 [main] INFO Project-Practice - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-13 16:27:36,642 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:27:39,745 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:27:42,893 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:28:13,590 [main] INFO Project-Practice - User entered emplyeee Name
+2026-01-13 16:28:16,720 [main] INFO Project-Practice - User entered USERNAME
+2026-01-13 16:28:19,828 [main] INFO Project-Practice - User entered PASSWORD
+2026-01-13 16:28:22,917 [main] INFO Project-Practice - User entered CONFIRM PASSWORD
+2026-01-13 16:28:31,005 [main] INFO Project-Practice - User Created the Data successfully
+2026-01-13 16:29:06,856 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:29:10,887 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:29:14,009 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:29:35,227 [main] INFO Project-Practice - company value matched - TC passed
+2026-01-13 16:29:52,795 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:29:55,897 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:29:59,024 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:31:09,923 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:31:13,034 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:31:16,185 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:31:54,172 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:31:57,262 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:32:00,385 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:32:36,833 [main] INFO Project-Practice - Total number of employee whose status are enabled : 41
+TestCase Passed
+2026-01-13 16:43:05,570 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 16:43:14,806 [main] INFO Project-Practice - Application is Launching
+2026-01-13 16:43:14,840 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:43:14,893 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:43:14,903 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:43:14,913 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:43:14,922 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:43:14,930 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:43:55,722 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 16:44:04,276 [main] INFO Project-Practice - Application is Launching
+2026-01-13 16:44:04,328 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:44:07,492 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:44:10,613 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:44:22,115 [main] INFO Project-Practice - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-13 16:44:30,319 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:44:33,405 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:44:36,533 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:45:02,671 [main] INFO Project-Practice - User entered emplyeee Name
+2026-01-13 16:45:05,790 [main] INFO Project-Practice - User entered USERNAME
+2026-01-13 16:45:08,903 [main] INFO Project-Practice - User entered PASSWORD
+2026-01-13 16:45:12,007 [main] INFO Project-Practice - User entered CONFIRM PASSWORD
+2026-01-13 16:45:18,213 [main] INFO Project-Practice - User Created the Data successfully
+2026-01-13 16:45:32,136 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:45:35,247 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:45:38,365 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:45:48,238 [main] INFO Project-Practice - company value matched - TC passed
+2026-01-13 16:45:59,706 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:46:02,807 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:46:05,972 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:47:03,023 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:47:06,160 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:47:09,296 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:47:43,352 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:47:46,456 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:47:49,566 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:48:07,486 [main] INFO Project-Practice - Total number of employee whose status are enabled : 43
+TestCase Passed
+2026-01-13 16:51:29,506 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 16:51:38,248 [main] INFO Project-Practice - Application is Launching
+2026-01-13 16:51:38,298 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:51:41,423 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:51:44,553 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:52:11,017 [main] INFO Project-Practice - User entered emplyeee Name
+2026-01-13 16:52:14,138 [main] INFO Project-Practice - User entered USERNAME
+2026-01-13 16:52:17,229 [main] INFO Project-Practice - User entered PASSWORD
+2026-01-13 16:52:54,713 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 16:53:03,337 [main] INFO Project-Practice - Application is Launching
+2026-01-13 16:53:03,374 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:53:06,483 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:53:09,609 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:53:45,973 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 16:53:54,652 [main] INFO Project-Practice - Application is Launching
+2026-01-13 16:53:54,695 [main] INFO Project-Practice - Entering Username
+2026-01-13 16:53:57,841 [main] INFO Project-Practice - Entering Password
+2026-01-13 16:54:00,996 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 16:54:27,369 [main] INFO Project-Practice - User entered emplyeee Name
+2026-01-13 16:54:30,489 [main] INFO Project-Practice - User entered USERNAME
+2026-01-13 16:54:33,598 [main] INFO Project-Practice - User entered PASSWORD
+2026-01-13 16:54:36,707 [main] INFO Project-Practice - User entered CONFIRM PASSWORD
+2026-01-13 16:54:42,929 [main] INFO Project-Practice - User Created the Data successfully
+2026-01-13 17:06:23,610 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 17:07:08,847 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 17:09:16,071 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 17:12:27,136 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 17:12:45,437 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 17:12:58,831 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 17:14:30,979 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 17:17:38,604 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 17:19:28,257 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 17:20:18,456 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 17:20:30,821 [main] INFO Project-Practice - Application is Launching
+2026-01-13 17:20:30,859 [main] INFO Project-Practice - Entering Username
+2026-01-13 17:20:34,004 [main] INFO Project-Practice - Entering Password
+2026-01-13 17:20:37,120 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 17:21:03,154 [main] INFO Project-Practice - User entered emplyeee Name
+2026-01-13 17:21:06,272 [main] INFO Project-Practice - User entered USERNAME
+2026-01-13 17:21:09,367 [main] INFO Project-Practice - User entered PASSWORD
+2026-01-13 17:21:12,475 [main] INFO Project-Practice - User entered CONFIRM PASSWORD
+2026-01-13 17:21:26,228 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 17:21:34,900 [main] INFO Project-Practice - Application is Launching
+2026-01-13 17:21:34,936 [main] INFO Project-Practice - Entering Username
+2026-01-13 17:21:38,053 [main] INFO Project-Practice - Entering Password
+2026-01-13 17:21:41,175 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 17:22:07,266 [main] INFO Project-Practice - User entered emplyeee Name
+2026-01-13 17:22:10,390 [main] INFO Project-Practice - User entered USERNAME
+2026-01-13 17:22:13,488 [main] INFO Project-Practice - User entered PASSWORD
+2026-01-13 17:22:16,582 [main] INFO Project-Practice - User entered CONFIRM PASSWORD
+2026-01-13 17:24:03,318 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 17:24:11,806 [main] INFO Project-Practice - Application is Launching
+2026-01-13 17:24:11,841 [main] INFO Project-Practice - Entering Username
+2026-01-13 17:24:14,972 [main] INFO Project-Practice - Entering Password
+2026-01-13 17:24:18,100 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 17:24:45,993 [main] INFO Project-Practice - User entered emplyeee Name
+2026-01-13 17:24:49,454 [main] INFO Project-Practice - User entered USERNAME
+2026-01-13 17:24:52,808 [main] INFO Project-Practice - User entered PASSWORD
+2026-01-13 17:24:56,164 [main] INFO Project-Practice - User entered CONFIRM PASSWORD
+2026-01-13 17:29:04,116 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 17:29:19,983 [main] INFO Project-Practice - Application is Launching
+2026-01-13 17:29:20,107 [main] INFO Project-Practice - Entering Username
+2026-01-13 17:29:24,236 [main] INFO Project-Practice - Entering Password
+2026-01-13 17:29:27,649 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 17:29:42,669 [main] INFO Project-Practice - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-13 17:29:50,725 [main] INFO Project-Practice - Entering Username
+2026-01-13 17:29:53,989 [main] INFO Project-Practice - Entering Password
+2026-01-13 17:29:57,377 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 17:30:18,447 [main] INFO Project-Practice - Entering Username
+2026-01-13 17:30:18,480 [main] INFO Project-Practice - Entering Username
+2026-01-13 17:30:18,510 [main] INFO Project-Practice - Entering Username
+2026-01-13 17:30:18,547 [main] INFO Project-Practice - Entering Username
+2026-01-13 17:32:15,552 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 17:32:30,078 [main] INFO Project-Practice - Application is Launching
+2026-01-13 17:32:30,194 [main] INFO Project-Practice - Entering Username
+2026-01-13 17:32:33,572 [main] INFO Project-Practice - Entering Password
+2026-01-13 17:32:36,971 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 17:33:05,938 [main] INFO Project-Practice - User entered emplyeee Name
+2026-01-13 17:33:09,429 [main] INFO Project-Practice - User entered USERNAME
+2026-01-13 17:33:12,785 [main] INFO Project-Practice - User entered PASSWORD
+2026-01-13 17:33:16,168 [main] INFO Project-Practice - User entered CONFIRM PASSWORD
+2026-01-13 17:33:22,604 [main] INFO Project-Practice - User Created the Data successfully
+2026-01-13 17:33:30,376 [main] INFO Project-Practice - Particular Username is Present
+2026-01-13 17:45:50,012 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 17:46:02,550 [main] INFO Project-Practice - Application is Launching
+2026-01-13 17:46:02,714 [main] INFO Project-Practice - Entering Username
+2026-01-13 17:46:06,046 [main] INFO Project-Practice - Entering Password
+2026-01-13 17:46:09,499 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 17:46:40,786 [main] INFO Project-Practice - User entered emplyeee Name
+2026-01-13 17:46:44,243 [main] INFO Project-Practice - User entered USERNAME
+2026-01-13 17:46:47,633 [main] INFO Project-Practice - User entered PASSWORD
+2026-01-13 17:46:50,970 [main] INFO Project-Practice - User entered CONFIRM PASSWORD
+2026-01-13 17:49:59,044 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 17:50:16,067 [main] INFO Project-Practice - Application is Launching
+2026-01-13 17:50:16,174 [main] INFO Project-Practice - Entering Username
+2026-01-13 17:50:19,625 [main] INFO Project-Practice - Entering Password
+2026-01-13 17:50:22,926 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 17:50:52,790 [main] INFO Project-Practice - User entered emplyeee Name
+2026-01-13 17:50:56,169 [main] INFO Project-Practice - User entered USERNAME
+2026-01-13 17:50:59,537 [main] INFO Project-Practice - User entered PASSWORD
+2026-01-13 17:51:02,947 [main] INFO Project-Practice - User entered CONFIRM PASSWORD
+2026-01-13 18:23:39,816 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 18:23:51,353 [main] INFO Project-Practice - Application is Launching
+2026-01-13 18:23:51,463 [main] INFO Project-Practice - Entering Username
+2026-01-13 18:23:54,930 [main] INFO Project-Practice - Entering Password
+2026-01-13 18:23:58,311 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 18:24:30,989 [main] INFO Project-Practice - User entered emplyeee Name
+2026-01-13 18:24:34,529 [main] INFO Project-Practice - User entered USERNAME
+2026-01-13 18:24:37,988 [main] INFO Project-Practice - User entered PASSWORD
+2026-01-13 18:24:41,397 [main] INFO Project-Practice - User entered CONFIRM PASSWORD
+2026-01-13 23:17:26,848 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 23:17:36,625 [main] INFO Project-Practice - Application is Launching
+2026-01-13 23:17:36,664 [main] INFO Project-Practice - Entering Username
+2026-01-13 23:17:39,804 [main] INFO Project-Practice - Entering Password
+2026-01-13 23:17:42,919 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 23:17:56,676 [main] INFO Project-Practice - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-13 23:18:04,042 [main] INFO Project-Practice - Entering Username
+2026-01-13 23:18:07,159 [main] INFO Project-Practice - Entering Password
+2026-01-13 23:18:10,256 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 23:18:20,224 [main] INFO Project-Practice - company value matched - TC passed
+2026-01-13 23:18:31,731 [main] INFO Project-Practice - Entering Username
+2026-01-13 23:18:34,857 [main] INFO Project-Practice - Entering Password
+2026-01-13 23:18:37,971 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 23:20:18,315 [main] INFO Project-Practice - Entering Username
+2026-01-13 23:21:06,378 [main] INFO Project-Practice - Entering Username
+2026-01-13 23:21:09,498 [main] INFO Project-Practice - Entering Password
+2026-01-13 23:21:12,611 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 23:22:53,368 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 23:23:04,194 [main] INFO Project-Practice - Application is Launching
+2026-01-13 23:23:04,269 [main] INFO Project-Practice - Entering Username
+2026-01-13 23:23:07,410 [main] INFO Project-Practice - Entering Password
+2026-01-13 23:23:10,548 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 23:23:23,963 [main] INFO Project-Practice - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-13 23:23:31,799 [main] INFO Project-Practice - Entering Username
+2026-01-13 23:23:34,901 [main] INFO Project-Practice - Entering Password
+2026-01-13 23:23:38,009 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 23:24:05,142 [main] INFO Project-Practice - User entered emplyeee Name
+2026-01-13 23:24:08,264 [main] INFO Project-Practice - User entered USERNAME
+2026-01-13 23:24:11,359 [main] INFO Project-Practice - User entered PASSWORD
+2026-01-13 23:24:14,455 [main] INFO Project-Practice - User entered CONFIRM PASSWORD
+2026-01-13 23:24:20,674 [main] INFO Project-Practice - User Created the Data successfully
+2026-01-13 23:24:34,256 [main] INFO Project-Practice - Entering Username
+2026-01-13 23:24:37,362 [main] INFO Project-Practice - Entering Password
+2026-01-13 23:24:40,479 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 23:24:51,923 [main] INFO Project-Practice - company value matched - TC passed
+2026-01-13 23:25:03,470 [main] INFO Project-Practice - Entering Username
+2026-01-13 23:25:06,599 [main] INFO Project-Practice - Entering Password
+2026-01-13 23:25:09,693 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 23:26:40,476 [main] INFO Project-Practice - Entering Username
+2026-01-13 23:27:36,420 [main] INFO Project-Practice - Entering Username
+2026-01-13 23:27:52,263 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 23:28:02,086 [main] INFO Project-Practice - Application is Launching
+2026-01-13 23:28:02,107 [main] INFO Project-Practice - Entering Username
+2026-01-13 23:28:05,271 [main] INFO Project-Practice - Entering Password
+2026-01-13 23:28:08,392 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 23:28:21,412 [main] INFO Project-Practice - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-13 23:28:29,871 [main] INFO Project-Practice - Entering Username
+2026-01-13 23:28:32,978 [main] INFO Project-Practice - Entering Password
+2026-01-13 23:28:36,139 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 23:29:06,722 [main] INFO Project-Practice - User entered emplyeee Name
+2026-01-13 23:29:09,848 [main] INFO Project-Practice - User entered USERNAME
+2026-01-13 23:29:12,946 [main] INFO Project-Practice - User entered PASSWORD
+2026-01-13 23:33:42,925 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-13 23:33:52,292 [main] INFO Project-Practice - Application is Launching
+2026-01-13 23:33:52,328 [main] INFO Project-Practice - Entering Username
+2026-01-13 23:33:55,440 [main] INFO Project-Practice - Entering Password
+2026-01-13 23:33:58,548 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 23:34:10,414 [main] INFO Project-Practice - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-13 23:34:17,794 [main] INFO Project-Practice - Entering Username
+2026-01-13 23:34:20,890 [main] INFO Project-Practice - Entering Password
+2026-01-13 23:34:23,995 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 23:34:50,077 [main] INFO Project-Practice - User entered emplyeee Name
+2026-01-13 23:34:53,209 [main] INFO Project-Practice - User entered USERNAME
+2026-01-13 23:34:56,303 [main] INFO Project-Practice - User entered PASSWORD
+2026-01-13 23:34:59,400 [main] INFO Project-Practice - User entered CONFIRM PASSWORD
+2026-01-13 23:35:05,576 [main] INFO Project-Practice - User Created the Data successfully
+2026-01-13 23:35:12,818 [main] INFO Project-Practice - Particular Username is Present
+2026-01-13 23:35:23,145 [main] INFO Project-Practice - Entering Username
+2026-01-13 23:35:26,280 [main] INFO Project-Practice - Entering Password
+2026-01-13 23:35:29,378 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 23:35:39,343 [main] INFO Project-Practice - company value matched - TC passed
+2026-01-13 23:35:50,705 [main] INFO Project-Practice - Entering Username
+2026-01-13 23:35:53,811 [main] INFO Project-Practice - Entering Password
+2026-01-13 23:35:56,941 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 23:36:47,055 [main] INFO Project-Practice - Entering Username
+2026-01-13 23:36:50,166 [main] INFO Project-Practice - Entering Password
+2026-01-13 23:36:53,296 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 23:37:28,599 [main] INFO Project-Practice - Entering Username
+2026-01-13 23:37:31,721 [main] INFO Project-Practice - Entering Password
+2026-01-13 23:37:34,827 [main] INFO Project-Practice - Clicking on logging button
+2026-01-13 23:37:49,963 [main] INFO Project-Practice - Total number of employee whose status are enabled : 7
+TestCase Passed
