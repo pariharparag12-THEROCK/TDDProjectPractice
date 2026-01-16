@@ -22,6 +22,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -51,19 +52,25 @@ public class HomePage_TestingClass extends BaseClass{
 
 	@BeforeTest(alwaysRun=true)
 	@Parameters("browser1")
-	public void launchBrowser(String browser) throws InterruptedException {
+	public void launchBrowser(@Optional("chrome") String browser) throws InterruptedException {
+		
+	    String browserFromJenkins = System.getProperty("browser");
+
+	    if(browserFromJenkins != null) {
+	        browser = browserFromJenkins;
+	    }
+		
 		
 		if(browser.equals("chrome")) {
 			
 			driver = OpenChromeBrowser();
+		} 
+		else if(browser.equals("firefox")) {
+		  
+		  driver = OpenFirefoxBrowser(); 
+		  
 		}
-		
-		/*
-		 * if(browser.equals("firefox")) {
-		 * 
-		 * driver = OpenFirefoxBrowser(); 
-		 * }
-		 */
+		 
 		
 		
 		logger	=	Logger.getLogger("Project-Practice");
@@ -79,12 +86,16 @@ public class HomePage_TestingClass extends BaseClass{
 	
 	@BeforeClass(alwaysRun=true)
 	@Parameters("EnviromentUrl")
-	public void launchApplication(String url) throws Exception {
+	public void launchApplication(@Optional("India") String url) throws Exception {
 		
-		
-		try {
-			//driver.get(Property_Utils.readDataFromProperties("URL2"));
+			String envFromJenkins = System.getProperty("env");
 			
+		    if(envFromJenkins != null) {
+		        url = envFromJenkins;
+		    }
+		
+		
+		    //driver.get(Property_Utils.readDataFromProperties("URL2"));	
 			getURL(url);
 			
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
@@ -98,12 +109,7 @@ public class HomePage_TestingClass extends BaseClass{
 			homepageoranghrm = new HomePageOrangeHRM(driver);
 			
 			softassert =new SoftAssert();
-		}
 		
-		catch(Exception e) {
-			logger.error("Error While Launching the application : "+ e.getMessage());
-			throw e;
-		}
 		
 		
 	}
