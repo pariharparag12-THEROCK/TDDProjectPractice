@@ -37,7 +37,7 @@ import utility_package.ScrollView;
 
 public class HomePage_TestingClass extends BaseClass{
 	
-	
+//Test local
 	public static Logger logger;
 	
 	WebDriver driver;
