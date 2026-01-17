@@ -54,6 +54,7 @@ public class HomePage_TestingClass extends BaseClass{
 	@Parameters("browser1")
 	public void launchBrowser(@Optional("chrome") String browser) throws InterruptedException {
 		
+		//Jenkins Parameter has a priority
 	    String browserFromJenkins = System.getProperty("browser");
 
 	    if(browserFromJenkins != null) {
@@ -88,6 +89,7 @@ public class HomePage_TestingClass extends BaseClass{
 	@Parameters("EnviromentUrl")
 	public void launchApplication(@Optional("India") String url) throws Exception {
 		
+			//Jenkins Parameter has a priority
 			String envFromJenkins = System.getProperty("env");
 			
 		    if(envFromJenkins != null) {
@@ -95,7 +97,8 @@ public class HomePage_TestingClass extends BaseClass{
 		    }
 		
 		
-		    //driver.get(Property_Utils.readDataFromProperties("URL2"));	
+		    //driver.get(Property_Utils.readDataFromProperties("URL2"));
+		 // Launch URL based on country
 			getURL(url);
 			
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
