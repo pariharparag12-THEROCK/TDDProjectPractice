@@ -1,7 +1,5 @@
 package base_package;
 
-import java.io.IOException;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -42,7 +40,7 @@ public class BaseClass {
 	
 	
 	
-	public static void getURL(String url) throws IOException {
+	/*public static void getURL(String url) throws IOException {
 		
 		switch(url) {
 		
@@ -59,6 +57,20 @@ public class BaseClass {
 		
 		}
 
+	}*/
+	
+	//It is feasible
+	public static void getURL(String environment) throws Exception {
+		
+		String baseUrl = Property_Utils.readDataFromProperties(environment);
+		
+		if(baseUrl == null) {
+			
+			throw new Exception("URL not found for the environment "+ environment);
+			
+		}
+	
+		driver.get(baseUrl);
 	}
 	
 	
