@@ -22,9 +22,13 @@ public class Extent_Reporter_PP {
 		
 		ExtentReports extentReport = new ExtentReports();
 		
+		
+		String env = System.getProperty("env", "QA");
+		String country = System.getProperty("country", "India");
+		
 		//Extract the directory under current project location
 		// We have to store the report in the current project location
-		reportPath = System.getProperty("user.dir")+"\\target\\EXTENT_REPORTS\\ExtentReport "+timeStamp+".html"; 
+		reportPath = System.getProperty("user.dir")+"\\target\\EXTENT_REPORTS\\"+env+"_"+country+"_ExtentReport "+timeStamp+".html"; 
 		
 		ExtentSparkReporter sparkReporter = new ExtentSparkReporter(reportPath); //Purpose used to configure the "properties" in Report
 		sparkReporter.config().setTheme(Theme.STANDARD);
