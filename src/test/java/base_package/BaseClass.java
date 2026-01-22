@@ -60,13 +60,13 @@ public class BaseClass {
 	}*/
 	
 	//It is feasible
-	public static void getURL(String environment) throws Exception {
+	public static void getURL(String EnvironmentURL) throws Exception {
 		
-		String baseUrl = Property_Utils.readDataFromProperties(environment);
+		String baseUrl = Property_Utils.readDataFromProperties(EnvironmentURL);
 		
 		if(baseUrl == null) {
 			
-			throw new Exception("URL not found for the environment "+ environment);
+			throw new Exception("URL not found for the environment "+ EnvironmentURL);
 			
 		}
 	
