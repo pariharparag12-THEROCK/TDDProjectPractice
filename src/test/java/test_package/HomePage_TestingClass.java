@@ -87,19 +87,30 @@ public class HomePage_TestingClass extends BaseClass{
 	
 	@BeforeClass(alwaysRun=true)
 	@Parameters("EnviromentUrl")
-	public void launchApplication(@Optional("India") String url) throws Exception {
+	public void launchApplication(@Optional("India") String EnvironmentURL) throws Exception {
 		
 			//Jenkins Parameter has a priority
-			String envFromJenkins = System.getProperty("env");
+			String envFromJenkins = System.getProperty("env");			
 			
-		    if(envFromJenkins != null) {
-		        url = envFromJenkins;
-		    }
+			String countryFromJenkins = System.getProperty("country");
+			
+			String key = envFromJenkins +"_"+countryFromJenkins;
+			
+			
+//		    if(envFromJenkins != null) {
+//		        url = envFromJenkins;
+//		    }
 		
+			if(key!=null) {
+				
+				EnvironmentURL = key;
+			}
+			
+			
 		
 		    //driver.get(Property_Utils.readDataFromProperties("URL2"));
 		 // Launch URL based on country
-			getURL(url);
+			getURL(EnvironmentURL);
 			
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 			

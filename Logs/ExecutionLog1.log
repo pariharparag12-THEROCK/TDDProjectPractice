@@ -1189,3 +1189,32 @@ TestCase Passed
 2026-01-13 23:37:34,827 [main] INFO Project-Practice - Clicking on logging button
 2026-01-13 23:37:49,963 [main] INFO Project-Practice - Total number of employee whose status are enabled : 7
 TestCase Passed
+2026-01-17 15:05:03,350 [main] INFO Project-Practice - Log- Chrome Browser launching
+2026-01-17 15:05:12,197 [main] INFO Project-Practice - Application is Launching
+2026-01-17 15:05:12,250 [main] INFO Project-Practice - Entering Username
+2026-01-17 15:05:15,397 [main] INFO Project-Practice - Entering Password
+2026-01-17 15:05:18,490 [main] INFO Project-Practice - Clicking on logging button
+2026-01-17 15:05:29,906 [main] INFO Project-Practice - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-17 15:05:37,307 [main] INFO Project-Practice - Entering Username
+2026-01-17 15:05:40,391 [main] INFO Project-Practice - Entering Password
+2026-01-17 15:05:43,500 [main] INFO Project-Practice - Clicking on logging button
+2026-01-17 15:06:09,559 [main] INFO Project-Practice - User entered emplyeee Name
+2026-01-17 15:06:12,673 [main] INFO Project-Practice - User entered USERNAME
+2026-01-17 15:06:15,789 [main] INFO Project-Practice - User entered PASSWORD
+2026-01-17 15:06:18,899 [main] INFO Project-Practice - User entered CONFIRM PASSWORD
+2026-01-17 15:06:25,114 [main] INFO Project-Practice - User Created the Data successfully
+2026-01-17 15:06:39,261 [main] INFO Project-Practice - Entering Username
+2026-01-17 15:06:42,386 [main] INFO Project-Practice - Entering Password
+2026-01-17 15:06:45,502 [main] INFO Project-Practice - Clicking on logging button
+2026-01-17 15:06:55,882 [main] INFO Project-Practice - company value matched - TC passed
+2026-01-17 15:07:07,723 [main] INFO Project-Practice - Entering Username
+2026-01-17 15:07:10,811 [main] INFO Project-Practice - Entering Password
+2026-01-17 15:07:13,943 [main] INFO Project-Practice - Clicking on logging button
+2026-01-17 15:08:03,919 [main] INFO Project-Practice - Entering Username
+2026-01-17 15:08:07,022 [main] INFO Project-Practice - Entering Password
+2026-01-17 15:08:10,123 [main] INFO Project-Practice - Clicking on logging button
+2026-01-17 15:08:45,426 [main] INFO Project-Practice - Entering Username
+2026-01-17 15:08:48,558 [main] INFO Project-Practice - Entering Password
+2026-01-17 15:08:51,644 [main] INFO Project-Practice - Clicking on logging button
+2026-01-17 15:09:12,701 [main] INFO Project-Practice - Total number of employee whose status are enabled : 25
+TestCase Passed

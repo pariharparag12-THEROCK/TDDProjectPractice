@@ -1,13 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[UserName Entered]]>
+    </line>
+    <line>
+      <![CDATA[Password Entered]]>
+    </line>
+    <line>
+      <![CDATA[Login button Clicked]]>
+    </line>
+    <line>
+      <![CDATA[UserName Entered]]>
+    </line>
+    <line>
+      <![CDATA[Password Entered]]>
+    </line>
+    <line>
+      <![CDATA[Login button Clicked]]>
+    </line>
+    <line>
+      <![CDATA[UserName Entered]]>
+    </line>
+    <line>
+      <![CDATA[Password Entered]]>
+    </line>
+    <line>
+      <![CDATA[Login button Clicked]]>
+    </line>
+    <line>
+      <![CDATA[UserName Entered]]>
+    </line>
+    <line>
+      <![CDATA[Password Entered]]>
+    </line>
+    <line>
+      <![CDATA[Login button Clicked]]>
+    </line>
+    <line>
+      <![CDATA[UserName Entered]]>
+    </line>
+    <line>
+      <![CDATA[Password Entered]]>
+    </line>
+    <line>
+      <![CDATA[Login button Clicked]]>
+    </line>
+    <line>
+      <![CDATA[UserName Entered]]>
+    </line>
+    <line>
+      <![CDATA[Password Entered]]>
+    </line>
+    <line>
+      <![CDATA[Login button Clicked]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-07-02T19:09:34 IST" name="Suite" finished-at="2025-07-02T19:09:48 IST" duration-ms="13265">
+  <suite started-at="2026-01-17T15:05:01 IST" name="Suite1" finished-at="2026-01-17T15:09:25 IST" duration-ms="264185">
     <groups>
+      <group name="Sanity">
+        <method signature="HomePage_TestingClass.verifyAdminOption()[pri:-1, instance:test_package.HomePage_TestingClass@3bb9a3ff]" name="verifyAdminOption" class="test_package.HomePage_TestingClass"/>
+        <method signature="HomePage_TestingClass.verifyUserCreationData()[pri:1, instance:test_package.HomePage_TestingClass@3bb9a3ff]" name="verifyUserCreationData" class="test_package.HomePage_TestingClass"/>
+        <method signature="HomePage_TestingClass.verifyEmployeeTableData()[pri:9, instance:test_package.HomePage_TestingClass@3bb9a3ff]" name="verifyEmployeeTableData" class="test_package.HomePage_TestingClass"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="HomePage_TestingClass.validateFileUploadAndImageUpload()[pri:3, instance:test_package.HomePage_TestingClass@3bb9a3ff]" name="validateFileUploadAndImageUpload" class="test_package.HomePage_TestingClass"/>
+        <method signature="HomePage_TestingClass.validateInfoImageupdated()[pri:4, instance:test_package.HomePage_TestingClass@3bb9a3ff]" name="validateInfoImageupdated" class="test_package.HomePage_TestingClass"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="HomePage_TestingClass.verifyCompanyNameInAboutWindowOption()[pri:2, instance:test_package.HomePage_TestingClass@3bb9a3ff]" name="verifyCompanyNameInAboutWindowOption" class="test_package.HomePage_TestingClass"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2025-07-02T19:09:34 IST" name="ChromTest1" finished-at="2025-07-02T19:09:48 IST" duration-ms="13265">
-      <class name="test_package.LoginPage_TestingClass">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test_package.LoginPage_TestingClass@6c64cb25]" started-at="2025-07-02T19:09:34 IST" name="launchBrowser" finished-at="2025-07-02T19:09:39 IST" duration-ms="4379" status="PASS">
+    <test started-at="2026-01-17T15:05:01 IST" name="RegressionTest" finished-at="2026-01-17T15:09:25 IST" duration-ms="264185">
+      <class name="test_package.HomePage_TestingClass">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test_package.HomePage_TestingClass@3bb9a3ff]" started-at="2026-01-17T15:05:01 IST" name="launchBrowser" finished-at="2026-01-17T15:05:05 IST" duration-ms="3849" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,29 +84,102 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test_package.LoginPage_TestingClass@6c64cb25]" started-at="2025-07-02T19:09:39 IST" name="launchApplication" finished-at="2025-07-02T19:09:47 IST" duration-ms="8452" status="PASS">
+        <test-method is-config="true" signature="launchApplication(java.lang.String)[pri:0, instance:test_package.HomePage_TestingClass@3bb9a3ff]" started-at="2026-01-17T15:05:05 IST" name="launchApplication" finished-at="2026-01-17T15:05:12 IST" duration-ms="6862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="verifyloginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test_package.LoginPage_TestingClass@6c64cb25]" started-at="2025-07-02T19:09:47 IST" name="verifyloginTest" finished-at="2025-07-02T19:09:47 IST" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
+        <test-method is-config="true" signature="LoginInToTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@3bb9a3ff]" started-at="2026-01-17T15:05:12 IST" name="LoginInToTheApplication" finished-at="2026-01-17T15:05:23 IST" duration-ms="11346" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[UserName Entered]]>
+            </line>
+            <line>
+              <![CDATA[Password Entered]]>
+            </line>
+            <line>
+              <![CDATA[Login button Clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginInToTheApplication -->
+        <test-method signature="verifyAdminOption()[pri:-1, instance:test_package.HomePage_TestingClass@3bb9a3ff]" started-at="2026-01-17T15:05:23 IST" name="verifyAdminOption" finished-at="2026-01-17T15:05:29 IST" duration-ms="6311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminOption -->
+        <test-method is-config="true" signature="ClosedTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@3bb9a3ff]" started-at="2026-01-17T15:05:29 IST" name="ClosedTheApplication" finished-at="2026-01-17T15:05:37 IST" duration-ms="7374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosedTheApplication -->
+        <test-method is-config="true" signature="LoginInToTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@3bb9a3ff]" started-at="2026-01-17T15:05:37 IST" name="LoginInToTheApplication" finished-at="2026-01-17T15:05:48 IST" duration-ms="11285" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[UserName Entered]]>
+            </line>
+            <line>
+              <![CDATA[Password Entered]]>
+            </line>
+            <line>
+              <![CDATA[Login button Clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginInToTheApplication -->
+        <test-method signature="verifyUserCreationData()[pri:1, instance:test_package.HomePage_TestingClass@3bb9a3ff]" started-at="2026-01-17T15:05:48 IST" name="verifyUserCreationData" finished-at="2026-01-17T15:06:31 IST" duration-ms="42759" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[
-Method public void test_package.LoginPage_TestingClass.verifyloginTest(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException requires a @DataProvider named : logindata]]>
+              <![CDATA[element click intercepted: Element <i data-v-bddebfba="" data-v-f5c763eb="" class="oxd-icon bi-trash"></i> is not clickable at point (1267, 9). Other element would receive the click: <div data-v-c286b6e5="" class="oxd-topbar-header">...</div>
+  (Session info: chrome=143.0.7499.194)
+Build info: version: '4.16.0', revision: '15400459dd*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c5256c5032c953b9af257fcf2b63a0, clickElement {id=f.BEC118650D1DD961FD5B8D245583FF04.d.7A1E429E962DE8A96D236CCD2670F249.e.144}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.194, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\ppiyu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58497}, goog:processID: 17100, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58497/devtoo..., se:cdpVersion: 143.0.7499.194, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (81c5256c5032c953b9af257fcf2b63a0)] -> xpath: //div[contains(text(),'ROKO@123')]/ancestor::div[@class='oxd-table-row oxd-table-row--with-border']/descendant::button[1]//i]
+Session ID: 81c5256c5032c953b9af257fcf2b63a0]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Method public void test_package.LoginPage_TestingClass.verifyloginTest(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException requires a @DataProvider named : logindata
-at org.testng.internal.Parameters.findDataProvider(Parameters.java:526)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:763)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <i data-v-bddebfba="" data-v-f5c763eb="" class="oxd-icon bi-trash"></i> is not clickable at point (1267, 9). Other element would receive the click: <div data-v-c286b6e5="" class="oxd-topbar-header">...</div>
+  (Session info: chrome=143.0.7499.194)
+Build info: version: '4.16.0', revision: '15400459dd*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c5256c5032c953b9af257fcf2b63a0, clickElement {id=f.BEC118650D1DD961FD5B8D245583FF04.d.7A1E429E962DE8A96D236CCD2670F249.e.144}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.194, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\ppiyu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58497}, goog:processID: 17100, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58497/devtoo..., se:cdpVersion: 143.0.7499.194, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (81c5256c5032c953b9af257fcf2b63a0)] -> xpath: //div[contains(text(),'ROKO@123')]/ancestor::div[@class='oxd-table-row oxd-table-row--with-border']/descendant::button[1]//i]
+Session ID: 81c5256c5032c953b9af257fcf2b63a0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at test_package.HomePage_TestingClass.verifyUserCreationData(HomePage_TestingClass.java:273)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:848)
 at org.testng.TestRunner.run(TestRunner.java:621)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
@@ -62,19 +201,107 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyloginTest -->
-        <test-method is-config="true" signature="cleanObjects()[pri:0, instance:test_package.LoginPage_TestingClass@6c64cb25]" started-at="2025-07-02T19:09:47 IST" name="cleanObjects" finished-at="2025-07-02T19:09:47 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- verifyUserCreationData -->
+        <test-method is-config="true" signature="ClosedTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@3bb9a3ff]" started-at="2026-01-17T15:06:31 IST" name="ClosedTheApplication" finished-at="2026-01-17T15:06:39 IST" duration-ms="7902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosedTheApplication -->
+        <test-method is-config="true" signature="LoginInToTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@3bb9a3ff]" started-at="2026-01-17T15:06:39 IST" name="LoginInToTheApplication" finished-at="2026-01-17T15:06:50 IST" duration-ms="11347" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[UserName Entered]]>
+            </line>
+            <line>
+              <![CDATA[Password Entered]]>
+            </line>
+            <line>
+              <![CDATA[Login button Clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginInToTheApplication -->
+        <test-method signature="verifyCompanyNameInAboutWindowOption()[pri:2, instance:test_package.HomePage_TestingClass@3bb9a3ff]" started-at="2026-01-17T15:06:50 IST" name="verifyCompanyNameInAboutWindowOption" finished-at="2026-01-17T15:06:59 IST" duration-ms="9364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCompanyNameInAboutWindowOption -->
+        <test-method is-config="true" signature="ClosedTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@3bb9a3ff]" started-at="2026-01-17T15:06:59 IST" name="ClosedTheApplication" finished-at="2026-01-17T15:07:07 IST" duration-ms="7745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosedTheApplication -->
+        <test-method is-config="true" signature="LoginInToTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@3bb9a3ff]" started-at="2026-01-17T15:07:07 IST" name="LoginInToTheApplication" finished-at="2026-01-17T15:07:19 IST" duration-ms="11334" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[UserName Entered]]>
+            </line>
+            <line>
+              <![CDATA[Password Entered]]>
+            </line>
+            <line>
+              <![CDATA[Login button Clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginInToTheApplication -->
+        <test-method signature="validateFileUploadAndImageUpload()[pri:3, instance:test_package.HomePage_TestingClass@3bb9a3ff]" started-at="2026-01-17T15:07:19 IST" name="validateFileUploadAndImageUpload" finished-at="2026-01-17T15:07:56 IST" duration-ms="37436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFileUploadAndImageUpload -->
+        <test-method is-config="true" signature="ClosedTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@3bb9a3ff]" started-at="2026-01-17T15:07:56 IST" name="ClosedTheApplication" finished-at="2026-01-17T15:08:03 IST" duration-ms="7423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosedTheApplication -->
+        <test-method is-config="true" signature="LoginInToTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@3bb9a3ff]" started-at="2026-01-17T15:08:03 IST" name="LoginInToTheApplication" finished-at="2026-01-17T15:08:15 IST" duration-ms="11304" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[UserName Entered]]>
+            </line>
+            <line>
+              <![CDATA[Password Entered]]>
+            </line>
+            <line>
+              <![CDATA[Login button Clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginInToTheApplication -->
+        <test-method signature="validateInfoImageupdated()[pri:4, instance:test_package.HomePage_TestingClass@3bb9a3ff]" started-at="2026-01-17T15:08:15 IST" name="validateInfoImageupdated" finished-at="2026-01-17T15:08:36 IST" duration-ms="21313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInfoImageupdated -->
+        <test-method is-config="true" signature="ClosedTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@3bb9a3ff]" started-at="2026-01-17T15:08:36 IST" name="ClosedTheApplication" finished-at="2026-01-17T15:08:45 IST" duration-ms="8883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosedTheApplication -->
+        <test-method is-config="true" signature="LoginInToTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@3bb9a3ff]" started-at="2026-01-17T15:08:45 IST" name="LoginInToTheApplication" finished-at="2026-01-17T15:08:56 IST" duration-ms="11349" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[UserName Entered]]>
+            </line>
+            <line>
+              <![CDATA[Password Entered]]>
+            </line>
+            <line>
+              <![CDATA[Login button Clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginInToTheApplication -->
+        <test-method signature="verifyEmployeeTableData()[pri:9, instance:test_package.HomePage_TestingClass@3bb9a3ff]" started-at="2026-01-17T15:08:56 IST" name="verifyEmployeeTableData" finished-at="2026-01-17T15:09:15 IST" duration-ms="18941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeeTableData -->
+        <test-method is-config="true" signature="ClosedTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@3bb9a3ff]" started-at="2026-01-17T15:09:15 IST" name="ClosedTheApplication" finished-at="2026-01-17T15:09:25 IST" duration-ms="9643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosedTheApplication -->
+        <test-method is-config="true" signature="cleanObjects()[pri:0, instance:test_package.HomePage_TestingClass@3bb9a3ff]" started-at="2026-01-17T15:09:25 IST" name="cleanObjects" finished-at="2026-01-17T15:09:25 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanObjects -->
-        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:test_package.LoginPage_TestingClass@6c64cb25]" started-at="2025-07-02T19:09:47 IST" name="closedBrowser" finished-at="2025-07-02T19:09:48 IST" duration-ms="350" status="PASS">
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:test_package.HomePage_TestingClass@3bb9a3ff]" started-at="2026-01-17T15:09:25 IST" name="closedBrowser" finished-at="2026-01-17T15:09:25 IST" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedBrowser -->
-      </class> <!-- test_package.LoginPage_TestingClass -->
-    </test> <!-- ChromTest1 -->
-  </suite> <!-- Suite -->
+      </class> <!-- test_package.HomePage_TestingClass -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- Suite1 -->
 </testng-results>
