@@ -83,7 +83,7 @@ public class BaseClass {
 		
 		String EnvironmentURL = env +"_"+country;
 		
-		// 🔍 DEBUG LOGS (WRITE HERE)
+		//DEBUG LOGS (WRITE HERE)
 	    System.out.println("ENV = " + env);
 	    System.out.println("COUNTRY = " + country);
 	    System.out.println("KEY = " + EnvironmentURL);
