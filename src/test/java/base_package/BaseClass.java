@@ -45,6 +45,7 @@ public class BaseClass {
 	
 	
 	
+	
 	/*public static void getURL(String url) throws IOException {
 		
 		switch(url) {
@@ -63,6 +64,8 @@ public class BaseClass {
 		}
 
 	}*/
+	
+	
 	
 	//It is feasible
 	public static void getURL() throws Exception {

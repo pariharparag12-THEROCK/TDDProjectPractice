@@ -76,6 +76,7 @@ public class ListnerClass extends BaseClass implements ITestListener  {
             e.printStackTrace();
         } */
 		
+		
 		try {
 			extentTest.pass("ScreenShot : ", MediaEntityBuilder.createScreenCaptureFromBase64String("data:image/png;base64," + ScreenShotPP.getScreenShotAsBase64(driver)).build());
 		} catch (Exception e) {
@@ -103,6 +104,7 @@ public class ListnerClass extends BaseClass implements ITestListener  {
         }
         */
        
+		
         try {
 			extentTest.pass("ScreenShot : ", MediaEntityBuilder.createScreenCaptureFromBase64String("data:image/png;base64," + ScreenShotPP.getScreenShotAsBase64(driver)).build());
 		} catch (Exception e) {

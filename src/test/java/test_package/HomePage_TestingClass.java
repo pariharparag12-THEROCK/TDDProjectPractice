@@ -40,7 +40,6 @@ public class HomePage_TestingClass extends BaseClass{
 //Test local
 	public static Logger logger;
 
-	
 	/* WebDriver driver; */
 	//we use only driver of base class in this HomePagetestingclass thats why we discommented this driver
 	// If we use this driver in this class than 2 drivers will run...1 is baseclass driver and another is HomePagetestingClass driver....

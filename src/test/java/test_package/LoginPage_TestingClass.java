@@ -24,8 +24,6 @@ import utility_package.Utility_Parametrization;
 
 public class LoginPage_TestingClass extends BaseClass{
 
-
-	
 	/* WebDriver driver; */
 	
 	//we use only driver of base class in this loginPagetestingclass thats why discommented this driver
