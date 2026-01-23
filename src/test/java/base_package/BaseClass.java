@@ -3,12 +3,17 @@ package base_package;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 
 import utility_package.Property_Utils;
 
 public class BaseClass {
 	
-	static WebDriver driver;
+	protected static WebDriver driver;
+	// Protected because we use this driver in LoginPageTestingClass, HomePageTestingClass and ListnerClass
+	// Instead of Protected we can also use public ...it will also work
 
 	public WebDriver OpenChromeBrowser() {
 		
@@ -40,6 +45,7 @@ public class BaseClass {
 	
 	
 	
+	
 	/*public static void getURL(String url) throws IOException {
 		
 		switch(url) {
@@ -59,8 +65,29 @@ public class BaseClass {
 
 	}*/
 	
+	
+	
 	//It is feasible
-	public static void getURL(String EnvironmentURL) throws Exception {
+	public static void getURL() throws Exception {
+		
+
+		//if we don't want to use the parameter then locally it will take QA+ India, if jenkins passes parameter than jenkins values are used
+		String env = System.getProperty("env");
+		String country = System.getProperty("country");
+		
+		// Local default ONLY if Jenkins did not pass values
+	    if (env == null || country == null) {
+	        env = "QA";
+	        country = "India";
+	    }
+		
+		String EnvironmentURL = env +"_"+country;
+		
+		// 🔍 DEBUG LOGS (WRITE HERE)
+	    System.out.println("ENV = " + env);
+	    System.out.println("COUNTRY = " + country);
+	    System.out.println("KEY = " + EnvironmentURL);
+		
 		
 		String baseUrl = Property_Utils.readDataFromProperties(EnvironmentURL);
 		

@@ -11,5 +11,61 @@ public class ScreenShotPP {
 		String screenshotAsBase64 =((TakesScreenshot)driver).getScreenshotAs(OutputType.BASE64);
 		return screenshotAsBase64;
 		
+		//This Approach --->Take screenshot as Base64---> Attach to report (Most recommended way)
+		
 	}
+	
+		/*public static String getScreenShotPP(WebDriver driver) {
+		
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy HH.mm.ss ");
+		Date date = new Date();
+		String timeStamp = sdf.format(date);	
+		
+		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		String screenShotPath = ".\\src\\test\\resources\\screenshots\\TestScreenShots" + timeStamp + ".jpg";
+		File destination = new File(screenShotPath); //file k roop me save krte he
+		try {
+			FileHandler.copy(src, destination);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return screenShotPath;
+	
+	//This Approach --->Take screenshot as PNG, JPG file --> Attach to report
+	//DrawBack----> 1) While inspecting the screenshot in extent report you will see the link in the form of your current project directory...
+	 				so unable to email to someone's Id ...so that you have to send 1 another file i.e index.html along with screenshot.
+					2) Increase the number of counts in screenshot folder in the current project directory.
+	}*/
+	
+	
+	/*public static String getScreenShotBase64(WebDriver driver) throws FileNotFoundException, IOException {
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy HH.mm.ss ");
+		Date date = new Date();
+		String timeStamp = sdf.format(date);	
+		
+		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		String screenShotPath = ".\\src\\test\\resources\\screenshots\\TestScreenShots" + timeStamp + ".jpg";
+		File destination = new File(screenShotPath);
+		try {
+			FileHandler.copy(src, destination);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		//Base64 -----> Encoded String
+		
+		byte imageBytes[] = IOUtils.toByteArray(new FileInputStream(screenShotPath));
+		String screenShotBase64	= Base64.getEncoder().encodeToString(imageBytes);
+		return screenShotBase64;
+		
+	//This Approach --->Take screenshot as PNG, JPG file -->Convert it in the form of Base64 ---> Attach to report (you can email to somone's Id)
+	//DrawBack----> 1) Increase the number of counts in screenshot folder in the current project directory.
+		
+	}*/
+
 }

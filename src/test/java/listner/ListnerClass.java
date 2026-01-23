@@ -1,6 +1,8 @@
 package listner;
 
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -14,20 +16,27 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 
+import base_package.BaseClass;
 import utility_package.Extent_Reporter_PP;
 import utility_package.ScreenShotPP;
 
 
 
-public class ListnerClass implements ITestListener {
+public class ListnerClass extends BaseClass implements ITestListener  {
 
 	
 	String testName;
 	ExtentReports extentReport;
 	static ExtentTest extentTest;
-	WebDriver driver;
 	
+	/*
+	 * 
+	 * WebDriver driver;
+	 * 
+	 */	
 	
+	// This driver is null ....it does not have any value...at runtime it will throw null pointer exception
+	// Thats Why we extends the BaseClass and we use baseclass driver.....because we have mentioned already there "protected static WebDriver driver"
 
 	
 	
@@ -56,16 +65,24 @@ public class ListnerClass implements ITestListener {
 		extentTest.log(Status.PASS, MarkupHelper.createLabel("Name of the PASSED Test Case is: " + testName, ExtentColor.GREEN));
 		
 		// Use the provided code to get the WebDriver instance
-		try {
+	/*	try {
             WebDriver driver = (WebDriver) result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInstance());
-            if(driver!=null) {
-            	this.driver = driver;
+//            if(driver!=null) {
+//            	this.driver = driver;
             	System.out.println("System taken driver object");
             	extentTest.pass("ScreenShot : ", MediaEntityBuilder.createScreenCaptureFromBase64String("data:image/png;base64," + ScreenShotPP.getScreenShotAsBase64(driver)).build());
-            }
+//            }
         } catch (Exception e) {
             e.printStackTrace();
+        } */
+		
+		
+		try {
+			extentTest.pass("ScreenShot : ", MediaEntityBuilder.createScreenCaptureFromBase64String("data:image/png;base64," + ScreenShotPP.getScreenShotAsBase64(driver)).build());
+		} catch (Exception e) {
+            e.printStackTrace();
         }
+		
 	}
 
 	@Override  //Test Method Failure
@@ -75,19 +92,24 @@ public class ListnerClass implements ITestListener {
 		extentTest.log(Status.INFO, testName+ " : Test Case Failed " + result.getThrowable());
 		
 		// Use the provided code to get the WebDriver instance
-        try {
-            WebDriver driver = (WebDriver) result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInstance());
-            if(driver!=null) {
-            	this.driver = driver;
+    /*    try {
+           WebDriver driver = (WebDriver) result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInstance());
+//            if(driver!=null) {
+//            	this.driver = driver;
             	System.out.println("System taken driver object");
             	extentTest.fail("ScreenShot : ", MediaEntityBuilder.createScreenCaptureFromBase64String("data:image/png;base64," + ScreenShotPP.getScreenShotAsBase64(driver)).build());
-            }
+//            }
         } catch (Exception e) {
             e.printStackTrace();
         }
-        
+        */
        
-     
+		
+        try {
+			extentTest.pass("ScreenShot : ", MediaEntityBuilder.createScreenCaptureFromBase64String("data:image/png;base64," + ScreenShotPP.getScreenShotAsBase64(driver)).build());
+		} catch (Exception e) {
+            e.printStackTrace();
+        }
 	
         
 	}

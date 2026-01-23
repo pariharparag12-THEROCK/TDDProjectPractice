@@ -13,10 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePageOrangeHRM {
 
-	
-	
-	
-	
+
 	WebDriver driver;
 	
 	private WebDriverWait wait;

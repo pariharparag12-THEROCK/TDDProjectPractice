@@ -4,29 +4,31 @@
   <listeners>
     <listener class-name="listner.ListnerClass"/>
   </listeners>
-  <test thread-count="1" name="RegressionTest(failed)">
-    <parameter name="EnviromentUrl" value="India"/>
+  <test thread-count="1" name="Test_1(failed)">
     <parameter name="browser1" value="chrome"/>
     <groups>
       <run>
-        <include name="Regression"/>
         <include name="Sanity"/>
-        <include name="Smoke"/>
       </run>
     </groups>
     <classes>
+      <class name="test_package.LoginPage_TestingClass">
+        <methods>
+          <include name="closedBrowser"/>
+        </methods>
+      </class> <!-- test_package.LoginPage_TestingClass -->
       <class name="test_package.HomePage_TestingClass">
         <methods>
           <include name="LoginInToTheApplication"/>
           <include name="launchApplication"/>
-          <include name="validateInfoImageupdated"/>
           <include name="cleanObjects"/>
           <include name="ClosedTheApplication"/>
-          <include name="launchBrowser"/>
           <include name="verifyEmployeeTableData"/>
           <include name="closedBrowser"/>
+          <include name="verifyAdminOption"/>
+          <include name="verifyUserCreationData"/>
         </methods>
       </class> <!-- test_package.HomePage_TestingClass -->
     </classes>
-  </test> <!-- RegressionTest(failed) -->
+  </test> <!-- Test_1(failed) -->
 </suite> <!-- Failed suite [Suite1] -->
