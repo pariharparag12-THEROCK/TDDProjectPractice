@@ -1,235 +1,499 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
-    <line>
-      <![CDATA[UserName Entered]]>
-    </line>
-    <line>
-      <![CDATA[Password Entered]]>
-    </line>
-    <line>
-      <![CDATA[Login button Clicked]]>
-    </line>
-    <line>
-      <![CDATA[UserName Entered]]>
-    </line>
-    <line>
-      <![CDATA[Password Entered]]>
-    </line>
-    <line>
-      <![CDATA[Login button Clicked]]>
-    </line>
-    <line>
-      <![CDATA[UserName Entered]]>
-    </line>
-    <line>
-      <![CDATA[Password Entered]]>
-    </line>
-    <line>
-      <![CDATA[Login button Clicked]]>
-    </line>
-    <line>
-      <![CDATA[UserName Entered]]>
-    </line>
-    <line>
-      <![CDATA[Password Entered]]>
-    </line>
-    <line>
-      <![CDATA[Login button Clicked]]>
-    </line>
-    <line>
-      <![CDATA[UserName Entered]]>
-    </line>
-    <line>
-      <![CDATA[Password Entered]]>
-    </line>
-    <line>
-      <![CDATA[Login button Clicked]]>
-    </line>
-    <line>
-      <![CDATA[UserName Entered]]>
-    </line>
-    <line>
-      <![CDATA[Password Entered]]>
-    </line>
-    <line>
-      <![CDATA[Login button Clicked]]>
-    </line>
   </reporter-output>
-  <suite started-at="2026-01-13T23:33:41 IST" name="Suite1" finished-at="2026-01-13T23:38:00 IST" duration-ms="259187">
+  <suite started-at="2026-01-23T14:34:29 IST" name="Suite1" finished-at="2026-01-23T14:34:29 IST" duration-ms="277">
     <groups>
       <group name="Sanity">
-        <method signature="HomePage_TestingClass.verifyAdminOption()[pri:-1, instance:test_package.HomePage_TestingClass@5b12b668]" name="verifyAdminOption" class="test_package.HomePage_TestingClass"/>
-        <method signature="HomePage_TestingClass.verifyUserCreationData()[pri:1, instance:test_package.HomePage_TestingClass@5b12b668]" name="verifyUserCreationData" class="test_package.HomePage_TestingClass"/>
-        <method signature="HomePage_TestingClass.verifyEmployeeTableData()[pri:9, instance:test_package.HomePage_TestingClass@5b12b668]" name="verifyEmployeeTableData" class="test_package.HomePage_TestingClass"/>
+        <method signature="HomePage_TestingClass.verifyAdminOption()[pri:-1, instance:test_package.HomePage_TestingClass@9d5509a]" name="verifyAdminOption" class="test_package.HomePage_TestingClass"/>
+        <method signature="HomePage_TestingClass.verifyUserCreationData()[pri:1, instance:test_package.HomePage_TestingClass@9d5509a]" name="verifyUserCreationData" class="test_package.HomePage_TestingClass"/>
+        <method signature="HomePage_TestingClass.verifyEmployeeTableData()[pri:9, instance:test_package.HomePage_TestingClass@9d5509a]" name="verifyEmployeeTableData" class="test_package.HomePage_TestingClass"/>
       </group> <!-- Sanity -->
-      <group name="Regression">
-        <method signature="HomePage_TestingClass.validateFileUploadAndImageUpload()[pri:3, instance:test_package.HomePage_TestingClass@5b12b668]" name="validateFileUploadAndImageUpload" class="test_package.HomePage_TestingClass"/>
-        <method signature="HomePage_TestingClass.validateInfoImageupdated()[pri:4, instance:test_package.HomePage_TestingClass@5b12b668]" name="validateInfoImageupdated" class="test_package.HomePage_TestingClass"/>
-      </group> <!-- Regression -->
-      <group name="Smoke">
-        <method signature="HomePage_TestingClass.verifyCompanyNameInAboutWindowOption()[pri:2, instance:test_package.HomePage_TestingClass@5b12b668]" name="verifyCompanyNameInAboutWindowOption" class="test_package.HomePage_TestingClass"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2026-01-13T23:33:41 IST" name="RegressionTest" finished-at="2026-01-13T23:38:00 IST" duration-ms="259187">
-      <class name="test_package.HomePage_TestingClass">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test_package.HomePage_TestingClass@5b12b668]" started-at="2026-01-13T23:33:41 IST" name="launchBrowser" finished-at="2026-01-13T23:33:44 IST" duration-ms="3431" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="launchApplication(java.lang.String)[pri:0, instance:test_package.HomePage_TestingClass@5b12b668]" started-at="2026-01-13T23:33:44 IST" name="launchApplication" finished-at="2026-01-13T23:33:52 IST" duration-ms="7370" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[India]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method is-config="true" signature="LoginInToTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@5b12b668]" started-at="2026-01-13T23:33:52 IST" name="LoginInToTheApplication" finished-at="2026-01-13T23:34:03 IST" duration-ms="11315" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[UserName Entered]]>
-            </line>
-            <line>
-              <![CDATA[Password Entered]]>
-            </line>
-            <line>
-              <![CDATA[Login button Clicked]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LoginInToTheApplication -->
-        <test-method signature="verifyAdminOption()[pri:-1, instance:test_package.HomePage_TestingClass@5b12b668]" started-at="2026-01-13T23:34:03 IST" name="verifyAdminOption" finished-at="2026-01-13T23:34:10 IST" duration-ms="6777" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAdminOption -->
-        <test-method is-config="true" signature="ClosedTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@5b12b668]" started-at="2026-01-13T23:34:10 IST" name="ClosedTheApplication" finished-at="2026-01-13T23:34:17 IST" duration-ms="7334" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClosedTheApplication -->
-        <test-method is-config="true" signature="LoginInToTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@5b12b668]" started-at="2026-01-13T23:34:17 IST" name="LoginInToTheApplication" finished-at="2026-01-13T23:34:29 IST" duration-ms="11298" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[UserName Entered]]>
-            </line>
-            <line>
-              <![CDATA[Password Entered]]>
-            </line>
-            <line>
-              <![CDATA[Login button Clicked]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LoginInToTheApplication -->
-        <test-method signature="verifyUserCreationData()[pri:1, instance:test_package.HomePage_TestingClass@5b12b668]" started-at="2026-01-13T23:34:29 IST" name="verifyUserCreationData" finished-at="2026-01-13T23:35:15 IST" duration-ms="46738" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserCreationData -->
-        <test-method is-config="true" signature="ClosedTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@5b12b668]" started-at="2026-01-13T23:35:15 IST" name="ClosedTheApplication" finished-at="2026-01-13T23:35:23 IST" duration-ms="7302" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClosedTheApplication -->
-        <test-method is-config="true" signature="LoginInToTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@5b12b668]" started-at="2026-01-13T23:35:23 IST" name="LoginInToTheApplication" finished-at="2026-01-13T23:35:34 IST" duration-ms="11353" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[UserName Entered]]>
-            </line>
-            <line>
-              <![CDATA[Password Entered]]>
-            </line>
-            <line>
-              <![CDATA[Login button Clicked]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LoginInToTheApplication -->
-        <test-method signature="verifyCompanyNameInAboutWindowOption()[pri:2, instance:test_package.HomePage_TestingClass@5b12b668]" started-at="2026-01-13T23:35:34 IST" name="verifyCompanyNameInAboutWindowOption" finished-at="2026-01-13T23:35:43 IST" duration-ms="8938" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCompanyNameInAboutWindowOption -->
-        <test-method is-config="true" signature="ClosedTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@5b12b668]" started-at="2026-01-13T23:35:43 IST" name="ClosedTheApplication" finished-at="2026-01-13T23:35:50 IST" duration-ms="7265" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClosedTheApplication -->
-        <test-method is-config="true" signature="LoginInToTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@5b12b668]" started-at="2026-01-13T23:35:50 IST" name="LoginInToTheApplication" finished-at="2026-01-13T23:36:02 IST" duration-ms="11354" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[UserName Entered]]>
-            </line>
-            <line>
-              <![CDATA[Password Entered]]>
-            </line>
-            <line>
-              <![CDATA[Login button Clicked]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LoginInToTheApplication -->
-        <test-method signature="validateFileUploadAndImageUpload()[pri:3, instance:test_package.HomePage_TestingClass@5b12b668]" started-at="2026-01-13T23:36:02 IST" name="validateFileUploadAndImageUpload" finished-at="2026-01-13T23:36:39 IST" duration-ms="37513" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateFileUploadAndImageUpload -->
-        <test-method is-config="true" signature="ClosedTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@5b12b668]" started-at="2026-01-13T23:36:39 IST" name="ClosedTheApplication" finished-at="2026-01-13T23:36:47 IST" duration-ms="7479" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClosedTheApplication -->
-        <test-method is-config="true" signature="LoginInToTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@5b12b668]" started-at="2026-01-13T23:36:47 IST" name="LoginInToTheApplication" finished-at="2026-01-13T23:36:58 IST" duration-ms="11353" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[UserName Entered]]>
-            </line>
-            <line>
-              <![CDATA[Password Entered]]>
-            </line>
-            <line>
-              <![CDATA[Login button Clicked]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LoginInToTheApplication -->
-        <test-method signature="validateInfoImageupdated()[pri:4, instance:test_package.HomePage_TestingClass@5b12b668]" started-at="2026-01-13T23:36:58 IST" name="validateInfoImageupdated" finished-at="2026-01-13T23:37:21 IST" duration-ms="22630" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateInfoImageupdated -->
-        <test-method is-config="true" signature="ClosedTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@5b12b668]" started-at="2026-01-13T23:37:21 IST" name="ClosedTheApplication" finished-at="2026-01-13T23:37:28 IST" duration-ms="7551" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClosedTheApplication -->
-        <test-method is-config="true" signature="LoginInToTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@5b12b668]" started-at="2026-01-13T23:37:28 IST" name="LoginInToTheApplication" finished-at="2026-01-13T23:37:39 IST" duration-ms="11337" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[UserName Entered]]>
-            </line>
-            <line>
-              <![CDATA[Password Entered]]>
-            </line>
-            <line>
-              <![CDATA[Login button Clicked]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LoginInToTheApplication -->
-        <test-method signature="verifyEmployeeTableData()[pri:9, instance:test_package.HomePage_TestingClass@5b12b668]" started-at="2026-01-13T23:37:39 IST" name="verifyEmployeeTableData" finished-at="2026-01-13T23:37:52 IST" duration-ms="13034" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyEmployeeTableData -->
-        <test-method is-config="true" signature="ClosedTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@5b12b668]" started-at="2026-01-13T23:37:52 IST" name="ClosedTheApplication" finished-at="2026-01-13T23:38:00 IST" duration-ms="7283" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClosedTheApplication -->
-        <test-method is-config="true" signature="cleanObjects()[pri:0, instance:test_package.HomePage_TestingClass@5b12b668]" started-at="2026-01-13T23:38:00 IST" name="cleanObjects" finished-at="2026-01-13T23:38:00 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanObjects -->
-        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:test_package.HomePage_TestingClass@5b12b668]" started-at="2026-01-13T23:38:00 IST" name="closedBrowser" finished-at="2026-01-13T23:38:00 IST" duration-ms="237" status="PASS">
+    <test started-at="2026-01-23T14:34:29 IST" name="Test_1" finished-at="2026-01-23T14:34:29 IST" duration-ms="277">
+      <class name="test_package.LoginPage_TestingClass">
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:test_package.LoginPage_TestingClass@477b4cdf]" started-at="2026-01-23T14:34:29 IST" name="closedBrowser" finished-at="2026-01-23T14:34:29 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "base_package.BaseClass.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "base_package.BaseClass.driver" is null
+at base_package.BaseClass.closedBrowser(BaseClass.java:137)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.afterRun(TestRunner.java:933)
+at org.testng.TestRunner.run(TestRunner.java:624)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedBrowser -->
+      </class> <!-- test_package.LoginPage_TestingClass -->
+      <class name="test_package.HomePage_TestingClass">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test_package.HomePage_TestingClass@9d5509a]" started-at="2026-01-23T14:34:29 IST" name="launchApplication" finished-at="2026-01-23T14:34:29 IST" duration-ms="8" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "base_package.BaseClass.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "base_package.BaseClass.driver" is null
+at base_package.BaseClass.getURL(BaseClass.java:127)
+at test_package.HomePage_TestingClass.launchApplication(HomePage_TestingClass.java:144)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method is-config="true" signature="LoginInToTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@9d5509a]" started-at="2026-01-23T14:34:29 IST" name="LoginInToTheApplication" finished-at="2026-01-23T14:34:29 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.log4j.Logger.info(Object)" because "test_package.HomePage_TestingClass.logger" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.log4j.Logger.info(Object)" because "test_package.HomePage_TestingClass.logger" is null
+at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:165)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInToTheApplication -->
+        <test-method signature="verifyAdminOption()[pri:-1, instance:test_package.HomePage_TestingClass@9d5509a]" started-at="2026-01-23T14:34:29 IST" name="verifyAdminOption" finished-at="2026-01-23T14:34:29 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.log4j.Logger.info(Object)" because "test_package.HomePage_TestingClass.logger" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.log4j.Logger.info(Object)" because "test_package.HomePage_TestingClass.logger" is null
+at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:165)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminOption -->
+        <test-method is-config="true" signature="ClosedTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@9d5509a]" started-at="2026-01-23T14:34:29 IST" name="ClosedTheApplication" finished-at="2026-01-23T14:34:29 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "pom_package.HomePageOrangeHRM.clickAccoutDropDown()" because "this.homepageoranghrm" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pom_package.HomePageOrangeHRM.clickAccoutDropDown()" because "this.homepageoranghrm" is null
+at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:428)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosedTheApplication -->
+        <test-method is-config="true" signature="LoginInToTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@9d5509a]" started-at="2026-01-23T14:34:29 IST" name="LoginInToTheApplication" finished-at="2026-01-23T14:34:29 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.log4j.Logger.info(Object)" because "test_package.HomePage_TestingClass.logger" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.log4j.Logger.info(Object)" because "test_package.HomePage_TestingClass.logger" is null
+at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:165)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInToTheApplication -->
+        <test-method signature="verifyUserCreationData()[pri:1, instance:test_package.HomePage_TestingClass@9d5509a]" started-at="2026-01-23T14:34:29 IST" name="verifyUserCreationData" finished-at="2026-01-23T14:34:29 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "pom_package.HomePageOrangeHRM.clickAccoutDropDown()" because "this.homepageoranghrm" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pom_package.HomePageOrangeHRM.clickAccoutDropDown()" because "this.homepageoranghrm" is null
+at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:428)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCreationData -->
+        <test-method is-config="true" signature="ClosedTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@9d5509a]" started-at="2026-01-23T14:34:29 IST" name="ClosedTheApplication" finished-at="2026-01-23T14:34:29 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "pom_package.HomePageOrangeHRM.clickAccoutDropDown()" because "this.homepageoranghrm" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pom_package.HomePageOrangeHRM.clickAccoutDropDown()" because "this.homepageoranghrm" is null
+at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:428)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosedTheApplication -->
+        <test-method is-config="true" signature="LoginInToTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@9d5509a]" started-at="2026-01-23T14:34:29 IST" name="LoginInToTheApplication" finished-at="2026-01-23T14:34:29 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.log4j.Logger.info(Object)" because "test_package.HomePage_TestingClass.logger" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.log4j.Logger.info(Object)" because "test_package.HomePage_TestingClass.logger" is null
+at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:165)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInToTheApplication -->
+        <test-method signature="verifyEmployeeTableData()[pri:9, instance:test_package.HomePage_TestingClass@9d5509a]" started-at="2026-01-23T14:34:29 IST" name="verifyEmployeeTableData" finished-at="2026-01-23T14:34:29 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.log4j.Logger.info(Object)" because "test_package.HomePage_TestingClass.logger" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.log4j.Logger.info(Object)" because "test_package.HomePage_TestingClass.logger" is null
+at test_package.HomePage_TestingClass.LoginInToTheApplication(HomePage_TestingClass.java:165)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeeTableData -->
+        <test-method is-config="true" signature="ClosedTheApplication()[pri:0, instance:test_package.HomePage_TestingClass@9d5509a]" started-at="2026-01-23T14:34:29 IST" name="ClosedTheApplication" finished-at="2026-01-23T14:34:29 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "pom_package.HomePageOrangeHRM.clickAccoutDropDown()" because "this.homepageoranghrm" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pom_package.HomePageOrangeHRM.clickAccoutDropDown()" because "this.homepageoranghrm" is null
+at test_package.HomePage_TestingClass.ClosedTheApplication(HomePage_TestingClass.java:428)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosedTheApplication -->
+        <test-method is-config="true" signature="cleanObjects()[pri:0, instance:test_package.HomePage_TestingClass@9d5509a]" started-at="2026-01-23T14:34:29 IST" name="cleanObjects" finished-at="2026-01-23T14:34:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanObjects -->
       </class> <!-- test_package.HomePage_TestingClass -->
-    </test> <!-- RegressionTest -->
+    </test> <!-- Test_1 -->
   </suite> <!-- Suite1 -->
 </testng-results>

@@ -155,21 +155,24 @@
            <version>3.1.0</version> 
         </plugin> 
                 
-        <plugin> 
-           <groupId>org.apache.maven.plugins</groupId> 
-           <artifactId>maven-surefire-plugin</artifactId> 
-           <version>3.1.2</version>
-                 
-                 
-	    	 <configuration>
-		      	<argLine>-Xmx1024m</argLine>
-	
-                     <suiteXmlFiles>       
-                       <suiteXmlFile>testng.xml</suiteXmlFile>    
-                     </suiteXmlFiles> 
-        	  </configuration>
-                      
-        </plugin>	
+        <plugin>
+		    <groupId>org.apache.maven.plugins</groupId>
+		    <artifactId>maven-surefire-plugin</artifactId>
+		    <version>3.1.2</version>
+		
+		    <configuration>
+		        <argLine>-Xmx1024m</argLine>
+		
+		        <!-- 🔥 THIS IS REQUIRED -->
+		        <groups>${groups}</groups>	    
+ 			<!--When we execute through maven this will use groups..
+ 				if we don't write here than maven will not consider the gruops concept-->
+		
+		        <suiteXmlFiles>
+		            <suiteXmlFile>testng.xml</suiteXmlFile>
+		        </suiteXmlFiles>
+		    </configuration>
+		</plugin>
 	</plugins>
 
   </build>  

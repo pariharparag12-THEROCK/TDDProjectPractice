@@ -27,6 +27,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+
 import base_package.BaseClass;
 import pom_package.HomePageOrangeHRM;
 import pom_package.LoginPageOrangeHRM;
@@ -34,13 +35,20 @@ import utility_package.FetchExcelData;
 import utility_package.Property_Utils;
 import utility_package.ScrollView;
 
-
 public class HomePage_TestingClass extends BaseClass{
 	
 //Test local
 	public static Logger logger;
+
 	
-	WebDriver driver;
+	/* WebDriver driver; */
+	//we use only driver of base class in this HomePagetestingclass thats why we discommented this driver
+	// If we use this driver in this class than 2 drivers will run...1 is baseclass driver and another is HomePagetestingClass driver....
+	//...so that our script will confuse which driver is to take...If we execute through TestNg	byluck it will execute...
+	//......but if we execute through maven it will throw null pointer exception..it will catch a bug
+	//....we have method getURL()-----> this will use baseClass driver and remainings are use HomePagetestingClass driver...thats why our script will confuse
+	
+	
 	
 	LoginPageOrangeHRM loginpageorangehrm;
 	
@@ -68,7 +76,7 @@ public class HomePage_TestingClass extends BaseClass{
 		} 
 		else if(browser.equals("firefox")) {
 		  
-		  driver = OpenFirefoxBrowser(); 
+			driver = OpenFirefoxBrowser(); 
 		  
 		}
 		 
@@ -86,31 +94,56 @@ public class HomePage_TestingClass extends BaseClass{
 	
 	
 	@BeforeClass(alwaysRun=true)
-	@Parameters("EnviromentUrl")
-	public void launchApplication(@Optional("India") String EnvironmentURL) throws Exception {
+	/*@Parameters("EnviromentUrl")
+	public void launchApplication(@Optional("QA_India") String EnvironmentURL) throws Exception {*/
+	
+	public void launchApplication() throws Exception {
 		
-			//Jenkins Parameter has a priority
-			String envFromJenkins = System.getProperty("env");			
-			
-			String countryFromJenkins = System.getProperty("country");
-			
-			String key = envFromJenkins +"_"+countryFromJenkins;
-			
-			
-//		    if(envFromJenkins != null) {
-//		        url = envFromJenkins;
-//		    }
+		//if we don't want to use the parameter then locally it will take QA+ India, if jenkins passes parameter than jenkins values are used
+		/*
+		 * String env = System.getProperty("env"); String country =
+		 * System.getProperty("country");
+		 */
 		
-			if(key!=null) {
-				
-				EnvironmentURL = key;
-			}
-			
-			
+		// Local default ONLY if Jenkins did not pass values
+		/*
+		 * if (env == null || country == null) { env = "QA"; country = "India"; }
+		 */
 		
+		/* String EnvironmentURL = env +"_"+country; */
+		
+		// 🔍 DEBUG LOGS (WRITE HERE)
+		/*
+		 * System.out.println("ENV = " + env); System.out.println("COUNTRY = " +
+		 * country); System.out.println("KEY = " + EnvironmentURL);
+		 */
+		
+	/*	//Jenkins Parameter has a priority
+		String env = System.getProperty("env");			
+		
+		String country = System.getProperty("country");   */
+		
+		//String key = envFromJenkins +"_"+countryFromJenkins;
+		
+		//if env and country is null then key=null_null then if(key!=null){---> it means EnvironmentURL=null_null
+	
+//		if(key!=null) {
+//			
+//			EnvironmentURL = key;
+//		}
+		
+	/*	// Jenkins values should override local/default
+	    if (env != null && country != null) {
+	    	
+	        EnvironmentURL = env + "_" + country;
+	        
+	    } */
+
 		    //driver.get(Property_Utils.readDataFromProperties("URL2"));
 		 // Launch URL based on country
-			getURL(EnvironmentURL);
+			/* getURL(EnvironmentURL); */
+		
+			getURL();
 			
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 			

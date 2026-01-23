@@ -3,22 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test_package.HomePage_TestingClass">
+      <class name="test_package.LoginPage_TestingClass">
         <methods>
-          <include name="LoginInToTheApplication"/>
-          <include name="validateFileUploadAndImageUpload"/>
-          <include name="launchApplication"/>
-          <include name="validateInfoImageupdated"/>
           <include name="cleanObjects"/>
-          <include name="ClosedTheApplication"/>
+          <include name="launchApplication"/>
+          <include name="verifyloginTest"/>
           <include name="launchBrowser"/>
-          <include name="verifyEmployeeTableData"/>
-          <include name="verifyCompanyNameInAboutWindowOption"/>
-          <include name="verifyAdminOption"/>
-          <include name="verifyUserCreationData"/>
           <include name="closedBrowser"/>
         </methods>
-      </class> <!-- test_package.HomePage_TestingClass -->
+      </class> <!-- test_package.LoginPage_TestingClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -12,6 +12,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -23,9 +24,15 @@ import utility_package.Utility_Parametrization;
 
 public class LoginPage_TestingClass extends BaseClass{
 
+
 	
+	/* WebDriver driver; */
 	
-	WebDriver driver;
+	//we use only driver of base class in this loginPagetestingclass thats why discommented this driver
+	// If we use this driver in this class than 2 drivers will run...1 is baseclass driver and another is loginPagetestingClass driver....
+	//...so that our script will confuse which driver is to take...If we execute through TestNg	byluck it will execute...
+	//......but if we execute through maven it will throw null pointer exception..it will catch a bug
+	//....we have method getURL()-----> this will use baseClass driver and remainings are use loginPageTesingClass driver...thats why our script will confuse
 	
 	String data[][];
 	int currentindex;
@@ -37,25 +44,34 @@ public class LoginPage_TestingClass extends BaseClass{
 	
 	@BeforeTest
 	@Parameters("browser1")
-	public void launchBrowser(String browser) throws InterruptedException {
+	public void launchBrowser(@Optional("chrome") String browser) throws InterruptedException {
 		
-		if (browser.equals("chrome")) {
+		//Jenkins Parameter has a priority
+	    String browserFromJenkins = System.getProperty("browser");
+
+	    if(browserFromJenkins != null) {
+	        browser = browserFromJenkins;
+	    }
+		
+		
+		if(browser.equals("chrome")) {
 			
 			driver = OpenChromeBrowser();
+		} 
+		else if(browser.equals("firefox")) {
+		  
+			driver = OpenFirefoxBrowser(); 
+		  
 		}
 		
-		/*
-		 * if (browser.equals("chrome")) {
-		 * 
-		 * driver = OpenFirefoxBrowser(); }
-		 */
+		
 		Thread.sleep(2000);
 	}
 	
 	@BeforeClass(alwaysRun=true)
-	public void launchApplication() throws InterruptedException {
+	public void launchApplication() throws Exception {
 		
-		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		getURL();
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
@@ -196,7 +212,7 @@ public class LoginPage_TestingClass extends BaseClass{
 	*/
 	
 
-	@Test(invocationCount =4, groups= {"Smoke"}, priority=7, alwaysRun=true)
+	@Test(invocationCount = 4, groups= {"Smoke"}, priority=-1, alwaysRun=true)
 	public void verifyloginTest() throws InterruptedException, EncryptedDocumentException, IOException {
 		
 		

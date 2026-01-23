@@ -10,12 +10,12 @@
 	</listeners>
 	
 	
-  <!--<test  name="SanityTest">	
+  <test  name="Test_1">	
 	<parameter name="browser1" value="chrome"></parameter>
-	<parameter name="EnviromentUrl" value="India"></parameter>
-	<parameter name="EnviromentUrl" value="Australia"></parameter>
-	<parameter name="EnviromentUrl" value="Japan"></parameter>
-	<parameter name="EnviromentUrl" value="Turkey"></parameter>
+	<!--<parameter name="EnviromentUrl" value="QA_India"></parameter>
+	<parameter name="EnviromentUrl" value="QA_Australia"></parameter>
+	<parameter name="EnviromentUrl" value="QA_Japan"></parameter>
+	<parameter name="EnviromentUrl" value="QA_Turkey"></parameter>-->
 	
 	<groups>
 		<run>
@@ -28,15 +28,15 @@
 		<class name="test_package.HomePage_TestingClass"></class>
 	</classes>
 	
-  </test>-->
+  </test>
   
   
-  <test  name="RegressionTest">	
+  <!--<test  name="RegressionTest">	
 	<parameter name="browser1" value="chrome"></parameter>
-	<parameter name="EnviromentUrl" value="India"></parameter>
-<!--<parameter name="EnviromentUrl" value="Australia"></parameter>
-	<parameter name="EnviromentUrl" value="Japan"></parameter>
-	<parameter name="EnviromentUrl" value="Turkey"></parameter>-->
+	<parameter name="EnviromentUrl" value="QA_India"></parameter>
+<parameter name="EnviromentUrl" value="QA_Australia"></parameter>
+	<parameter name="EnviromentUrl" value="QA_Japan"></parameter>
+	<parameter name="EnviromentUrl" value="QA_Turkey"></parameter>
 	
 	<groups>
 		<run>
@@ -47,11 +47,11 @@
 	</groups>
 	
 	<classes>
-		<!--<class name="test_package.LoginPage_TestingClass"></class>-->
+		<class name="test_package.LoginPage_TestingClass"></class>
 		<class name="test_package.HomePage_TestingClass"></class>
 	</classes>
 	
-  </test>   
+  </test>   -->
     
   
 </suite> 
