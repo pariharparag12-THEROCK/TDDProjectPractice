@@ -163,7 +163,7 @@
 		    <configuration>
 		        <argLine>-Xmx1024m</argLine>
 		
-		        <!-- 🔥 THIS IS REQUIRED -->
+		        <!-- THIS IS REQUIRED -->
 		        <groups>${groups}</groups>	    
  			<!--When we execute through maven this will use groups..
  				if we don't write here than maven will not consider the gruops concept-->
