@@ -11,7 +11,9 @@
 	
 	
   <test  name="Test_1">	
-	<parameter name="browser1" value="chrome"></parameter>
+	
+	<!--<parameter name="browser1" value="chrome"></parameter>-->
+	
 	<!--<parameter name="EnviromentUrl" value="QA_India"></parameter>
 	<parameter name="EnviromentUrl" value="QA_Australia"></parameter>
 	<parameter name="EnviromentUrl" value="QA_Japan"></parameter>
