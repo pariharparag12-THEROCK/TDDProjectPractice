@@ -40,7 +40,7 @@ public class LoginPage_TestingClass extends BaseClass{
 
 	SoftAssert softassert;
 	
-	@BeforeTest
+	/*@BeforeTest
 	@Parameters("browser1")
 	public void launchBrowser(@Optional("chrome") String browser) throws InterruptedException {
 		
@@ -65,6 +65,9 @@ public class LoginPage_TestingClass extends BaseClass{
 		
 		Thread.sleep(2000);
 	}
+	*/
+	
+	
 	
 	@BeforeClass(alwaysRun=true)
 	public void launchApplication() throws Exception {
@@ -402,13 +405,13 @@ public class LoginPage_TestingClass extends BaseClass{
 	}
 	
 	
-	@AfterTest (alwaysRun=true)
+	/*@AfterTest (alwaysRun=true)
 	public void closedBrowser() {
 		
 		driver.quit();
 		System.out.println("Browser closed successfully");
 		driver=null;
 		System.gc();
-	}
-	
+	}*/
+
 }

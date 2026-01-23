@@ -141,21 +141,6 @@
           <div class="suite-Suite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">test_package.HomePage_TestingClass</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCompanyNameInAboutWindowOption">
-                  </a> <!-- verifyCompanyNameInAboutWindowOption -->
-                  <span class="method-name">verifyCompanyNameInAboutWindowOption</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite1-class-passed -->
-          <div class="suite-Suite1-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">test_package.LoginPage_TestingClass</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -189,6 +174,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test_package.HomePage_TestingClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCompanyNameInAboutWindowOption">
+                  </a> <!-- verifyCompanyNameInAboutWindowOption -->
+                  <span class="method-name">verifyCompanyNameInAboutWindowOption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
         </div> <!-- panel Suite1 -->
         <div panel-name="test-xml-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -208,7 +208,6 @@
     &lt;listener class-name=&quot;listner.ListnerClass&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;1&quot; name=&quot;Test_1&quot; verbose=&quot;0&quot;&gt;
-    &lt;parameter name=&quot;browser1&quot; value=&quot;chrome&quot;/&gt;
     &lt;groups&gt;
       &lt;run&gt;
         &lt;include name=&quot;Smoke&quot;/&gt;
@@ -272,28 +271,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyloginTest')
 data.setCell(0, 2, 'test_package.LoginPage_TestingClass')
-data.setCell(0, 3, 16823);
+data.setCell(0, 3, 15493);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyCompanyNameInAboutWindowOption')
 data.setCell(1, 2, 'test_package.HomePage_TestingClass')
-data.setCell(1, 3, 9865);
+data.setCell(1, 3, 9349);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyloginTest')
 data.setCell(2, 2, 'test_package.LoginPage_TestingClass')
-data.setCell(2, 3, 5040);
+data.setCell(2, 3, 5589);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'verifyloginTest')
 data.setCell(3, 2, 'test_package.LoginPage_TestingClass')
-data.setCell(3, 3, 4571);
+data.setCell(3, 3, 5054);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'verifyloginTest')
 data.setCell(4, 2, 'test_package.LoginPage_TestingClass')
-data.setCell(4, 3, 4443);
+data.setCell(4, 3, 4082);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <span class="suite-total-time">Total running time: 39 seconds</span>
               <div id="times-div-Suite1">
               </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->
@@ -308,21 +307,25 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">5 ignored methods</span>
+            <span class="header-content">7 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">test_package.HomePage_TestingClass</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">verifyAdminOption</span>
-                <br/>
-                <span class="ignored-method-name">validateInfoImageupdated</span>
-                <br/>
                 <span class="ignored-method-name">verifyEmployeeTableData</span>
                 <br/>
                 <span class="ignored-method-name">validateFileUploadAndImageUpload</span>
                 <br/>
+                <span class="ignored-method-name">setupSuite</span>
+                <br/>
+                <span class="ignored-method-name">verifyAdminOption</span>
+                <br/>
+                <span class="ignored-method-name">validateInfoImageupdated</span>
+                <br/>
                 <span class="ignored-method-name">verifyUserCreationData</span>
+                <br/>
+                <span class="ignored-method-name">tearDownSuite</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -334,74 +337,65 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">test_package.HomePage_TestingClass</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">test_package.LoginPage_TestingClass</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">4635 ms</span>
+                <span class="method-start">4570 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyloginTest</span>
-                <span class="method-start">11861 ms</span>
+                <span class="method-start">15870 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyloginTest</span>
-                <span class="method-start">28924 ms</span>
+                <span class="method-start">31608 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyloginTest</span>
-                <span class="method-start">34156 ms</span>
+                <span class="method-start">37398 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyloginTest</span>
-                <span class="method-start">38766 ms</span>
+                <span class="method-start">41769 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">cleanObjects</span>
-                <span class="method-start">43495 ms</span>
+                <span class="method-start">47086 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test_package.HomePage_TestingClass</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">43500 ms</span>
+                <span class="method-start">47091 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">LoginInToTheApplication</span>
-                <span class="method-start">47238 ms</span>
+                <span class="method-start">50789 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyCompanyNameInAboutWindowOption</span>
-                <span class="method-start">59333 ms</span>
+                <span class="method-start">62995 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">ClosedTheApplication</span>
-                <span class="method-start">69455 ms</span>
+                <span class="method-start">72591 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">cleanObjects</span>
-                <span class="method-start">79936 ms</span>
+                <span class="method-start">80549 ms</span>
               </div> <!-- configuration-class after -->
-              <div class="configuration-test after">
-                <span class="method-name">closedBrowser</span>
-                <span class="method-start">79938 ms</span>
-              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test_package.LoginPage_TestingClass</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">closedBrowser</span>
-                <span class="method-start">80251 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownSuite</span>
+                <span class="method-start">81854 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

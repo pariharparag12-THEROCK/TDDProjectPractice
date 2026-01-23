@@ -1,21 +1,23 @@
 package base_package;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
-
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 import utility_package.Property_Utils;
 
 public class BaseClass {
+	
+	protected static Logger logger;
 	
 	protected static WebDriver driver;
 	// Protected because we use this driver in LoginPageTestingClass, HomePageTestingClass and ListnerClass
 	// Instead of Protected we can also use public ...it will also work
 
-	public WebDriver OpenChromeBrowser() {
+	/*public WebDriver OpenChromeBrowser() {
 		
 		driver = new ChromeDriver();
 		
@@ -28,9 +30,53 @@ public class BaseClass {
 		return driver;
 		
 	}
+	*/
 	
 	
-	public WebDriver OpenFirefoxBrowser() {
+	@BeforeSuite(alwaysRun = true)
+	public void setupSuite() {
+		
+		
+		logger = Logger.getLogger("Project-Practice");
+		//PropertyConfigurator.configure("log4j.properties");
+		
+		logger.info("===== Test Suite Started =====");
+		
+		if(driver==null) {
+			
+			String browser = System.getProperty("browser", "chrome"); //default
+			
+			if(browser.equalsIgnoreCase("chrome")) {
+				
+				driver = new ChromeDriver();
+				
+				logger.info("Chrome Browser launched successfully");
+			}
+			
+			else if (browser.equalsIgnoreCase("firefox")) {
+				
+				driver = new FirefoxDriver();
+				
+				logger.info("FireFox Browser launched successfully");
+				
+			}
+			
+			else {
+				
+				throw new RuntimeException("Unsupported Browser : "+ browser);
+				
+			}
+			
+				
+			driver.manage().window().maximize();
+			
+			driver.manage().deleteAllCookies();
+		}
+		
+	}
+	
+	
+	/*public WebDriver OpenFirefoxBrowser() {
 		
 		
 		driver = new FirefoxDriver();
@@ -42,7 +88,21 @@ public class BaseClass {
 		driver.manage().deleteAllCookies();
 		return driver;
 	}
+	*/
 	
+	
+	@AfterSuite(alwaysRun = true)
+	public void tearDownSuite() {
+		
+		if(driver!=null) {			
+			driver.quit();
+			logger.info("Browser Closed successfully");
+			driver = null;
+			logger=null;
+			System.gc();
+		}
+		
+	}
 	
 	
 	
@@ -100,5 +160,5 @@ public class BaseClass {
 		driver.get(baseUrl);
 	}
 	
-	
+
 }

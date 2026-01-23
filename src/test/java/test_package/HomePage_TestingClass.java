@@ -38,7 +38,9 @@ import utility_package.ScrollView;
 public class HomePage_TestingClass extends BaseClass{
 	
 //Test local
-	public static Logger logger;
+	//public static Logger logger;
+	private static final Logger logger = Logger.getLogger(HomePage_TestingClass.class);
+
 
 	/* WebDriver driver; */
 	//we use only driver of base class in this HomePagetestingclass thats why we discommented this driver
@@ -57,7 +59,7 @@ public class HomePage_TestingClass extends BaseClass{
 	
 	
 
-	@BeforeTest(alwaysRun=true)
+	/*@BeforeTest(alwaysRun=true)
 	@Parameters("browser1")
 	public void launchBrowser(@Optional("chrome") String browser) throws InterruptedException {
 		
@@ -90,6 +92,7 @@ public class HomePage_TestingClass extends BaseClass{
 		
 		Thread.sleep(2000);
 	}
+	*/
 	
 	
 	@BeforeClass(alwaysRun=true)
@@ -252,7 +255,7 @@ public class HomePage_TestingClass extends BaseClass{
 		else {
 			
 			softassert.assertNotNull(statuscount);
-			logger.info("Total number of employee whose status are enabled : "+ statuscount+ "\n"+"TestCase Failed");
+			logger.error("Total number of employee whose status are enabled : "+ statuscount+ "\n"+"TestCase Failed");
 		}
 		
 		softassert.assertAll();
@@ -444,10 +447,11 @@ public class HomePage_TestingClass extends BaseClass{
 		softassert = null;
 		
 		System.out.println("Objects are cleaned Successfully");
+		
 	}
 	
 	
-	@AfterTest(alwaysRun=true)
+	/*@AfterTest(alwaysRun=true)
 	public void closedBrowser() {
 		
 		driver.quit();
@@ -458,6 +462,6 @@ public class HomePage_TestingClass extends BaseClass{
 		
 		
 	}
-	
+	*/
 	
 }

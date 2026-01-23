@@ -1,0 +1,19 @@
+2026-01-24 00:46:22 INFO  Project-Practice:43 - ===== Test Suite Started =====
+2026-01-24 00:46:25 INFO  Project-Practice:53 - Chrome Browser launched successfully
+2026-01-24 00:47:22 INFO  Project-Practice:99 - Browser Closed successfully
+2026-01-24 01:15:37 INFO  Project-Practice:43 - ===== Test Suite Started =====
+2026-01-24 01:16:30 INFO  Project-Practice:53 - Chrome Browser launched successfully
+2026-01-24 01:17:11 INFO  HomePage_TestingClass:154 - Application is Launching
+2026-01-24 01:17:11 INFO  HomePage_TestingClass:169 - Entering Username
+2026-01-24 01:17:15 INFO  HomePage_TestingClass:173 - Entering Password
+2026-01-24 01:17:18 INFO  HomePage_TestingClass:177 - Clicking on logging button
+2026-01-24 01:17:29 INFO  HomePage_TestingClass:221 - company value matched - TC passed
+2026-01-24 01:17:42 INFO  Project-Practice:99 - Browser Closed successfully
+2026-01-24 01:19:19 INFO  Project-Practice:43 - ===== Test Suite Started =====
+2026-01-24 01:19:23 INFO  Project-Practice:53 - Chrome Browser launched successfully
+2026-01-24 01:20:10 INFO  HomePage_TestingClass:154 - Application is Launching
+2026-01-24 01:20:10 INFO  HomePage_TestingClass:169 - Entering Username
+2026-01-24 01:20:13 INFO  HomePage_TestingClass:173 - Entering Password
+2026-01-24 01:20:17 INFO  HomePage_TestingClass:177 - Clicking on logging button
+2026-01-24 01:20:27 INFO  HomePage_TestingClass:221 - company value matched - TC passed
+2026-01-24 01:20:41 INFO  Project-Practice:99 - Browser Closed successfully
