@@ -17,3 +17,123 @@
 2026-01-24 01:20:17 INFO  HomePage_TestingClass:177 - Clicking on logging button
 2026-01-24 01:20:27 INFO  HomePage_TestingClass:221 - company value matched - TC passed
 2026-01-24 01:20:41 INFO  Project-Practice:99 - Browser Closed successfully
+2026-01-24 01:53:17 INFO  Project-Practice:43 - ===== Test Suite Started =====
+2026-01-24 01:53:19 INFO  Project-Practice:53 - Chrome Browser launched successfully
+2026-01-24 01:53:26 INFO  HomePage_TestingClass:154 - Application is Launching
+2026-01-24 01:53:26 INFO  HomePage_TestingClass:169 - Entering Username
+2026-01-24 01:53:29 INFO  HomePage_TestingClass:173 - Entering Password
+2026-01-24 01:53:33 INFO  HomePage_TestingClass:177 - Clicking on logging button
+2026-01-24 01:54:24 INFO  HomePage_TestingClass:169 - Entering Username
+2026-01-24 01:54:27 INFO  HomePage_TestingClass:173 - Entering Password
+2026-01-24 01:54:30 INFO  HomePage_TestingClass:177 - Clicking on logging button
+2026-01-24 01:55:04 INFO  Project-Practice:99 - Browser Closed successfully
+2026-01-24 01:59:39 INFO  Project-Practice:43 - ===== Test Suite Started =====
+2026-01-24 01:59:45 INFO  Project-Practice:60 - FireFox Browser launched successfully
+2026-01-24 02:00:21 INFO  HomePage_TestingClass:154 - Application is Launching
+2026-01-24 02:00:21 INFO  HomePage_TestingClass:169 - Entering Username
+2026-01-24 02:00:24 INFO  HomePage_TestingClass:173 - Entering Password
+2026-01-24 02:00:27 INFO  HomePage_TestingClass:177 - Clicking on logging button
+2026-01-24 02:00:39 INFO  HomePage_TestingClass:221 - company value matched - TC passed
+2026-01-24 02:00:51 INFO  Project-Practice:99 - Browser Closed successfully
+2026-01-24 02:02:31 INFO  Project-Practice:43 - ===== Test Suite Started =====
+2026-01-24 02:02:33 INFO  Project-Practice:53 - Chrome Browser launched successfully
+2026-01-24 02:02:41 INFO  HomePage_TestingClass:154 - Application is Launching
+2026-01-24 02:02:41 INFO  HomePage_TestingClass:169 - Entering Username
+2026-01-24 02:02:45 INFO  HomePage_TestingClass:173 - Entering Password
+2026-01-24 02:02:48 INFO  HomePage_TestingClass:177 - Clicking on logging button
+2026-01-24 02:02:59 INFO  HomePage_TestingClass:195 - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-24 02:03:06 INFO  HomePage_TestingClass:169 - Entering Username
+2026-01-24 02:03:10 INFO  HomePage_TestingClass:173 - Entering Password
+2026-01-24 02:03:13 INFO  HomePage_TestingClass:177 - Clicking on logging button
+2026-01-24 02:03:39 INFO  HomePage_TestingClass:287 - User entered emplyeee Name
+2026-01-24 02:03:42 INFO  HomePage_TestingClass:291 - User entered USERNAME
+2026-01-24 02:03:45 INFO  HomePage_TestingClass:294 - User entered PASSWORD
+2026-01-24 02:03:48 INFO  HomePage_TestingClass:297 - User entered CONFIRM PASSWORD
+2026-01-24 02:03:54 INFO  HomePage_TestingClass:304 - User Created the Data successfully
+2026-01-24 02:04:01 INFO  HomePage_TestingClass:324 - Particular Username is Present
+2026-01-24 02:04:12 INFO  HomePage_TestingClass:169 - Entering Username
+2026-01-24 02:04:15 INFO  HomePage_TestingClass:173 - Entering Password
+2026-01-24 02:04:18 INFO  HomePage_TestingClass:177 - Clicking on logging button
+2026-01-24 02:04:32 INFO  HomePage_TestingClass:252 - Total number of employee whose status are enabled : 5
+TestCase Passed
+2026-01-24 02:04:43 INFO  Project-Practice:99 - Browser Closed successfully
+2026-01-26 13:52:20 INFO  Project-Practice:43 - ===== Test Suite Started =====
+2026-01-26 13:52:29 INFO  Project-Practice:53 - Chrome Browser launched successfully
+2026-01-26 13:52:46 INFO  HomePage_TestingClass:154 - Application is Launching
+2026-01-26 13:52:46 INFO  HomePage_TestingClass:169 - Entering Username
+2026-01-26 13:52:50 INFO  HomePage_TestingClass:173 - Entering Password
+2026-01-26 13:52:53 INFO  HomePage_TestingClass:177 - Clicking on logging button
+2026-01-26 13:53:05 INFO  HomePage_TestingClass:195 - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-26 13:53:15 INFO  HomePage_TestingClass:169 - Entering Username
+2026-01-26 13:53:18 INFO  HomePage_TestingClass:173 - Entering Password
+2026-01-26 13:53:21 INFO  HomePage_TestingClass:177 - Clicking on logging button
+2026-01-26 13:53:49 INFO  HomePage_TestingClass:287 - User entered emplyeee Name
+2026-01-26 13:53:52 INFO  HomePage_TestingClass:291 - User entered USERNAME
+2026-01-26 13:53:55 INFO  HomePage_TestingClass:294 - User entered PASSWORD
+2026-01-26 13:53:59 INFO  HomePage_TestingClass:297 - User entered CONFIRM PASSWORD
+2026-01-26 13:54:05 INFO  HomePage_TestingClass:304 - User Created the Data successfully
+2026-01-26 13:54:20 INFO  HomePage_TestingClass:169 - Entering Username
+2026-01-26 13:54:23 INFO  HomePage_TestingClass:173 - Entering Password
+2026-01-26 13:54:27 INFO  HomePage_TestingClass:177 - Clicking on logging button
+2026-01-26 13:54:49 INFO  HomePage_TestingClass:252 - Total number of employee whose status are enabled : 18
+TestCase Passed
+2026-01-26 13:55:02 INFO  Project-Practice:99 - Browser Closed successfully
+2026-01-26 14:12:24 INFO  Project-Practice:43 - ===== Test Suite Started =====
+2026-01-26 14:12:28 INFO  Project-Practice:53 - Chrome Browser launched successfully
+2026-01-26 14:12:37 INFO  HomePage_TestingClass:154 - Application is Launching
+2026-01-26 14:12:37 INFO  HomePage_TestingClass:169 - Entering Username
+2026-01-26 14:12:41 INFO  HomePage_TestingClass:173 - Entering Password
+2026-01-27 23:20:34 INFO  Project-Practice:43 - ===== Test Suite Started =====
+2026-01-27 23:20:37 INFO  Project-Practice:53 - Chrome Browser launched successfully
+2026-01-27 23:21:13 INFO  HomePage_TestingClass:154 - Application is Launching
+2026-01-27 23:21:13 INFO  HomePage_TestingClass:169 - Entering Username
+2026-01-27 23:21:19 INFO  HomePage_TestingClass:173 - Entering Password
+2026-01-27 23:21:22 INFO  HomePage_TestingClass:177 - Clicking on logging button
+2026-01-27 23:21:34 INFO  HomePage_TestingClass:195 - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-27 23:21:42 INFO  HomePage_TestingClass:169 - Entering Username
+2026-01-27 23:21:45 INFO  HomePage_TestingClass:173 - Entering Password
+2026-01-27 23:21:48 INFO  HomePage_TestingClass:177 - Clicking on logging button
+2026-01-27 23:22:14 INFO  HomePage_TestingClass:287 - User entered emplyeee Name
+2026-01-27 23:22:17 INFO  HomePage_TestingClass:291 - User entered USERNAME
+2026-01-27 23:22:21 INFO  HomePage_TestingClass:294 - User entered PASSWORD
+2026-01-27 23:22:24 INFO  HomePage_TestingClass:297 - User entered CONFIRM PASSWORD
+2026-01-27 23:22:30 INFO  HomePage_TestingClass:304 - User Created the Data successfully
+2026-01-27 23:22:37 INFO  HomePage_TestingClass:324 - Particular Username is Present
+2026-01-27 23:22:50 INFO  HomePage_TestingClass:169 - Entering Username
+2026-01-27 23:22:54 INFO  HomePage_TestingClass:173 - Entering Password
+2026-01-27 23:22:57 INFO  HomePage_TestingClass:177 - Clicking on logging button
+2026-01-27 23:23:15 INFO  HomePage_TestingClass:252 - Total number of employee whose status are enabled : 48
+TestCase Passed
+2026-01-27 23:23:26 INFO  Project-Practice:99 - Browser Closed successfully
+2026-01-28 00:37:00 INFO  Project-Practice:45 - ===== Test Suite Started =====
+2026-01-28 00:37:00 INFO  Project-Practice:65 - Running Chrome in HEADLESS mode
+2026-01-28 00:37:05 INFO  Project-Practice:74 - Chrome Browser launched successfully
+2026-01-28 00:37:47 INFO  HomePage_TestingClass:154 - Application is Launching
+2026-01-28 00:37:47 INFO  HomePage_TestingClass:169 - Entering Username
+2026-01-28 00:37:50 INFO  HomePage_TestingClass:173 - Entering Password
+2026-01-28 00:37:54 INFO  HomePage_TestingClass:177 - Clicking on logging button
+2026-01-28 00:38:04 INFO  HomePage_TestingClass:221 - company value matched - TC passed
+2026-01-28 00:38:17 INFO  Project-Practice:134 - Browser Closed successfully
+2026-01-28 00:40:38 INFO  Project-Practice:45 - ===== Test Suite Started =====
+2026-01-28 00:40:38 INFO  Project-Practice:68 - Running Chrome in UI mode
+2026-01-28 00:41:14 INFO  Project-Practice:45 - ===== Test Suite Started =====
+2026-01-28 00:41:14 INFO  Project-Practice:68 - Running Chrome in UI mode
+2026-01-28 00:41:17 INFO  Project-Practice:74 - Chrome Browser launched successfully
+2026-01-28 00:41:35 INFO  HomePage_TestingClass:154 - Application is Launching
+2026-01-28 00:41:35 INFO  HomePage_TestingClass:169 - Entering Username
+2026-01-28 00:41:39 INFO  HomePage_TestingClass:173 - Entering Password
+2026-01-28 00:41:42 INFO  HomePage_TestingClass:177 - Clicking on logging button
+2026-01-28 00:41:54 INFO  HomePage_TestingClass:195 - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-28 00:42:03 INFO  HomePage_TestingClass:169 - Entering Username
+2026-01-28 00:42:06 INFO  HomePage_TestingClass:173 - Entering Password
+2026-01-28 00:42:10 INFO  HomePage_TestingClass:177 - Clicking on logging button
+2026-01-28 00:42:39 INFO  HomePage_TestingClass:287 - User entered emplyeee Name
+2026-01-28 00:42:43 INFO  HomePage_TestingClass:291 - User entered USERNAME
+2026-01-28 00:42:46 INFO  HomePage_TestingClass:294 - User entered PASSWORD
+2026-01-28 00:42:49 INFO  HomePage_TestingClass:297 - User entered CONFIRM PASSWORD
+2026-01-28 00:43:42 INFO  HomePage_TestingClass:169 - Entering Username
+2026-01-28 00:43:45 INFO  HomePage_TestingClass:173 - Entering Password
+2026-01-28 00:43:49 INFO  HomePage_TestingClass:177 - Clicking on logging button
+2026-01-28 00:44:09 INFO  HomePage_TestingClass:252 - Total number of employee whose status are enabled : 13
+TestCase Passed
+2026-01-28 00:44:23 INFO  Project-Practice:134 - Browser Closed successfully

@@ -1,12 +1,14 @@
 package base_package;
 
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+
 import utility_package.Property_Utils;
 
 public class BaseClass {
@@ -46,20 +48,53 @@ public class BaseClass {
 			
 			String browser = System.getProperty("browser", "chrome"); //default
 			
+			boolean headless = Boolean.parseBoolean(System.getProperty("headless","false")); //bydefault it takes false value
+			//Boolean.parseBoolean("true") → true..... //Boolean.parseBoolean("false") → true
+			
 			if(browser.equalsIgnoreCase("chrome")) {
 				
-				driver = new ChromeDriver();
 				
-				logger.info("Chrome Browser launched successfully");
+				ChromeOptions options = new ChromeOptions();
+				//It creates the configuration object for Chrome
+				// It is used to tell Chrome how to start
+				
+					if(headless) {				
+						options.addArguments("--headless=new"); //It means Chrome runs without opening UI
+			            options.addArguments("--disable-gpu"); //It prevents the graphic-related issues on servers
+			            options.addArguments("--window-size=1920,1080"); //Headless Chrome has no screen So this gives it"fake screen size"
+			            logger.info("Running Chrome in HEADLESS mode");
+					}
+					else {
+						logger.info("Running Chrome in UI mode");
+					}
+					
+				
+					driver = new ChromeDriver(options); 
+				
+					logger.info("Chrome Browser launched successfully");
 			}
+			
 			
 			else if (browser.equalsIgnoreCase("firefox")) {
 				
-				driver = new FirefoxDriver();
+				FirefoxOptions options = new FirefoxOptions();
+				
+				if(headless) {				
+		            options.addArguments("--headless");
+		            logger.info("Running Firefox in HEADLESS mode");
+				}
+				else {
+					logger.info("Running Firefox in UI mode");
+				}
+				
+				driver = new FirefoxDriver(options);
 				
 				logger.info("FireFox Browser launched successfully");
-				
+						
 			}
+				
+				
+		
 			
 			else {
 				

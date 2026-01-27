@@ -5,27 +5,20 @@
     <listener class-name="listner.ListnerClass"/>
   </listeners>
   <test thread-count="1" name="Test_1(failed)">
-    <parameter name="browser1" value="chrome"/>
     <groups>
       <run>
         <include name="Sanity"/>
       </run>
     </groups>
     <classes>
-      <class name="test_package.LoginPage_TestingClass">
-        <methods>
-          <include name="closedBrowser"/>
-        </methods>
-      </class> <!-- test_package.LoginPage_TestingClass -->
       <class name="test_package.HomePage_TestingClass">
         <methods>
           <include name="LoginInToTheApplication"/>
           <include name="launchApplication"/>
+          <include name="tearDownSuite"/>
           <include name="cleanObjects"/>
           <include name="ClosedTheApplication"/>
-          <include name="verifyEmployeeTableData"/>
-          <include name="closedBrowser"/>
-          <include name="verifyAdminOption"/>
+          <include name="setupSuite"/>
           <include name="verifyUserCreationData"/>
         </methods>
       </class> <!-- test_package.HomePage_TestingClass -->
