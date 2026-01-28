@@ -13,6 +13,7 @@ import utility_package.Property_Utils;
 
 public class BaseClass {
 	
+	//28jan 16:32
 	protected static Logger logger;
 	
 	protected static WebDriver driver;
