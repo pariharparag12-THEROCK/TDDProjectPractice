@@ -50,18 +50,17 @@ public class ListnerClass extends BaseClass implements ITestListener  {
 	@Override //Test Method Starts
 	public void onTestStart(ITestResult result) {
 		testName = result.getName();
-		/*
-		 * extentTest = extentReport.createTest(testName); //Generate the entry of
-		 * testName in Extent Report extentTest.log(Status.INFO, testName+
-		 * " : Started Executing");
-		 */
+	    extentTest = extentReport.createTest(testName); 
+		  //Generate the entry of testName in Extent Report 
+		extentTest.log(Status.INFO, testName+" : Started Executing");
+		 
        
 	}
 
 	@Override  //Test Method Success
 	public void onTestSuccess(ITestResult result) {
 		testName = result.getName();
-		extentTest = extentReport.createTest(testName); //Generate the entry of testName in Extent Report
+		//extentTest = extentReport.createTest(testName); //Generate the entry of testName in Extent Report
 		extentTest.log(Status.PASS, MarkupHelper.createLabel("Name of the PASSED Test Case is: " + testName, ExtentColor.GREEN));
 		
 		// Use the provided code to get the WebDriver instance
@@ -119,7 +118,7 @@ public class ListnerClass extends BaseClass implements ITestListener  {
 	public void onTestSkipped(ITestResult result) {
 		
 		testName = result.getName();
-		extentTest = extentReport.createTest(testName); //Generate the entry of testName in Extent Report
+		//extentTest = extentReport.createTest(testName); //Generate the entry of testName in Extent Report
 		extentTest.log(Status.SKIP, MarkupHelper.createLabel("Name of the SKIPPED Test Case is: " + testName, ExtentColor.ORANGE));
 	
 	}
