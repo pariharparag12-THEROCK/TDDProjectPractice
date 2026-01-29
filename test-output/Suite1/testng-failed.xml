@@ -14,8 +14,8 @@
       <class name="test_package.HomePage_TestingClass">
         <methods>
           <include name="LoginInToTheApplication"/>
-          <include name="launchApplication"/>
           <include name="tearDownSuite"/>
+          <include name="launchApplication"/>
           <include name="cleanObjects"/>
           <include name="ClosedTheApplication"/>
           <include name="setupSuite"/>

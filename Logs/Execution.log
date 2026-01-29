@@ -783,3 +783,251 @@ TestCase Passed
 2026-01-29 16:23:57 INFO  Project-Practice:507 - Toast message is verifying
 2026-01-29 16:23:57 INFO  Project-Practice:508 - Image is successfully uploaded at MyInfoOption
 2026-01-29 16:24:03 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 17:43:38 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 17:43:38 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 17:43:43 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 17:44:07 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 17:44:07 INFO  Project-Practice:170 - Entering Username
+2026-01-29 17:44:10 INFO  Project-Practice:174 - Entering Password
+2026-01-29 17:44:14 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 17:44:30 INFO  Project-Practice:196 - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-29 17:44:36 INFO  Project-Practice:170 - Entering Username
+2026-01-29 17:44:42 INFO  Project-Practice:174 - Entering Password
+2026-01-29 17:44:45 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 17:45:21 INFO  Project-Practice:288 - User entered emplyeee Name
+2026-01-29 17:45:24 INFO  Project-Practice:292 - User entered USERNAME
+2026-01-29 17:45:28 INFO  Project-Practice:295 - User entered PASSWORD
+2026-01-29 17:45:31 INFO  Project-Practice:298 - User entered CONFIRM PASSWORD
+2026-01-29 17:47:30 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 17:47:30 INFO  Project-Practice:69 - Running Chrome in HEADLESS mode
+2026-01-29 17:47:33 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 17:48:58 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 17:48:58 INFO  Project-Practice:170 - Entering Username
+2026-01-29 17:49:02 INFO  Project-Practice:174 - Entering Password
+2026-01-29 17:49:06 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 17:49:31 INFO  Project-Practice:222 - company value matched - TC passed
+2026-01-29 17:49:40 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 17:50:59 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 17:50:59 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 17:51:01 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 17:51:11 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 17:51:11 INFO  Project-Practice:170 - Entering Username
+2026-01-29 17:51:15 INFO  Project-Practice:174 - Entering Password
+2026-01-29 17:51:18 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 17:51:43 INFO  Project-Practice:196 - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-29 17:51:46 INFO  Project-Practice:170 - Entering Username
+2026-01-29 17:51:51 INFO  Project-Practice:174 - Entering Password
+2026-01-29 17:51:54 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 17:52:22 INFO  Project-Practice:288 - User entered emplyeee Name
+2026-01-29 17:52:25 INFO  Project-Practice:292 - User entered USERNAME
+2026-01-29 17:52:28 INFO  Project-Practice:295 - User entered PASSWORD
+2026-01-29 17:52:31 INFO  Project-Practice:298 - User entered CONFIRM PASSWORD
+2026-01-29 17:53:36 INFO  Project-Practice:170 - Entering Username
+2026-01-29 17:53:40 INFO  Project-Practice:174 - Entering Password
+2026-01-29 17:53:44 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 17:54:06 INFO  Project-Practice:253 - Total number of employee whose status are enabled : 13
+TestCase Passed
+2026-01-29 17:54:13 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 17:55:01 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 17:55:01 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 17:55:03 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 17:55:19 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 17:55:19 INFO  Project-Practice:170 - Entering Username
+2026-01-29 17:55:22 INFO  Project-Practice:174 - Entering Password
+2026-01-29 17:55:25 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 17:55:43 INFO  Project-Practice:196 - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-29 17:55:48 INFO  Project-Practice:170 - Entering Username
+2026-01-29 17:55:53 INFO  Project-Practice:174 - Entering Password
+2026-01-29 17:55:56 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 17:56:37 INFO  Project-Practice:288 - User entered emplyeee Name
+2026-01-29 17:56:41 INFO  Project-Practice:293 - User entered USERNAME
+2026-01-29 17:56:44 INFO  Project-Practice:296 - User entered PASSWORD
+2026-01-29 17:56:47 INFO  Project-Practice:299 - User entered CONFIRM PASSWORD
+2026-01-29 17:57:00 INFO  Project-Practice:306 - User Created the Data successfully
+2026-01-29 17:57:15 INFO  Project-Practice:170 - Entering Username
+2026-01-29 17:57:20 INFO  Project-Practice:174 - Entering Password
+2026-01-29 17:57:23 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 17:57:45 INFO  Project-Practice:253 - Total number of employee whose status are enabled : 13
+TestCase Passed
+2026-01-29 17:57:51 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 18:00:33 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 18:00:33 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 18:00:34 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 18:00:46 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 18:00:46 INFO  Project-Practice:170 - Entering Username
+2026-01-29 18:00:50 INFO  Project-Practice:174 - Entering Password
+2026-01-29 18:00:54 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 18:01:22 INFO  Project-Practice:196 - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-29 18:01:30 INFO  Project-Practice:170 - Entering Username
+2026-01-29 18:01:36 INFO  Project-Practice:174 - Entering Password
+2026-01-29 18:01:39 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 18:02:11 INFO  Project-Practice:288 - User entered emplyeee Name
+2026-01-29 18:02:15 INFO  Project-Practice:293 - User entered USERNAME
+2026-01-29 18:02:18 INFO  Project-Practice:296 - User entered PASSWORD
+2026-01-29 18:02:24 INFO  Project-Practice:170 - Entering Username
+2026-01-29 18:02:25 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 18:03:10 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 18:03:10 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 18:03:12 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 18:03:22 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 18:03:22 INFO  Project-Practice:170 - Entering Username
+2026-01-29 18:03:26 INFO  Project-Practice:174 - Entering Password
+2026-01-29 18:03:29 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 18:03:45 INFO  Project-Practice:196 - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-29 18:03:53 INFO  Project-Practice:170 - Entering Username
+2026-01-29 18:03:58 INFO  Project-Practice:174 - Entering Password
+2026-01-29 18:04:01 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 18:04:45 INFO  Project-Practice:288 - User entered emplyeee Name
+2026-01-29 18:04:49 INFO  Project-Practice:293 - User entered USERNAME
+2026-01-29 18:04:52 INFO  Project-Practice:296 - User entered PASSWORD
+2026-01-29 18:04:56 INFO  Project-Practice:299 - User entered CONFIRM PASSWORD
+2026-01-29 18:04:56 INFO  HomePageOrangeHRM:641 - Clicking on savebutton
+2026-01-29 18:05:03 INFO  Project-Practice:306 - User Created the Data successfully
+2026-01-29 18:05:20 INFO  Project-Practice:170 - Entering Username
+2026-01-29 18:05:25 INFO  Project-Practice:174 - Entering Password
+2026-01-29 18:05:28 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 18:05:55 INFO  Project-Practice:253 - Total number of employee whose status are enabled : 13
+TestCase Passed
+2026-01-29 18:06:02 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 18:15:15 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 18:15:15 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 18:15:16 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 18:15:25 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 18:15:25 INFO  Project-Practice:170 - Entering Username
+2026-01-29 18:15:28 INFO  Project-Practice:174 - Entering Password
+2026-01-29 18:15:32 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 18:16:01 INFO  Project-Practice:196 - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-29 18:16:06 INFO  Project-Practice:170 - Entering Username
+2026-01-29 18:16:11 INFO  Project-Practice:174 - Entering Password
+2026-01-29 18:16:14 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 18:16:46 INFO  Project-Practice:288 - User entered emplyeee Name
+2026-01-29 18:16:51 INFO  Project-Practice:293 - User entered USERNAME
+2026-01-29 18:16:54 INFO  Project-Practice:296 - User entered PASSWORD
+2026-01-29 18:17:11 INFO  Project-Practice:170 - Entering Username
+2026-01-29 18:17:11 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 18:18:03 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 18:18:03 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 18:18:05 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 18:18:12 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 18:18:12 INFO  Project-Practice:170 - Entering Username
+2026-01-29 18:18:15 INFO  Project-Practice:174 - Entering Password
+2026-01-29 18:18:19 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 18:18:32 INFO  Project-Practice:196 - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-29 18:18:35 INFO  Project-Practice:170 - Entering Username
+2026-01-29 18:18:39 INFO  Project-Practice:174 - Entering Password
+2026-01-29 18:18:42 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 18:19:33 INFO  Project-Practice:288 - User entered emplyeee Name
+2026-01-29 18:19:37 INFO  Project-Practice:293 - User entered USERNAME
+2026-01-29 18:19:40 INFO  Project-Practice:296 - User entered PASSWORD
+2026-01-29 18:19:43 INFO  Project-Practice:299 - User entered CONFIRM PASSWORD
+2026-01-29 18:19:44 INFO  HomePageOrangeHRM:641 - Clicking on savebutton
+2026-01-29 18:20:09 INFO  Project-Practice:170 - Entering Username
+2026-01-29 18:20:09 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 18:20:36 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 18:20:36 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 18:20:37 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 18:20:49 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 18:20:49 INFO  Project-Practice:170 - Entering Username
+2026-01-29 18:20:54 INFO  Project-Practice:174 - Entering Password
+2026-01-29 18:20:57 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 18:21:22 INFO  Project-Practice:196 - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-29 18:21:27 INFO  Project-Practice:170 - Entering Username
+2026-01-29 18:21:32 INFO  Project-Practice:174 - Entering Password
+2026-01-29 18:21:36 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 18:22:02 INFO  Project-Practice:288 - User entered emplyeee Name
+2026-01-29 18:22:06 INFO  Project-Practice:293 - User entered USERNAME
+2026-01-29 18:22:09 INFO  Project-Practice:296 - User entered PASSWORD
+2026-01-29 18:22:12 INFO  Project-Practice:299 - User entered CONFIRM PASSWORD
+2026-01-29 18:22:12 INFO  HomePageOrangeHRM:641 - Clicking on savebutton
+2026-01-29 18:22:17 INFO  Project-Practice:306 - User Created the Data successfully
+2026-01-29 18:22:28 INFO  Project-Practice:170 - Entering Username
+2026-01-29 18:22:32 INFO  Project-Practice:174 - Entering Password
+2026-01-29 18:22:35 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 18:22:55 INFO  Project-Practice:253 - Total number of employee whose status are enabled : 18
+TestCase Passed
+2026-01-29 18:23:00 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 18:25:13 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 18:25:13 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 18:25:14 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 18:25:22 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 18:25:23 INFO  Project-Practice:170 - Entering Username
+2026-01-29 18:25:26 INFO  Project-Practice:174 - Entering Password
+2026-01-29 18:25:29 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 18:25:43 INFO  Project-Practice:196 - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-29 18:25:46 INFO  Project-Practice:170 - Entering Username
+2026-01-29 18:25:50 INFO  Project-Practice:174 - Entering Password
+2026-01-29 18:25:53 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 18:26:25 INFO  Project-Practice:288 - User entered emplyeee Name
+2026-01-29 18:26:29 INFO  Project-Practice:293 - User entered USERNAME
+2026-01-29 18:26:32 INFO  Project-Practice:296 - User entered PASSWORD
+2026-01-29 18:26:35 INFO  Project-Practice:170 - Entering Username
+2026-01-29 18:26:36 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 18:26:56 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 18:26:56 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 18:26:57 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 18:27:05 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 18:27:05 INFO  Project-Practice:170 - Entering Username
+2026-01-29 18:27:08 INFO  Project-Practice:174 - Entering Password
+2026-01-29 18:27:11 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 18:27:23 INFO  Project-Practice:196 - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-29 18:27:26 INFO  Project-Practice:170 - Entering Username
+2026-01-29 18:27:29 INFO  Project-Practice:174 - Entering Password
+2026-01-29 18:27:33 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 18:28:00 INFO  Project-Practice:288 - User entered emplyeee Name
+2026-01-29 18:28:04 INFO  Project-Practice:293 - User entered USERNAME
+2026-01-29 18:28:07 INFO  Project-Practice:296 - User entered PASSWORD
+2026-01-29 18:28:10 INFO  Project-Practice:299 - User entered CONFIRM PASSWORD
+2026-01-29 18:28:10 INFO  HomePageOrangeHRM:641 - Clicking on savebutton
+2026-01-29 18:28:16 INFO  Project-Practice:306 - User Created the Data successfully
+2026-01-29 18:28:24 INFO  Project-Practice:170 - Entering Username
+2026-01-29 18:28:28 INFO  Project-Practice:174 - Entering Password
+2026-01-29 18:28:31 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 18:28:47 INFO  Project-Practice:253 - Total number of employee whose status are enabled : 19
+TestCase Passed
+2026-01-29 18:28:55 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 23:15:18 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 23:15:18 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 23:15:22 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 23:16:23 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 23:16:23 INFO  Project-Practice:170 - Entering Username
+2026-01-29 23:16:31 INFO  Project-Practice:174 - Entering Password
+2026-01-29 23:16:34 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 23:16:49 INFO  Project-Practice:196 - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-29 23:16:52 INFO  Project-Practice:170 - Entering Username
+2026-01-29 23:16:57 INFO  Project-Practice:174 - Entering Password
+2026-01-29 23:17:00 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 23:17:28 INFO  Project-Practice:288 - User entered emplyeee Name
+2026-01-29 23:17:32 INFO  Project-Practice:293 - User entered USERNAME
+2026-01-29 23:17:35 INFO  Project-Practice:296 - User entered PASSWORD
+2026-01-29 23:18:36 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 23:18:36 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 23:18:38 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 23:18:39 INFO  Project-Practice:170 - Entering Username
+2026-01-29 23:18:43 INFO  Project-Practice:174 - Entering Password
+2026-01-29 23:18:46 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 23:18:57 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 23:18:57 INFO  Project-Practice:170 - Entering Username
+2026-01-29 23:19:02 INFO  Project-Practice:174 - Entering Password
+2026-01-29 23:19:05 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 23:19:18 INFO  Project-Practice:253 - Total number of employee whose status are enabled : 32
+TestCase Passed
+2026-01-29 23:19:26 INFO  Project-Practice:196 - Admin URL - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2026-01-29 23:19:26 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 23:19:30 INFO  Project-Practice:170 - Entering Username
+2026-01-29 23:19:35 INFO  Project-Practice:174 - Entering Password
+2026-01-29 23:19:38 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 23:20:23 INFO  Project-Practice:288 - User entered emplyeee Name
+2026-01-29 23:20:27 INFO  Project-Practice:293 - User entered USERNAME
+2026-01-29 23:20:30 INFO  Project-Practice:296 - User entered PASSWORD
+2026-01-29 23:20:33 INFO  Project-Practice:299 - User entered CONFIRM PASSWORD
+2026-01-29 23:20:33 INFO  HomePageOrangeHRM:641 - Clicking on savebutton
+2026-01-29 23:20:38 INFO  Project-Practice:306 - User Created the Data successfully
+2026-01-29 23:20:41 INFO  Project-Practice:312 - User found the created data
+2026-01-29 23:20:41 INFO  Project-Practice:324 - User Clicked on delete button
+2026-01-29 23:20:41 INFO  Project-Practice:327 - User deleted the created data
+2026-01-29 23:20:43 INFO  Project-Practice:170 - Entering Username
+2026-01-29 23:20:46 INFO  Project-Practice:174 - Entering Password
+2026-01-29 23:20:50 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 23:21:07 INFO  Project-Practice:253 - Total number of employee whose status are enabled : 34
+TestCase Passed
+2026-01-29 23:21:13 INFO  Project-Practice:146 - Browser Closed successfully
