@@ -137,3 +137,649 @@ TestCase Passed
 2026-01-28 00:44:09 INFO  HomePage_TestingClass:252 - Total number of employee whose status are enabled : 13
 TestCase Passed
 2026-01-28 00:44:23 INFO  Project-Practice:134 - Browser Closed successfully
+2026-01-28 18:47:07 INFO  Project-Practice:46 - ===== Test Suite Started =====
+2026-01-28 18:47:07 INFO  Project-Practice:69 - Running Chrome in UI mode
+2026-01-28 18:47:09 INFO  Project-Practice:75 - Chrome Browser launched successfully
+2026-01-28 18:47:17 INFO  HomePage_TestingClass:154 - Application is Launching
+2026-01-28 18:47:17 INFO  HomePage_TestingClass:169 - Entering Username
+2026-01-28 18:47:20 INFO  HomePage_TestingClass:173 - Entering Password
+2026-01-28 18:47:23 INFO  HomePage_TestingClass:177 - Clicking on logging button
+2026-01-28 18:48:13 INFO  HomePage_TestingClass:169 - Entering Username
+2026-01-28 18:48:17 INFO  HomePage_TestingClass:173 - Entering Password
+2026-01-28 18:48:20 INFO  HomePage_TestingClass:177 - Clicking on logging button
+2026-01-28 18:49:01 INFO  Project-Practice:135 - Browser Closed successfully
+2026-01-29 00:28:22 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 00:28:22 INFO  Project-Practice:69 - Running Chrome in HEADLESS mode
+2026-01-29 00:28:27 INFO  Project-Practice:78 - Chrome Browser launched successfully
+2026-01-29 00:28:28 INFO  Project-Practice:138 - Browser Closed successfully
+2026-01-29 00:29:14 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 00:29:14 INFO  Project-Practice:69 - Running Chrome in HEADLESS mode
+2026-01-29 00:29:16 INFO  Project-Practice:78 - Chrome Browser launched successfully
+2026-01-29 00:29:38 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 00:29:38 INFO  Project-Practice:170 - Entering Username
+2026-01-29 00:29:41 INFO  Project-Practice:174 - Entering Password
+2026-01-29 00:29:44 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 00:30:27 INFO  Project-Practice:170 - Entering Username
+2026-01-29 00:30:30 INFO  Project-Practice:174 - Entering Password
+2026-01-29 00:30:34 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 00:31:17 INFO  Project-Practice:138 - Browser Closed successfully
+2026-01-29 00:36:50 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 00:36:50 INFO  Project-Practice:72 - Running Chrome in UI mode
+2026-01-29 00:36:52 INFO  Project-Practice:78 - Chrome Browser launched successfully
+2026-01-29 00:37:01 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 00:37:01 INFO  Project-Practice:170 - Entering Username
+2026-01-29 00:37:04 INFO  Project-Practice:174 - Entering Password
+2026-01-29 00:37:07 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 00:37:14 INFO  HomePageOrangeHRM:616 - pimOption Clicking
+2026-01-29 00:37:15 INFO  HomePageOrangeHRM:626 - configurationdropdown Clicking
+2026-01-29 00:37:16 INFO  HomePageOrangeHRM:636 - dataImport option is clicked
+2026-01-29 00:37:17 INFO  Project-Practice:339 - Browse button clicking
+2026-01-29 00:37:27 INFO  Project-Practice:350 - File is uploading
+2026-01-29 00:37:27 INFO  Project-Practice:356 - Toast message is verifying
+2026-01-29 00:37:29 INFO  Project-Practice:363 - Add Employee button is clicking
+2026-01-29 00:37:33 INFO  Project-Practice:368 - First name is entering
+2026-01-29 00:37:35 INFO  Project-Practice:373 - Last name is entering
+2026-01-29 00:37:37 INFO  Project-Practice:379 - EmployeeId is entering
+2026-01-29 00:37:44 INFO  Project-Practice:385 - Image icon is clicked
+2026-01-29 00:37:47 INFO  Project-Practice:395 - Save button is clicked
+2026-01-29 00:37:55 INFO  Project-Practice:170 - Entering Username
+2026-01-29 00:37:58 INFO  Project-Practice:174 - Entering Password
+2026-01-29 00:38:01 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 00:38:08 INFO  HomePageOrangeHRM:647 - dataImport option is clicked
+2026-01-29 00:38:10 INFO  Project-Practice:408 - Clicking on image
+2026-01-29 00:38:11 INFO  Project-Practice:415 - Clicking on plus icon
+2026-01-29 00:38:19 INFO  Project-Practice:424 - Clicking on Save button
+2026-01-29 00:38:22 INFO  Project-Practice:434 - Image is successfully uploaded at MyInfoOption
+2026-01-29 00:38:35 INFO  Project-Practice:138 - Browser Closed successfully
+2026-01-29 00:41:07 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 00:41:07 INFO  Project-Practice:69 - Running Chrome in HEADLESS mode
+2026-01-29 00:41:09 INFO  Project-Practice:80 - Chrome Browser launched successfully
+2026-01-29 00:41:16 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 00:41:16 INFO  Project-Practice:170 - Entering Username
+2026-01-29 00:41:19 INFO  Project-Practice:174 - Entering Password
+2026-01-29 00:41:23 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 00:42:05 INFO  Project-Practice:170 - Entering Username
+2026-01-29 00:42:08 INFO  Project-Practice:174 - Entering Password
+2026-01-29 00:42:11 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 00:42:56 INFO  Project-Practice:140 - Browser Closed successfully
+2026-01-29 11:44:22 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 11:44:22 INFO  Project-Practice:69 - Running Chrome in HEADLESS mode
+2026-01-29 11:44:28 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 11:44:47 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 11:44:47 INFO  Project-Practice:170 - Entering Username
+2026-01-29 11:44:50 INFO  Project-Practice:174 - Entering Password
+2026-01-29 11:44:54 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 11:45:02 INFO  HomePageOrangeHRM:616 - pimOption Clicking
+2026-01-29 11:45:03 INFO  HomePageOrangeHRM:626 - configurationdropdown Clicking
+2026-01-29 11:45:05 INFO  HomePageOrangeHRM:636 - dataImport option is clicked
+2026-01-29 11:45:06 INFO  Project-Practice:339 - Browse button clicking
+2026-01-29 11:45:20 INFO  Project-Practice:350 - File is uploading
+2026-01-29 11:45:49 INFO  Project-Practice:170 - Entering Username
+2026-01-29 11:45:52 INFO  Project-Practice:174 - Entering Password
+2026-01-29 11:45:55 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 11:46:03 INFO  HomePageOrangeHRM:647 - dataImport option is clicked
+2026-01-29 11:46:06 INFO  Project-Practice:408 - Clicking on image
+2026-01-29 11:46:07 INFO  Project-Practice:415 - Clicking on plus icon
+2026-01-29 11:46:16 INFO  Project-Practice:424 - Clicking on Save button
+2026-01-29 11:46:45 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 13:20:14 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 13:20:14 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 13:20:18 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 13:20:29 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 13:20:29 INFO  Project-Practice:170 - Entering Username
+2026-01-29 13:20:33 INFO  Project-Practice:174 - Entering Password
+2026-01-29 13:20:36 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 13:21:00 INFO  HomePageOrangeHRM:643 - pimOption Clicking
+2026-01-29 13:21:03 INFO  HomePageOrangeHRM:653 - configurationdropdown Clicking
+2026-01-29 13:21:07 INFO  HomePageOrangeHRM:663 - dataImport option is clicked
+2026-01-29 13:21:09 INFO  Project-Practice:359 - File path sent directly to input
+2026-01-29 13:21:09 INFO  HomePageOrangeHRM:684 - Clicking on File upload button
+2026-01-29 13:21:13 INFO  HomePageOrangeHRM:692 - Clicking on File upload button
+2026-01-29 13:21:15 INFO  Project-Practice:170 - Entering Username
+2026-01-29 13:21:56 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 13:27:22 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 13:27:22 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 13:27:23 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 13:27:32 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 13:27:32 INFO  Project-Practice:170 - Entering Username
+2026-01-29 13:27:35 INFO  Project-Practice:174 - Entering Password
+2026-01-29 13:27:38 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 13:27:45 INFO  HomePageOrangeHRM:643 - pimOption Clicking
+2026-01-29 13:27:46 INFO  HomePageOrangeHRM:653 - configurationdropdown Clicking
+2026-01-29 13:27:47 INFO  HomePageOrangeHRM:663 - dataImport option is clicked
+2026-01-29 13:27:48 INFO  Project-Practice:359 - File path sent directly to input
+2026-01-29 13:27:48 INFO  HomePageOrangeHRM:684 - Clicking on File upload button
+2026-01-29 13:27:52 INFO  Project-Practice:170 - Entering Username
+2026-01-29 13:28:40 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 13:42:10 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 13:42:10 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 13:42:12 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 13:42:24 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 13:42:24 INFO  Project-Practice:170 - Entering Username
+2026-01-29 13:42:27 INFO  Project-Practice:174 - Entering Password
+2026-01-29 13:42:30 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 13:42:38 INFO  HomePageOrangeHRM:643 - pimOption Clicking
+2026-01-29 13:42:39 INFO  HomePageOrangeHRM:653 - configurationdropdown Clicking
+2026-01-29 13:42:42 INFO  HomePageOrangeHRM:663 - dataImport option is clicked
+2026-01-29 13:42:43 INFO  Project-Practice:359 - File path sent directly to input
+2026-01-29 13:42:44 INFO  HomePageOrangeHRM:684 - Clicking on File upload button
+2026-01-29 13:42:47 INFO  Project-Practice:170 - Entering Username
+2026-01-29 13:43:28 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 13:46:29 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 13:46:29 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 13:46:31 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 13:46:39 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 13:46:39 INFO  Project-Practice:170 - Entering Username
+2026-01-29 13:46:42 INFO  Project-Practice:174 - Entering Password
+2026-01-29 13:46:45 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 13:46:54 INFO  HomePageOrangeHRM:643 - pimOption Clicking
+2026-01-29 13:46:54 INFO  HomePageOrangeHRM:653 - configurationdropdown Clicking
+2026-01-29 13:46:56 INFO  HomePageOrangeHRM:663 - dataImport option is clicked
+2026-01-29 13:46:56 INFO  Project-Practice:359 - File path sent directly to input
+2026-01-29 13:46:57 INFO  HomePageOrangeHRM:684 - Clicking on File upload button
+2026-01-29 13:46:58 INFO  Project-Practice:380 - Toast message is verifying
+2026-01-29 13:46:59 INFO  HomePageOrangeHRM:702 - Clicking on OkButton
+2026-01-29 13:46:59 INFO  HomePageOrangeHRM:711 - Clicking on AddEmployeeTab
+2026-01-29 13:47:01 INFO  HomePageOrangeHRM:717 - First name is entering
+2026-01-29 13:47:01 INFO  HomePageOrangeHRM:724 - Last name is entering
+2026-01-29 13:47:09 INFO  Project-Practice:170 - Entering Username
+2026-01-29 13:47:12 INFO  Project-Practice:174 - Entering Password
+2026-01-29 13:47:15 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 13:47:23 INFO  HomePageOrangeHRM:674 - dataImport option is clicked
+2026-01-29 13:47:27 INFO  Project-Practice:460 - Clicking on image
+2026-01-29 13:47:28 INFO  Project-Practice:467 - Clicking on plus icon
+2026-01-29 13:47:38 INFO  Project-Practice:476 - Clicking on Save button
+2026-01-29 13:47:41 INFO  Project-Practice:486 - Image is successfully uploaded at MyInfoOption
+2026-01-29 13:47:54 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 13:54:48 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 13:54:48 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 13:54:50 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 13:54:57 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 13:54:57 INFO  Project-Practice:170 - Entering Username
+2026-01-29 13:55:01 INFO  Project-Practice:174 - Entering Password
+2026-01-29 13:55:04 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 13:55:12 INFO  HomePageOrangeHRM:643 - pimOption Clicking
+2026-01-29 13:55:13 INFO  HomePageOrangeHRM:653 - configurationdropdown Clicking
+2026-01-29 13:55:14 INFO  HomePageOrangeHRM:663 - dataImport option is clicked
+2026-01-29 13:55:15 INFO  Project-Practice:359 - File path sent directly to input
+2026-01-29 13:55:15 INFO  HomePageOrangeHRM:684 - Clicking on File upload button
+2026-01-29 13:55:16 INFO  Project-Practice:379 - Toast message is verifying
+2026-01-29 13:55:16 INFO  HomePageOrangeHRM:702 - Clicking on OkButton
+2026-01-29 13:55:17 INFO  HomePageOrangeHRM:711 - Clicking on AddEmployeeTab
+2026-01-29 13:55:19 INFO  HomePageOrangeHRM:717 - First name is entering
+2026-01-29 13:55:19 INFO  HomePageOrangeHRM:724 - Last name is entering
+2026-01-29 13:55:26 INFO  Project-Practice:170 - Entering Username
+2026-01-29 13:55:30 INFO  Project-Practice:174 - Entering Password
+2026-01-29 13:55:33 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 13:55:40 INFO  HomePageOrangeHRM:674 - dataImport option is clicked
+2026-01-29 13:55:43 INFO  Project-Practice:459 - Clicking on image
+2026-01-29 13:55:44 INFO  Project-Practice:466 - Clicking on plus icon
+2026-01-29 13:55:52 INFO  Project-Practice:475 - Clicking on Save button
+2026-01-29 13:55:56 INFO  Project-Practice:485 - Image is successfully uploaded at MyInfoOption
+2026-01-29 13:56:17 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 14:01:02 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 14:01:02 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 14:01:04 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 14:01:14 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 14:01:14 INFO  Project-Practice:170 - Entering Username
+2026-01-29 14:02:00 INFO  Project-Practice:170 - Entering Username
+2026-01-29 14:02:00 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 14:03:26 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 14:03:26 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 14:03:27 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 14:03:37 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 14:03:37 INFO  Project-Practice:170 - Entering Username
+2026-01-29 14:03:40 INFO  Project-Practice:174 - Entering Password
+2026-01-29 14:03:43 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 14:03:57 INFO  HomePageOrangeHRM:643 - pimOption Clicking
+2026-01-29 14:03:58 INFO  HomePageOrangeHRM:653 - configurationdropdown Clicking
+2026-01-29 14:04:00 INFO  HomePageOrangeHRM:663 - dataImport option is clicked
+2026-01-29 14:04:01 INFO  Project-Practice:359 - File path sent directly to input
+2026-01-29 14:04:01 INFO  HomePageOrangeHRM:684 - Clicking on File upload button
+2026-01-29 14:04:03 INFO  Project-Practice:379 - Toast message is verifying
+2026-01-29 14:04:03 INFO  HomePageOrangeHRM:702 - Clicking on OkButton
+2026-01-29 14:04:05 INFO  HomePageOrangeHRM:711 - Clicking on AddEmployeeTab
+2026-01-29 14:04:06 INFO  HomePageOrangeHRM:717 - First name is entering
+2026-01-29 14:04:06 INFO  HomePageOrangeHRM:724 - Last name is entering
+2026-01-29 14:04:07 INFO  HomePageOrangeHRM:730 - Employee Id is entering
+2026-01-29 14:04:07 INFO  Project-Practice:437 - Image path sent directly to input
+2026-01-29 14:04:07 INFO  HomePageOrangeHRM:740 - Clicking on addEmployeeSaveButton
+2026-01-29 14:04:16 INFO  Project-Practice:170 - Entering Username
+2026-01-29 14:04:19 INFO  Project-Practice:174 - Entering Password
+2026-01-29 14:04:23 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 14:04:33 INFO  HomePageOrangeHRM:674 - dataImport option is clicked
+2026-01-29 14:04:36 INFO  Project-Practice:459 - Clicking on image
+2026-01-29 14:04:37 INFO  Project-Practice:466 - Clicking on plus icon
+2026-01-29 14:04:46 INFO  Project-Practice:475 - Clicking on Save button
+2026-01-29 14:04:48 INFO  Project-Practice:485 - Image is successfully uploaded at MyInfoOption
+2026-01-29 14:05:58 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 14:27:01 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 14:27:01 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 14:27:08 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 14:27:25 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 14:27:26 INFO  Project-Practice:170 - Entering Username
+2026-01-29 14:27:31 INFO  Project-Practice:174 - Entering Password
+2026-01-29 14:27:34 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 14:27:59 INFO  HomePageOrangeHRM:654 - pimOption Clicking
+2026-01-29 14:28:03 INFO  HomePageOrangeHRM:664 - configurationdropdown Clicking
+2026-01-29 14:28:11 INFO  HomePageOrangeHRM:674 - dataImport option is clicked
+2026-01-29 14:28:13 INFO  Project-Practice:359 - File path sent directly to input
+2026-01-29 14:28:13 INFO  HomePageOrangeHRM:695 - Clicking on File upload button
+2026-01-29 14:28:16 INFO  Project-Practice:379 - Toast message is verifying
+2026-01-29 14:28:17 INFO  HomePageOrangeHRM:713 - Clicking on OkButton
+2026-01-29 14:28:19 INFO  HomePageOrangeHRM:722 - Clicking on AddEmployeeTab
+2026-01-29 14:28:26 INFO  HomePageOrangeHRM:728 - First name is entering
+2026-01-29 14:28:27 INFO  HomePageOrangeHRM:735 - Last name is entering
+2026-01-29 14:28:27 INFO  HomePageOrangeHRM:741 - Employee Id is entering
+2026-01-29 14:28:27 INFO  Project-Practice:437 - Image path sent directly to input
+2026-01-29 14:28:28 INFO  HomePageOrangeHRM:751 - Clicking on addEmployeeSaveButton
+2026-01-29 14:28:40 INFO  Project-Practice:170 - Entering Username
+2026-01-29 14:28:44 INFO  Project-Practice:174 - Entering Password
+2026-01-29 14:28:47 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 14:29:14 INFO  HomePageOrangeHRM:685 - dataImport option is clicked
+2026-01-29 14:29:36 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 14:46:25 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 14:46:25 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 14:46:28 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 14:46:51 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 14:46:51 INFO  Project-Practice:170 - Entering Username
+2026-01-29 14:46:54 INFO  Project-Practice:174 - Entering Password
+2026-01-29 14:46:58 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 14:47:09 INFO  HomePageOrangeHRM:658 - pimOption Clicking
+2026-01-29 14:47:10 INFO  HomePageOrangeHRM:668 - configurationdropdown Clicking
+2026-01-29 14:47:12 INFO  HomePageOrangeHRM:678 - dataImport option is clicked
+2026-01-29 14:47:13 INFO  Project-Practice:359 - File path sent directly to input
+2026-01-29 14:47:14 INFO  HomePageOrangeHRM:699 - Clicking on File upload button
+2026-01-29 14:47:15 INFO  Project-Practice:379 - Toast message is verifying
+2026-01-29 14:47:15 INFO  HomePageOrangeHRM:717 - Clicking on OkButton
+2026-01-29 14:47:16 INFO  HomePageOrangeHRM:726 - Clicking on AddEmployeeTab
+2026-01-29 14:47:20 INFO  HomePageOrangeHRM:732 - First name is entering
+2026-01-29 14:47:20 INFO  HomePageOrangeHRM:739 - Last name is entering
+2026-01-29 14:47:21 INFO  HomePageOrangeHRM:745 - Employee Id is entering
+2026-01-29 14:47:21 INFO  Project-Practice:437 - Image path sent directly to input
+2026-01-29 14:47:21 INFO  HomePageOrangeHRM:755 - Clicking on addEmployeeSaveButton
+2026-01-29 14:47:30 INFO  Project-Practice:170 - Entering Username
+2026-01-29 14:47:33 INFO  Project-Practice:174 - Entering Password
+2026-01-29 14:47:36 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 14:47:47 INFO  HomePageOrangeHRM:689 - Clicking on MyInfoOption
+2026-01-29 14:48:05 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 14:52:49 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 14:52:49 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 14:52:52 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 14:53:02 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 14:53:03 INFO  Project-Practice:170 - Entering Username
+2026-01-29 14:53:06 INFO  Project-Practice:174 - Entering Password
+2026-01-29 14:53:09 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 14:53:27 INFO  HomePageOrangeHRM:658 - pimOption Clicking
+2026-01-29 14:53:29 INFO  HomePageOrangeHRM:668 - configurationdropdown Clicking
+2026-01-29 14:53:33 INFO  HomePageOrangeHRM:678 - dataImport option is clicked
+2026-01-29 14:53:34 INFO  Project-Practice:359 - File path sent directly to input
+2026-01-29 14:53:35 INFO  HomePageOrangeHRM:699 - Clicking on File upload button
+2026-01-29 14:53:37 INFO  Project-Practice:379 - Toast message is verifying
+2026-01-29 14:53:37 INFO  HomePageOrangeHRM:717 - Clicking on OkButton
+2026-01-29 14:53:41 INFO  HomePageOrangeHRM:726 - Clicking on AddEmployeeTab
+2026-01-29 14:53:45 INFO  HomePageOrangeHRM:732 - First name is entering
+2026-01-29 14:53:45 INFO  HomePageOrangeHRM:739 - Last name is entering
+2026-01-29 14:53:46 INFO  HomePageOrangeHRM:745 - Employee Id is entering
+2026-01-29 14:53:46 INFO  Project-Practice:437 - Image path sent directly to input
+2026-01-29 14:53:46 INFO  HomePageOrangeHRM:755 - Clicking on addEmployeeSaveButton
+2026-01-29 14:53:56 INFO  Project-Practice:170 - Entering Username
+2026-01-29 14:54:00 INFO  Project-Practice:174 - Entering Password
+2026-01-29 14:54:03 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 14:54:12 INFO  HomePageOrangeHRM:689 - Clicking on MyInfoOption
+2026-01-29 14:54:15 INFO  HomePageOrangeHRM:763 - Clicking on image at MyInfo
+2026-01-29 14:54:16 INFO  Project-Practice:484 - Image path sent directly to input
+2026-01-29 14:54:17 INFO  HomePageOrangeHRM:773 - Clicking on myInfoSaveButton
+2026-01-29 14:54:23 INFO  Project-Practice:507 - Toast message is verifying
+2026-01-29 14:54:23 INFO  Project-Practice:508 - Image is successfully uploaded at MyInfoOption
+2026-01-29 14:55:14 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 14:59:28 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 14:59:28 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 14:59:31 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 14:59:53 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 14:59:54 INFO  Project-Practice:170 - Entering Username
+2026-01-29 14:59:57 INFO  Project-Practice:174 - Entering Password
+2026-01-29 15:00:00 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 15:00:22 INFO  HomePageOrangeHRM:658 - pimOption Clicking
+2026-01-29 15:00:26 INFO  HomePageOrangeHRM:668 - configurationdropdown Clicking
+2026-01-29 15:00:31 INFO  HomePageOrangeHRM:678 - dataImport option is clicked
+2026-01-29 15:00:33 INFO  Project-Practice:359 - File path sent directly to input
+2026-01-29 15:00:33 INFO  HomePageOrangeHRM:699 - Clicking on File upload button
+2026-01-29 15:00:36 INFO  Project-Practice:379 - Toast message is verifying
+2026-01-29 15:00:36 INFO  HomePageOrangeHRM:717 - Clicking on OkButton
+2026-01-29 15:00:40 INFO  HomePageOrangeHRM:726 - Clicking on AddEmployeeTab
+2026-01-29 15:00:44 INFO  HomePageOrangeHRM:732 - First name is entering
+2026-01-29 15:00:44 INFO  HomePageOrangeHRM:739 - Last name is entering
+2026-01-29 15:00:44 INFO  HomePageOrangeHRM:745 - Employee Id is entering
+2026-01-29 15:00:45 INFO  Project-Practice:437 - Image path sent directly to input
+2026-01-29 15:00:45 INFO  HomePageOrangeHRM:755 - Clicking on addEmployeeSaveButton
+2026-01-29 15:01:00 INFO  Project-Practice:170 - Entering Username
+2026-01-29 15:01:03 INFO  Project-Practice:174 - Entering Password
+2026-01-29 15:01:06 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 15:01:15 INFO  HomePageOrangeHRM:689 - Clicking on MyInfoOption
+2026-01-29 15:01:19 INFO  HomePageOrangeHRM:763 - Clicking on image at MyInfo
+2026-01-29 15:01:20 INFO  Project-Practice:484 - Image path sent directly to input
+2026-01-29 15:01:20 INFO  HomePageOrangeHRM:773 - Clicking on myInfoSaveButton
+2026-01-29 15:01:23 INFO  Project-Practice:507 - Toast message is verifying
+2026-01-29 15:01:23 INFO  Project-Practice:508 - Image is successfully uploaded at MyInfoOption
+2026-01-29 15:02:29 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 15:07:53 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 15:07:53 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 15:07:55 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 15:08:09 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 15:08:09 INFO  Project-Practice:170 - Entering Username
+2026-01-29 15:08:13 INFO  Project-Practice:174 - Entering Password
+2026-01-29 15:08:16 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 15:08:30 INFO  HomePageOrangeHRM:662 - pimOption Clicking
+2026-01-29 15:08:32 INFO  HomePageOrangeHRM:672 - configurationdropdown Clicking
+2026-01-29 15:08:33 INFO  HomePageOrangeHRM:682 - dataImport option is clicked
+2026-01-29 15:08:34 INFO  Project-Practice:359 - File path sent directly to input
+2026-01-29 15:08:35 INFO  HomePageOrangeHRM:703 - Clicking on File upload button
+2026-01-29 15:08:36 INFO  Project-Practice:379 - Toast message is verifying
+2026-01-29 15:08:36 INFO  HomePageOrangeHRM:721 - Clicking on OkButton
+2026-01-29 15:08:37 INFO  HomePageOrangeHRM:730 - Clicking on AddEmployeeTab
+2026-01-29 15:08:41 INFO  HomePageOrangeHRM:736 - First name is entering
+2026-01-29 15:08:41 INFO  HomePageOrangeHRM:743 - Last name is entering
+2026-01-29 15:08:41 INFO  HomePageOrangeHRM:749 - Employee Id is entering
+2026-01-29 15:08:42 INFO  Project-Practice:437 - Image path sent directly to input
+2026-01-29 15:08:42 INFO  HomePageOrangeHRM:759 - Clicking on addEmployeeSaveButton
+2026-01-29 15:08:46 INFO  Project-Practice:170 - Entering Username
+2026-01-29 15:08:51 INFO  Project-Practice:174 - Entering Password
+2026-01-29 15:08:54 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 15:09:11 INFO  HomePageOrangeHRM:693 - Clicking on MyInfoOption
+2026-01-29 15:09:20 INFO  HomePageOrangeHRM:767 - Clicking on image at MyInfo
+2026-01-29 15:09:27 INFO  Project-Practice:484 - Image path sent directly to input
+2026-01-29 15:09:27 INFO  HomePageOrangeHRM:777 - Clicking on myInfoSaveButton
+2026-01-29 15:09:40 INFO  Project-Practice:507 - Toast message is verifying
+2026-01-29 15:09:40 INFO  Project-Practice:508 - Image is successfully uploaded at MyInfoOption
+2026-01-29 15:09:47 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 15:10:40 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 15:10:40 INFO  Project-Practice:69 - Running Chrome in HEADLESS mode
+2026-01-29 15:10:42 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 15:10:58 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 15:10:58 INFO  Project-Practice:170 - Entering Username
+2026-01-29 15:11:01 INFO  Project-Practice:174 - Entering Password
+2026-01-29 15:11:04 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 15:11:24 INFO  HomePageOrangeHRM:662 - pimOption Clicking
+2026-01-29 15:11:28 INFO  HomePageOrangeHRM:672 - configurationdropdown Clicking
+2026-01-29 15:11:35 INFO  HomePageOrangeHRM:682 - dataImport option is clicked
+2026-01-29 15:11:38 INFO  Project-Practice:359 - File path sent directly to input
+2026-01-29 15:11:39 INFO  HomePageOrangeHRM:703 - Clicking on File upload button
+2026-01-29 15:11:42 INFO  Project-Practice:379 - Toast message is verifying
+2026-01-29 15:11:42 INFO  HomePageOrangeHRM:721 - Clicking on OkButton
+2026-01-29 15:11:44 INFO  HomePageOrangeHRM:730 - Clicking on AddEmployeeTab
+2026-01-29 15:11:47 INFO  HomePageOrangeHRM:736 - First name is entering
+2026-01-29 15:11:47 INFO  HomePageOrangeHRM:743 - Last name is entering
+2026-01-29 15:11:47 INFO  HomePageOrangeHRM:749 - Employee Id is entering
+2026-01-29 15:11:48 INFO  Project-Practice:437 - Image path sent directly to input
+2026-01-29 15:11:54 INFO  Project-Practice:170 - Entering Username
+2026-01-29 15:12:00 INFO  Project-Practice:174 - Entering Password
+2026-01-29 15:12:03 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 15:12:23 INFO  HomePageOrangeHRM:693 - Clicking on MyInfoOption
+2026-01-29 15:12:31 INFO  HomePageOrangeHRM:767 - Clicking on image at MyInfo
+2026-01-29 15:12:33 INFO  Project-Practice:484 - Image path sent directly to input
+2026-01-29 15:12:33 INFO  HomePageOrangeHRM:777 - Clicking on myInfoSaveButton
+2026-01-29 15:12:43 INFO  Project-Practice:507 - Toast message is verifying
+2026-01-29 15:12:43 INFO  Project-Practice:508 - Image is successfully uploaded at MyInfoOption
+2026-01-29 15:12:50 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 15:18:54 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 15:18:54 INFO  Project-Practice:69 - Running Chrome in HEADLESS mode
+2026-01-29 15:18:57 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 15:19:09 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 15:19:09 INFO  Project-Practice:170 - Entering Username
+2026-01-29 15:19:12 INFO  Project-Practice:174 - Entering Password
+2026-01-29 15:19:15 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 15:19:44 INFO  HomePageOrangeHRM:663 - pimOption Clicking
+2026-01-29 15:19:48 INFO  HomePageOrangeHRM:673 - configurationdropdown Clicking
+2026-01-29 15:19:55 INFO  HomePageOrangeHRM:683 - dataImport option is clicked
+2026-01-29 15:19:58 INFO  Project-Practice:359 - File path sent directly to input
+2026-01-29 15:19:59 INFO  HomePageOrangeHRM:704 - Clicking on File upload button
+2026-01-29 15:20:03 INFO  Project-Practice:379 - Toast message is verifying
+2026-01-29 15:20:03 INFO  HomePageOrangeHRM:722 - Clicking on OkButton
+2026-01-29 15:20:08 INFO  HomePageOrangeHRM:731 - Clicking on AddEmployeeTab
+2026-01-29 15:20:13 INFO  HomePageOrangeHRM:737 - First name is entering
+2026-01-29 15:20:13 INFO  HomePageOrangeHRM:744 - Last name is entering
+2026-01-29 15:20:13 INFO  HomePageOrangeHRM:750 - Employee Id is entering
+2026-01-29 15:20:13 INFO  Project-Practice:437 - Image path sent directly to input
+2026-01-29 15:20:25 INFO  Project-Practice:170 - Entering Username
+2026-01-29 15:20:32 INFO  Project-Practice:174 - Entering Password
+2026-01-29 15:20:35 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 15:21:00 INFO  HomePageOrangeHRM:694 - Clicking on MyInfoOption
+2026-01-29 15:21:14 INFO  HomePageOrangeHRM:768 - Clicking on image at MyInfo
+2026-01-29 15:21:21 INFO  Project-Practice:484 - Image path sent directly to input
+2026-01-29 15:21:21 INFO  HomePageOrangeHRM:778 - Clicking on myInfoSaveButton
+2026-01-29 15:21:30 INFO  Project-Practice:507 - Toast message is verifying
+2026-01-29 15:21:30 INFO  Project-Practice:508 - Image is successfully uploaded at MyInfoOption
+2026-01-29 15:21:39 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 15:22:05 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 15:22:05 INFO  Project-Practice:69 - Running Chrome in HEADLESS mode
+2026-01-29 15:22:08 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 15:22:22 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 15:22:22 INFO  Project-Practice:170 - Entering Username
+2026-01-29 15:22:28 INFO  Project-Practice:174 - Entering Password
+2026-01-29 15:22:31 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 15:22:55 INFO  HomePageOrangeHRM:666 - pimOption Clicking
+2026-01-29 15:22:59 INFO  HomePageOrangeHRM:676 - configurationdropdown Clicking
+2026-01-29 15:23:06 INFO  HomePageOrangeHRM:686 - dataImport option is clicked
+2026-01-29 15:23:09 INFO  Project-Practice:359 - File path sent directly to input
+2026-01-29 15:23:10 INFO  HomePageOrangeHRM:707 - Clicking on File upload button
+2026-01-29 15:23:13 INFO  Project-Practice:379 - Toast message is verifying
+2026-01-29 15:23:13 INFO  HomePageOrangeHRM:725 - Clicking on OkButton
+2026-01-29 15:23:18 INFO  HomePageOrangeHRM:734 - Clicking on AddEmployeeTab
+2026-01-29 15:23:21 INFO  HomePageOrangeHRM:740 - First name is entering
+2026-01-29 15:23:21 INFO  HomePageOrangeHRM:747 - Last name is entering
+2026-01-29 15:23:22 INFO  HomePageOrangeHRM:753 - Employee Id is entering
+2026-01-29 15:23:22 INFO  Project-Practice:437 - Image path sent directly to input
+2026-01-29 15:23:30 INFO  Project-Practice:170 - Entering Username
+2026-01-29 15:23:35 INFO  Project-Practice:174 - Entering Password
+2026-01-29 15:23:39 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 15:24:00 INFO  HomePageOrangeHRM:697 - Clicking on MyInfoOption
+2026-01-29 15:24:14 INFO  HomePageOrangeHRM:771 - Clicking on image at MyInfo
+2026-01-29 15:24:18 INFO  Project-Practice:484 - Image path sent directly to input
+2026-01-29 15:24:18 INFO  HomePageOrangeHRM:781 - Clicking on myInfoSaveButton
+2026-01-29 15:24:23 INFO  Project-Practice:507 - Toast message is verifying
+2026-01-29 15:24:23 INFO  Project-Practice:508 - Image is successfully uploaded at MyInfoOption
+2026-01-29 15:24:29 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 15:24:39 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 15:24:39 INFO  Project-Practice:69 - Running Chrome in HEADLESS mode
+2026-01-29 15:24:42 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 15:25:09 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 15:25:10 INFO  Project-Practice:170 - Entering Username
+2026-01-29 15:25:14 INFO  Project-Practice:174 - Entering Password
+2026-01-29 15:25:17 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 15:25:28 INFO  HomePageOrangeHRM:666 - pimOption Clicking
+2026-01-29 15:25:30 INFO  HomePageOrangeHRM:676 - configurationdropdown Clicking
+2026-01-29 15:25:32 INFO  HomePageOrangeHRM:686 - dataImport option is clicked
+2026-01-29 15:25:33 INFO  Project-Practice:359 - File path sent directly to input
+2026-01-29 15:25:33 INFO  HomePageOrangeHRM:707 - Clicking on File upload button
+2026-01-29 15:25:34 INFO  Project-Practice:379 - Toast message is verifying
+2026-01-29 15:25:34 INFO  HomePageOrangeHRM:725 - Clicking on OkButton
+2026-01-29 15:25:36 INFO  HomePageOrangeHRM:734 - Clicking on AddEmployeeTab
+2026-01-29 15:25:37 INFO  HomePageOrangeHRM:740 - First name is entering
+2026-01-29 15:25:38 INFO  HomePageOrangeHRM:747 - Last name is entering
+2026-01-29 15:25:38 INFO  HomePageOrangeHRM:753 - Employee Id is entering
+2026-01-29 15:25:38 INFO  Project-Practice:437 - Image path sent directly to input
+2026-01-29 15:25:38 INFO  HomePageOrangeHRM:763 - Clicking on addEmployeeSaveButton
+2026-01-29 15:25:41 INFO  Project-Practice:170 - Entering Username
+2026-01-29 15:25:45 INFO  Project-Practice:174 - Entering Password
+2026-01-29 15:25:48 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 15:25:57 INFO  HomePageOrangeHRM:697 - Clicking on MyInfoOption
+2026-01-29 15:26:01 INFO  HomePageOrangeHRM:771 - Clicking on image at MyInfo
+2026-01-29 15:26:03 INFO  Project-Practice:484 - Image path sent directly to input
+2026-01-29 15:26:03 INFO  HomePageOrangeHRM:781 - Clicking on myInfoSaveButton
+2026-01-29 15:26:06 INFO  Project-Practice:507 - Toast message is verifying
+2026-01-29 15:26:06 INFO  Project-Practice:508 - Image is successfully uploaded at MyInfoOption
+2026-01-29 15:26:10 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 15:28:28 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 15:28:28 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 15:28:32 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 15:28:43 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 15:28:43 INFO  Project-Practice:170 - Entering Username
+2026-01-29 15:28:47 INFO  Project-Practice:174 - Entering Password
+2026-01-29 15:28:51 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 15:29:17 INFO  HomePageOrangeHRM:666 - pimOption Clicking
+2026-01-29 15:29:20 INFO  HomePageOrangeHRM:676 - configurationdropdown Clicking
+2026-01-29 15:29:29 INFO  HomePageOrangeHRM:686 - dataImport option is clicked
+2026-01-29 15:29:32 INFO  Project-Practice:359 - File path sent directly to input
+2026-01-29 15:29:33 INFO  HomePageOrangeHRM:707 - Clicking on File upload button
+2026-01-29 15:29:36 INFO  Project-Practice:379 - Toast message is verifying
+2026-01-29 15:29:36 INFO  HomePageOrangeHRM:725 - Clicking on OkButton
+2026-01-29 15:29:39 INFO  HomePageOrangeHRM:734 - Clicking on AddEmployeeTab
+2026-01-29 15:29:46 INFO  HomePageOrangeHRM:740 - First name is entering
+2026-01-29 15:29:46 INFO  HomePageOrangeHRM:747 - Last name is entering
+2026-01-29 15:29:47 INFO  HomePageOrangeHRM:753 - Employee Id is entering
+2026-01-29 15:29:47 INFO  Project-Practice:437 - Image path sent directly to input
+2026-01-29 15:29:56 INFO  Project-Practice:170 - Entering Username
+2026-01-29 15:30:03 INFO  Project-Practice:174 - Entering Password
+2026-01-29 15:30:06 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 15:31:03 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 15:31:03 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 15:31:06 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 15:31:51 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 15:31:52 INFO  Project-Practice:170 - Entering Username
+2026-01-29 15:31:57 INFO  Project-Practice:174 - Entering Password
+2026-01-29 15:32:00 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 15:32:31 INFO  HomePageOrangeHRM:666 - pimOption Clicking
+2026-01-29 15:32:41 INFO  HomePageOrangeHRM:676 - configurationdropdown Clicking
+2026-01-29 15:32:51 INFO  HomePageOrangeHRM:686 - dataImport option is clicked
+2026-01-29 15:32:53 INFO  Project-Practice:359 - File path sent directly to input
+2026-01-29 15:32:53 INFO  HomePageOrangeHRM:707 - Clicking on File upload button
+2026-01-29 15:33:00 INFO  Project-Practice:379 - Toast message is verifying
+2026-01-29 15:33:00 INFO  HomePageOrangeHRM:725 - Clicking on OkButton
+2026-01-29 15:33:04 INFO  HomePageOrangeHRM:734 - Clicking on AddEmployeeTab
+2026-01-29 15:33:14 INFO  HomePageOrangeHRM:740 - First name is entering
+2026-01-29 15:33:15 INFO  HomePageOrangeHRM:747 - Last name is entering
+2026-01-29 15:33:15 INFO  HomePageOrangeHRM:753 - Employee Id is entering
+2026-01-29 15:33:15 INFO  Project-Practice:437 - Image path sent directly to input
+2026-01-29 15:33:32 INFO  Project-Practice:170 - Entering Username
+2026-01-29 15:33:41 INFO  Project-Practice:174 - Entering Password
+2026-01-29 15:33:44 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 15:34:11 INFO  HomePageOrangeHRM:697 - Clicking on MyInfoOption
+2026-01-29 15:34:21 INFO  HomePageOrangeHRM:771 - Clicking on image at MyInfo
+2026-01-29 15:34:26 INFO  Project-Practice:484 - Image path sent directly to input
+2026-01-29 15:34:27 INFO  HomePageOrangeHRM:781 - Clicking on myInfoSaveButton
+2026-01-29 15:34:32 INFO  Project-Practice:507 - Toast message is verifying
+2026-01-29 15:34:32 INFO  Project-Practice:508 - Image is successfully uploaded at MyInfoOption
+2026-01-29 15:34:39 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 15:37:12 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 15:37:12 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 15:37:15 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 15:37:40 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 15:37:40 INFO  Project-Practice:170 - Entering Username
+2026-01-29 15:37:45 INFO  Project-Practice:174 - Entering Password
+2026-01-29 15:37:48 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 15:38:07 INFO  HomePageOrangeHRM:667 - pimOption Clicking
+2026-01-29 15:38:09 INFO  HomePageOrangeHRM:677 - configurationdropdown Clicking
+2026-01-29 15:38:14 INFO  HomePageOrangeHRM:687 - dataImport option is clicked
+2026-01-29 15:38:18 INFO  Project-Practice:359 - File path sent directly to input
+2026-01-29 15:38:18 INFO  HomePageOrangeHRM:708 - Clicking on File upload button
+2026-01-29 15:38:21 INFO  Project-Practice:379 - Toast message is verifying
+2026-01-29 15:38:22 INFO  HomePageOrangeHRM:726 - Clicking on OkButton
+2026-01-29 15:38:25 INFO  HomePageOrangeHRM:735 - Clicking on AddEmployeeTab
+2026-01-29 15:38:31 INFO  HomePageOrangeHRM:741 - First name is entering
+2026-01-29 15:38:31 INFO  HomePageOrangeHRM:748 - Last name is entering
+2026-01-29 15:38:32 INFO  HomePageOrangeHRM:754 - Employee Id is entering
+2026-01-29 15:38:32 INFO  Project-Practice:437 - Image path sent directly to input
+2026-01-29 15:38:41 INFO  Project-Practice:170 - Entering Username
+2026-01-29 15:38:51 INFO  Project-Practice:174 - Entering Password
+2026-01-29 15:38:55 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 15:44:57 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 15:44:57 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 15:44:59 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 15:45:11 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 15:45:11 INFO  Project-Practice:170 - Entering Username
+2026-01-29 15:45:14 INFO  Project-Practice:174 - Entering Password
+2026-01-29 15:45:18 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 15:45:28 INFO  HomePageOrangeHRM:667 - pimOption Clicking
+2026-01-29 15:45:29 INFO  HomePageOrangeHRM:677 - configurationdropdown Clicking
+2026-01-29 15:45:32 INFO  HomePageOrangeHRM:687 - dataImport option is clicked
+2026-01-29 15:45:33 INFO  Project-Practice:359 - File path sent directly to input
+2026-01-29 15:45:33 INFO  HomePageOrangeHRM:708 - Clicking on File upload button
+2026-01-29 15:45:35 INFO  Project-Practice:379 - Toast message is verifying
+2026-01-29 15:45:36 INFO  HomePageOrangeHRM:726 - Clicking on OkButton
+2026-01-29 15:45:38 INFO  HomePageOrangeHRM:735 - Clicking on AddEmployeeTab
+2026-01-29 15:45:42 INFO  HomePageOrangeHRM:741 - First name is entering
+2026-01-29 15:45:42 INFO  HomePageOrangeHRM:748 - Last name is entering
+2026-01-29 15:45:43 INFO  HomePageOrangeHRM:754 - Employee Id is entering
+2026-01-29 15:45:43 INFO  Project-Practice:437 - Image path sent directly to input
+2026-01-29 15:46:18 INFO  Project-Practice:170 - Entering Username
+2026-01-29 15:51:26 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 15:51:26 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 15:51:30 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 15:51:48 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 15:51:48 INFO  Project-Practice:170 - Entering Username
+2026-01-29 15:52:02 INFO  Project-Practice:174 - Entering Password
+2026-01-29 15:52:05 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 15:53:41 INFO  HomePageOrangeHRM:667 - pimOption Clicking
+2026-01-29 15:54:00 INFO  HomePageOrangeHRM:677 - configurationdropdown Clicking
+2026-01-29 15:54:15 INFO  HomePageOrangeHRM:687 - dataImport option is clicked
+2026-01-29 15:54:27 INFO  Project-Practice:359 - File path sent directly to input
+2026-01-29 15:54:27 INFO  HomePageOrangeHRM:708 - Clicking on File upload button
+2026-01-29 15:54:42 INFO  Project-Practice:379 - Toast message is verifying
+2026-01-29 15:54:42 INFO  HomePageOrangeHRM:726 - Clicking on OkButton
+2026-01-29 15:54:55 INFO  HomePageOrangeHRM:735 - Clicking on AddEmployeeTab
+2026-01-29 15:55:02 INFO  HomePageOrangeHRM:741 - First name is entering
+2026-01-29 15:55:03 INFO  HomePageOrangeHRM:748 - Last name is entering
+2026-01-29 15:55:03 INFO  HomePageOrangeHRM:754 - Employee Id is entering
+2026-01-29 15:55:03 INFO  Project-Practice:437 - Image path sent directly to input
+2026-01-29 15:55:44 INFO  Project-Practice:170 - Entering Username
+2026-01-29 16:17:01 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 16:17:01 INFO  Project-Practice:74 - Running Chrome in UI mode
+2026-01-29 16:17:04 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 16:17:12 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 16:17:12 INFO  Project-Practice:170 - Entering Username
+2026-01-29 16:17:15 INFO  Project-Practice:174 - Entering Password
+2026-01-29 16:17:19 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 16:17:30 INFO  HomePageOrangeHRM:667 - pimOption Clicking
+2026-01-29 16:17:31 INFO  HomePageOrangeHRM:677 - configurationdropdown Clicking
+2026-01-29 16:17:34 INFO  HomePageOrangeHRM:687 - dataImport option is clicked
+2026-01-29 16:17:36 INFO  Project-Practice:359 - File path sent directly to input
+2026-01-29 16:17:36 INFO  HomePageOrangeHRM:708 - Clicking on File upload button
+2026-01-29 16:17:38 INFO  Project-Practice:379 - Toast message is verifying
+2026-01-29 16:17:38 INFO  HomePageOrangeHRM:726 - Clicking on OkButton
+2026-01-29 16:17:40 INFO  HomePageOrangeHRM:735 - Clicking on AddEmployeeTab
+2026-01-29 16:17:44 INFO  HomePageOrangeHRM:741 - First name is entering
+2026-01-29 16:17:44 INFO  HomePageOrangeHRM:748 - Last name is entering
+2026-01-29 16:17:44 INFO  HomePageOrangeHRM:754 - Employee Id is entering
+2026-01-29 16:17:44 INFO  Project-Practice:437 - Image path sent directly to input
+2026-01-29 16:17:44 INFO  HomePageOrangeHRM:763 - Clicking on addEmployeeSaveButton
+2026-01-29 16:17:46 INFO  Project-Practice:170 - Entering Username
+2026-01-29 16:17:50 INFO  Project-Practice:174 - Entering Password
+2026-01-29 16:17:53 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 16:18:03 INFO  HomePageOrangeHRM:698 - Clicking on MyInfoOption
+2026-01-29 16:18:11 INFO  HomePageOrangeHRM:771 - Clicking on image at MyInfo
+2026-01-29 16:18:14 INFO  Project-Practice:484 - Image path sent directly to input
+2026-01-29 16:18:14 INFO  HomePageOrangeHRM:781 - Clicking on myInfoSaveButton
+2026-01-29 16:18:19 INFO  Project-Practice:507 - Toast message is verifying
+2026-01-29 16:18:19 INFO  Project-Practice:508 - Image is successfully uploaded at MyInfoOption
+2026-01-29 16:18:26 INFO  Project-Practice:146 - Browser Closed successfully
+2026-01-29 16:21:35 INFO  Project-Practice:47 - ===== Test Suite Started =====
+2026-01-29 16:21:35 INFO  Project-Practice:69 - Running Chrome in HEADLESS mode
+2026-01-29 16:21:37 INFO  Project-Practice:84 - Chrome Browser launched successfully
+2026-01-29 16:21:46 INFO  Project-Practice:155 - Application is Launching
+2026-01-29 16:21:46 INFO  Project-Practice:170 - Entering Username
+2026-01-29 16:21:49 INFO  Project-Practice:174 - Entering Password
+2026-01-29 16:21:52 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 16:22:12 INFO  HomePageOrangeHRM:667 - pimOption Clicking
+2026-01-29 16:22:15 INFO  HomePageOrangeHRM:677 - configurationdropdown Clicking
+2026-01-29 16:22:22 INFO  HomePageOrangeHRM:687 - dataImport option is clicked
+2026-01-29 16:22:26 INFO  Project-Practice:359 - File path sent directly to input
+2026-01-29 16:22:26 INFO  HomePageOrangeHRM:708 - Clicking on File upload button
+2026-01-29 16:22:31 INFO  Project-Practice:379 - Toast message is verifying
+2026-01-29 16:22:31 INFO  HomePageOrangeHRM:726 - Clicking on OkButton
+2026-01-29 16:22:36 INFO  HomePageOrangeHRM:735 - Clicking on AddEmployeeTab
+2026-01-29 16:22:40 INFO  HomePageOrangeHRM:741 - First name is entering
+2026-01-29 16:22:41 INFO  HomePageOrangeHRM:748 - Last name is entering
+2026-01-29 16:22:41 INFO  HomePageOrangeHRM:754 - Employee Id is entering
+2026-01-29 16:22:41 INFO  Project-Practice:437 - Image path sent directly to input
+2026-01-29 16:22:41 INFO  HomePageOrangeHRM:763 - Clicking on addEmployeeSaveButton
+2026-01-29 16:22:48 INFO  Project-Practice:170 - Entering Username
+2026-01-29 16:22:57 INFO  Project-Practice:174 - Entering Password
+2026-01-29 16:23:00 INFO  Project-Practice:178 - Clicking on logging button
+2026-01-29 16:23:34 INFO  HomePageOrangeHRM:698 - Clicking on MyInfoOption
+2026-01-29 16:23:45 INFO  HomePageOrangeHRM:771 - Clicking on image at MyInfo
+2026-01-29 16:23:50 INFO  Project-Practice:484 - Image path sent directly to input
+2026-01-29 16:23:50 INFO  HomePageOrangeHRM:781 - Clicking on myInfoSaveButton
+2026-01-29 16:23:57 INFO  Project-Practice:507 - Toast message is verifying
+2026-01-29 16:23:57 INFO  Project-Practice:508 - Image is successfully uploaded at MyInfoOption
+2026-01-29 16:24:03 INFO  Project-Practice:146 - Browser Closed successfully

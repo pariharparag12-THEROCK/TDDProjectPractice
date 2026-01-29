@@ -39,7 +39,8 @@ public class HomePage_TestingClass extends BaseClass{
 	
 //Test local
 	//public static Logger logger;
-	private static final Logger logger = Logger.getLogger(HomePage_TestingClass.class);
+	
+	//private static final Logger logger = Logger.getLogger(HomePage_TestingClass.class); // no need we extends baseclass and we will use the logger of baseclass
 
 
 	/* WebDriver driver; */
@@ -332,58 +333,117 @@ public class HomePage_TestingClass extends BaseClass{
 	public void validateFileUploadAndImageUpload() throws InterruptedException, IOException {
 		
 		homepageoranghrm.NavigateToPIMOption();
+	
 		
-		//click on browse button
-		driver.findElement(By.xpath("//div[@class='oxd-file-button']")).click();
+		//AUTOIT doesn't work in headless...
 		
-		Thread.sleep(5000);
+		/*
+		 * //click on browse button
+		 * driver.findElement(By.xpath("//div[@class='oxd-file-button']")).click();
+		 * logger.info("Browse button clicking");
+		 * 
+		 * Thread.sleep(5000);
+		 * 
+		 * String path = System.getProperty("user.dir")+"\\FileUploadPIMorangeHRM.exe";
+		 * Runtime.getRuntime().exec(path); Thread.sleep(3000);
+		 */
 		
-		String path = System.getProperty("user.dir")+"\\FileUploadPIMorangeHRM.exe";
-		Runtime.getRuntime().exec(path);
-		Thread.sleep(3000);
+		
+		//Use sendKeys() on <input type="file"> 
+		//input type="file" ------> it should be present in html tree code (mandatory)
+		//Then Selenium can upload directly, silently, perfectly
+		//UI + Headless + Jenkins will pass
+		WebElement fileuploadInput = driver.findElement(By.xpath("//input[@type='file']"));
+		String filePath = System.getProperty("user.dir")+"\\src\\test\\resources\\importData3.csv";
+		fileuploadInput.sendKeys(filePath);
+		logger.info("File path sent directly to input");
 		
 		//Click on upload button
-		driver.findElement(By.xpath("//button[text()=' Upload ']")).click();
-		Thread.sleep(2000);
+		/*
+		 * driver.findElement(By.xpath("//button[text()=' Upload ']")).click();
+		 * Thread.sleep(2000); logger.info("File is uploading");
+		 */
 		
+		homepageoranghrm.ClickOnUploadButtonForFile();
 		
-		String textCapture = driver.findElement(By.xpath("//p[@class='oxd-text oxd-text--p oxd-text--card-body orangehrm-success-message']")).getText();
-		boolean IsPresent = textCapture.contains("Records Successfully Imported");
+		/*
+		 * String textCapture = driver.findElement(By.
+		 * xpath("//p[@class='oxd-text oxd-text--p oxd-text--card-body orangehrm-success-message']"
+		 * )).getText(); boolean IsPresent =
+		 * textCapture.contains("Records Successfully Imported");
+		 */
 		
+		String textCapture = homepageoranghrm.getFileUploadToastMsg();
+		boolean IsPresent = textCapture.contains("Records Successfully Imported");	
 		Assert.assertTrue(IsPresent);
+		logger.info("Toast message is verifying");
 		
-		driver.findElement(By.xpath("//button[@class='oxd-button oxd-button--medium oxd-button--secondary']")).click();
-		Thread.sleep(1000);
+		/*
+		 * driver.findElement(By.
+		 * xpath("//button[@class='oxd-button oxd-button--medium oxd-button--secondary']"
+		 * )).click(); Thread.sleep(1000);
+		 */
 		
-		//Click On Add Employee
-		driver.findElement(By.xpath("//li[@class='oxd-topbar-body-nav-tab']/child::a[contains(text(),'Add Employee')]")).click();
-		Thread.sleep(3000);
+		homepageoranghrm.clickOnOkButton();
 		
-		WebElement firstname = driver.findElement(By.xpath("//input[@placeholder='First Name']"));
-		firstname.sendKeys(FetchExcelData.getExcelFileData(1, 5));
-		Thread.sleep(2000);
+		/*
+		 * //Click On Add Employee driver.findElement(By.
+		 * xpath("//li[@class='oxd-topbar-body-nav-tab']/child::a[contains(text(),'Add Employee')]"
+		 * )).click(); logger.info("Add Employee button is clicking");
+		 * Thread.sleep(3000);
+		 * 
+		 * WebElement firstname =
+		 * driver.findElement(By.xpath("//input[@placeholder='First Name']"));
+		 * firstname.sendKeys(FetchExcelData.getExcelFileData(1, 5));
+		 * logger.info("First name is entering"); Thread.sleep(2000);
+		 * 
+		 * WebElement lastname =
+		 * driver.findElement(By.xpath("//input[@placeholder='Last Name']"));
+		 * lastname.sendKeys(FetchExcelData.getExcelFileData(1, 6));
+		 * logger.info("Last name is entering"); Thread.sleep(2000);
+		 * 
+		 * WebElement employeeId = driver.findElement(By.
+		 * xpath("//div[@class='oxd-input-group oxd-input-field-bottom-space']/child::div/child::input[@class='oxd-input oxd-input--active']"
+		 * )); //convert double intoString
+		 * employeeId.sendKeys(String.valueOf(FetchExcelData.getExcelFileDataNumeric(1,
+		 * 7))); logger.info("EmployeeId is entering"); Thread.sleep(2000);
+		 */
 		
-		WebElement lastname = driver.findElement(By.xpath("//input[@placeholder='Last Name']"));
-		lastname.sendKeys(FetchExcelData.getExcelFileData(1, 6));
-		Thread.sleep(2000);
-		
-		WebElement employeeId = driver.findElement(By.xpath("//div[@class='oxd-input-group oxd-input-field-bottom-space']/child::div/child::input[@class='oxd-input oxd-input--active']"));
-		//convert double intoString
-		employeeId.sendKeys(String.valueOf(FetchExcelData.getExcelFileDataNumeric(1, 7)));
-		Thread.sleep(2000);
-		
-		WebElement imgIcon = driver.findElement(By.xpath("//button[@class='oxd-icon-button oxd-icon-button--solid-main employee-image-action']"));
-		imgIcon.click();
-		Thread.sleep(5000);
+		homepageoranghrm.addDetailsInAddEmpoyeeSection();
 		
 		
-		String path1 = System.getProperty("user.dir")+"\\ImageUploadPIMorangeHRM.exe";
-		Runtime.getRuntime().exec(path1);
-		Thread.sleep(3000);
 		
-		//Click On save button
-		driver.findElement(By.xpath("//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']")).click();
-		//Thread.sleep(2000);
+		
+		/*
+		 * WebElement imgIcon = driver.findElement(By.
+		 * xpath("//button[@class='oxd-icon-button oxd-icon-button--solid-main employee-image-action']"
+		 * )); imgIcon.click(); Thread.sleep(5000);
+		 * logger.info("Image icon is clicked");
+		 * 
+		 * String path1 =
+		 * System.getProperty("user.dir")+"\\ImageUploadPIMorangeHRM.exe";
+		 * Runtime.getRuntime().exec(path1); Thread.sleep(3000);
+		 */
+		
+		
+		//Use sendKeys() on <input type="file"> 
+		//input type="file" ------> it should be present in html tree code (mandatory)
+		//Then Selenium can upload directly, silently, perfectly
+		//UI + Headless + Jenkins will pass
+		
+		WebElement imageuploadInput = driver.findElement(By.xpath("//input[@type='file']"));
+		String imagePath = System.getProperty("user.dir")+"\\src\\test\\resources\\Screenshot 2024-05-28 163614.png";
+		imageuploadInput.sendKeys(imagePath);
+		logger.info("Image path sent directly to input");
+		
+		/*
+		 * //Click On save button driver.findElement(By.
+		 * xpath("//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']"
+		 * )).click(); //Thread.sleep(2000); logger.info("Save button is clicked");
+		 */
+		
+		homepageoranghrm.clickOnAddEmployeeSaveButton();
+		
 	}
 	
 
@@ -394,33 +454,66 @@ public class HomePage_TestingClass extends BaseClass{
 		
 		homepageoranghrm.NavigateToMyInfoOption();
 		
-		//Click On Image
-		driver.findElement(By.xpath("//img[@class='employee-image']")).click();		
+		/*
+		 * //Click On Image
+		 * driver.findElement(By.xpath("//img[@class='employee-image']")).click();
+		 * logger.info("Clicking on image"); Thread.sleep(1000);
+		 */
+		
+		homepageoranghrm.clickOnImageAtMyInfo();
+		
+		
+		/*
+		 * //Click on plus Icon
+		 * driver.findElement(By.xpath("//i[@class='oxd-icon bi-plus']")).click();
+		 * logger.info("Clicking on plus icon");
+		 * 
+		 * Thread.sleep(5000); String Path2 =
+		 * System.getProperty("user.dir")+"\\Image_Upload_AtMyInfo_Option_1.exe";
+		 * Runtime.getRuntime().exec(Path2); Thread.sleep(3000);
+		 */
+		
+		//Use sendKeys() on <input type="file"> 
+		//input type="file" ------> it should be present in html tree code (mandatory)
+		//Then Selenium can upload directly, silently, perfectly
+		//UI + Headless + Jenkins will pass
+
+		WebElement imageuploadInput = driver.findElement(By.xpath("//input[@type='file']"));
+		String imagePath = System.getProperty("user.dir")+"\\src\\test\\resources\\Screenshot 2024-07-15 172213.png";
+		imageuploadInput.sendKeys(imagePath);
+		logger.info("Image path sent directly to input");
+		
+		
+		/*
+		 * //Click on SaveButton driver.findElement(By.
+		 * xpath("//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']"
+		 * )).click(); logger.info("Clicking on Save button");
+		 */
+		
+		
+		homepageoranghrm.clickOnMyInfoSaveButton();
+		
+		/*
+		 * WebElement ToastMessage3 =
+		 * driver.findElement(By.xpath("//p[contains(., 'Successfully')]"));
+		 * WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		 * wait.until(ExpectedConditions.visibilityOf(ToastMessage3));
+		 */
+		
+		
+		String ImagetextCapture = homepageoranghrm.getImageUploadToastMsg();
+		boolean IsPresent = ImagetextCapture.contains("Successfully Updated");	
+		Assert.assertTrue(IsPresent);
+		logger.info("Toast message is verifying");
+		logger.info("Image is successfully uploaded at MyInfoOption");
+		
+//		String ToastMsg3 = ToastMessage3.getText();
+//		boolean IsPresent3 = ToastMsg3.contains("Successfu");
+//		Assert.assertTrue(IsPresent3);
+//		System.out.println("Image Uploaded at MyInfoOption is successfully uploaded");
+//		logger.info("Image is successfully uploaded at MyInfoOption");
+//		Thread.sleep(5000);
 		Thread.sleep(1000);
-		
-		
-		//Click on plus Icon
-		driver.findElement(By.xpath("//i[@class='oxd-icon bi-plus']")).click();
-		
-		Thread.sleep(5000);
-		String Path2 = System.getProperty("user.dir")+"\\Image_Upload_AtMyInfo_Option_1.exe";
-		Runtime.getRuntime().exec(Path2);
-		Thread.sleep(3000);
-		
-		//Click on SaveButton
-		driver.findElement(By.xpath("//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']")).click();
-		
-		
-		WebElement ToastMessage3 = driver.findElement(By.xpath("//p[contains(., 'Successfully')]"));
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		wait.until(ExpectedConditions.visibilityOf(ToastMessage3));
-		
-		String ToastMsg3 = ToastMessage3.getText();
-		boolean IsPresent3 = ToastMsg3.contains("Successfu");
-		Assert.assertTrue(IsPresent3);
-		System.out.println("Image Uploaded at MyInfoOption is successfully uploaded");
-		
-		Thread.sleep(5000);
 	}
 	
 

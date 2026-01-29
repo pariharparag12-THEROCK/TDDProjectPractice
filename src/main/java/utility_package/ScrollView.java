@@ -26,4 +26,12 @@ public class ScrollView {
 	}
 	
 	//23 nov 2025
+	
+	//JS click = direct DOM click, no mouse position involved.
+	public static void JSClick(WebDriver driver, WebElement element) {
+		
+		JavascriptExecutor js = (JavascriptExecutor)driver; 
+		
+		js.executeScript("arguments[0].click();", element);
+	}
 }

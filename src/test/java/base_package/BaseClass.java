@@ -16,6 +16,7 @@ public class BaseClass {
 	//28jan 16:32
 	protected static Logger logger;
 	
+	
 	protected static WebDriver driver;
 	// Protected because we use this driver in LoginPageTestingClass, HomePageTestingClass and ListnerClass
 	// Instead of Protected we can also use public ...it will also work
@@ -63,15 +64,23 @@ public class BaseClass {
 						options.addArguments("--headless=new"); //It means Chrome runs without opening UI
 			            options.addArguments("--disable-gpu"); //It prevents the graphic-related issues on servers
 			            options.addArguments("--window-size=1920,1080"); //Headless Chrome has no screen So this gives it"fake screen size"
+			            options.addArguments("--no-sandbox");
+			            options.addArguments("--disable-dev-shm-usage");
 			            logger.info("Running Chrome in HEADLESS mode");
+			            
+			            driver = new ChromeDriver(options); 
 					}
 					else {
 						logger.info("Running Chrome in UI mode");
+						
+						driver = new ChromeDriver(options); 
+						
+						driver.manage().window().maximize();
+					
 					}
 					
 				
-					driver = new ChromeDriver(options); 
-				
+
 					logger.info("Chrome Browser launched successfully");
 			}
 			
@@ -83,12 +92,14 @@ public class BaseClass {
 				if(headless) {				
 		            options.addArguments("--headless");
 		            logger.info("Running Firefox in HEADLESS mode");
+		            driver = new FirefoxDriver(options);
 				}
 				else {
 					logger.info("Running Firefox in UI mode");
+					driver = new FirefoxDriver(options);
+					driver.manage().window().maximize();
 				}
 				
-				driver = new FirefoxDriver(options);
 				
 				logger.info("FireFox Browser launched successfully");
 						
@@ -104,7 +115,7 @@ public class BaseClass {
 			}
 			
 				
-			driver.manage().window().maximize();
+			//driver.manage().window().maximize();
 			
 			driver.manage().deleteAllCookies();
 		}

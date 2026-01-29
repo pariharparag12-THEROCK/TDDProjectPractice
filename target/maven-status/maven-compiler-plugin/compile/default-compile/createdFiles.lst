@@ -4,5 +4,6 @@ utility_package\ScreenShotPP.class
 utility_package\Utility_Parametrization.class
 utility_package\FetchExcelData.class
 pom_package\HomePageOrangeHRM.class
+utility_package\DocumentReadyState.class
 utility_package\Property_Utils.class
 utility_package\ScrollView.class
