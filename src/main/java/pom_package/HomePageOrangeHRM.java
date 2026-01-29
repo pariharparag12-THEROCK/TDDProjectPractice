@@ -628,11 +628,17 @@ public class HomePageOrangeHRM {
 	
 	public void clickOnSaveButton() throws InterruptedException {
 		
+		/*
+		 * wait.until(ExpectedConditions.visibilityOf(savebutton));
+		 * ScrollView.scrollIntoView(driver, savebutton);
+		 * wait.until(ExpectedConditions.elementToBeClickable(savebutton));
+		 * savebutton.click(); //Thread.sleep(3000);
+		 */		
+		
 		wait.until(ExpectedConditions.visibilityOf(savebutton));
 		ScrollView.scrollIntoView(driver, savebutton);
-		wait.until(ExpectedConditions.elementToBeClickable(savebutton));
-		savebutton.click();
-		//Thread.sleep(3000);
+		ScrollView.JSClick(driver, savebutton); 	//JS click = direct DOM click, no mouse position involved.
+		logger.info("Clicking on savebutton");
 		
 	}
 	

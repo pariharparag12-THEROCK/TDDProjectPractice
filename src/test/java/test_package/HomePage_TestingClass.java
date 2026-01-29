@@ -286,6 +286,7 @@ public class HomePage_TestingClass extends BaseClass{
 		
 		homepageoranghrm.enterEmployeeName(FetchExcelData.getExcelFileData(2, 0));
 		logger.info("User entered emplyeee Name");
+		Thread.sleep(1000);
 		action.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
 		
 		homepageoranghrm.enterUsername(FetchExcelData.getExcelFileData(2, 1));
@@ -304,26 +305,28 @@ public class HomePage_TestingClass extends BaseClass{
 		softassert.assertTrue(IsPresent);
 		logger.info("User Created the Data successfully");
 		
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 		
-		WebElement expectedUser = driver.findElement(By.xpath("//div[contains(text(),'"+FetchExcelData.getExcelFileData(2, 1)+"')]"));
-		
+		WebElement expectedUser = driver.findElement(By.xpath("//div[contains(text(),'"+FetchExcelData.getExcelFileData(2, 1)+"')]"));	
 		ScrollView.scrollIntoView(driver, expectedUser);
-		
-		Thread.sleep(2000);
+		logger.info("User found the created data");
+		//Thread.sleep(2000);
 		
 		boolean IsPresent1 = expectedUser.getText().contains(FetchExcelData.getExcelFileData(2, 1));
-		
 		softassert.assertTrue(IsPresent);
 		
+		//Thread.sleep(1000);
 		//delete element created row
-		driver.findElement(By.xpath("//div[contains(text(),'"+FetchExcelData.getExcelFileData(2, 1)+"')]/ancestor::div[@class='oxd-table-row oxd-table-row--with-border']/descendant::button[1]//i")).click();
-		Thread.sleep(2000);
+		//driver.findElement(By.xpath("//div[contains(text(),'"+FetchExcelData.getExcelFileData(2, 1)+"')]/ancestor::div[@class='oxd-table-row oxd-table-row--with-border']/descendant::button[1]//i")).click();
+		WebElement deletebutton=driver.findElement(By.xpath("//div[contains(text(),'"+FetchExcelData.getExcelFileData(2, 1)+"')]/ancestor::div[@class='oxd-table-card']//button[1]"));
+		ScrollView.scrollIntoView(driver, deletebutton);
+		ScrollView.JSClick(driver, deletebutton);
+		logger.info("User Clicked on delete button");
+		//Thread.sleep(2000);
 		driver.findElement(By.xpath("//button[text()=' Yes, Delete ']")).click();
-		
-		
-		logger.info("Particular Username is Present");
-		Thread.sleep(3000);
+		logger.info("User deleted the created data");	
+		//logger.info("Particular Username is Present");
+		//Thread.sleep(3000);
 		softassert.assertAll();
 	}
 	
