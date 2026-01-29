@@ -1,8 +1,11 @@
 package pom_package;
 
+import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,12 +14,17 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import utility_package.FetchExcelData;
+import utility_package.ScrollView;
+
 public class HomePageOrangeHRM {
 
 
 	WebDriver driver;
 	
 	private WebDriverWait wait;
+	
+	private static final Logger logger = Logger.getLogger(HomePageOrangeHRM.class);
 	
 	//@FindBy(xpath = "//p[contains(@class,'oxd-userdropdown-name')]")
 	@FindBy (xpath = "//i[@class='oxd-icon bi-caret-down-fill oxd-userdropdown-icon']")
@@ -95,6 +103,7 @@ public class HomePageOrangeHRM {
 	
 	//@FindBy (xpath="//button[text()=' Save ']")
 	@FindBy (xpath ="//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']")
+	//@FindBy (xpath="//button[@type='submit']")
 	private WebElement savebutton;
 	
 	
@@ -109,6 +118,47 @@ public class HomePageOrangeHRM {
 	@FindBy (xpath = "//span[@class='oxd-text oxd-text--span oxd-main-menu-item--name']/ancestor::a[@href='/web/index.php/pim/viewMyDetails']")
 	private WebElement myInfoOption;
 	
+	@FindBy (xpath ="//button[text()=' Upload ']")
+	private WebElement fileUploadButton;
+	
+	
+	@FindBy (xpath ="//p[@class='oxd-text oxd-text--p oxd-text--card-body orangehrm-success-message']")
+	private WebElement toastMsgForFileUpload;
+	
+	@FindBy (xpath ="//button[@class='oxd-button oxd-button--medium oxd-button--secondary']")
+	private WebElement OkButton;
+	
+	
+	@FindBy(xpath ="//li[@class='oxd-topbar-body-nav-tab']/child::a[contains(text(),'Add Employee')]")
+	private WebElement addEmployeeTabButton;
+	
+	@FindBy (xpath = "//input[@placeholder='First Name']")
+	private WebElement addEmployeeFirstName;
+	
+	@FindBy (xpath = "//input[@placeholder='Last Name']")
+	private WebElement addEmployeeLastName;
+	
+	@FindBy (xpath = "//div[@class='oxd-input-group oxd-input-field-bottom-space']/child::div/child::input[@class='oxd-input oxd-input--active']")
+	private WebElement addEmployeeId;
+	
+	@FindBy (xpath = "//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']")
+	//@FindBy (xpath="//div[@class='oxd-form-actions']/child::button[text()=' Save ']")
+	private WebElement addEmployeeSaveButton;
+	
+	/*
+	 * @FindBy (xpath = "//img[@class='employee-image']") private WebElement image;
+	 */
+	
+	@FindBy (xpath = "//div[@class='orangehrm-edit-employee-image-wrapper']")
+	private WebElement image;
+	
+	@FindBy (xpath ="//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']")
+	private WebElement myInfoSaveButton;
+	
+	@FindBy (xpath ="//p[contains(., 'Successfully')]")
+	private WebElement toastMsgForImageUpload;
+	
+	
 	
 	
 	
@@ -116,7 +166,9 @@ public class HomePageOrangeHRM {
 		
 		this.driver = driver;
 		
-	    wait = new WebDriverWait(driver,Duration.ofSeconds(20));
+	   // wait = new WebDriverWait(driver,Duration.ofSeconds(20));
+		
+		wait = new WebDriverWait(driver,Duration.ofSeconds(30)); //Increase wait to 30s for Jenkins
 		
 		PageFactory.initElements(driver, this);
 		
@@ -130,16 +182,20 @@ public class HomePageOrangeHRM {
 		 * accountdropdown.click(); Thread.sleep(3000);
 		 */
 		
+		wait.until(ExpectedConditions.visibilityOf(accountdropdown));
+		ScrollView.scrollIntoView(driver, accountdropdown);
 		wait.until(ExpectedConditions.elementToBeClickable(accountdropdown));
 		accountdropdown.click();
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 	}
 	
 	
 	public void clickOnLogoutButton() throws InterruptedException {
+		wait.until(ExpectedConditions.visibilityOf(logoutButton));
+		ScrollView.scrollIntoView(driver, logoutButton);
 		wait.until(ExpectedConditions.elementToBeClickable(logoutButton));
 		logoutButton.click();
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 	}
 	
 	public void clickOnAdminOption() throws InterruptedException {
@@ -571,9 +627,12 @@ public class HomePageOrangeHRM {
 	
 	
 	public void clickOnSaveButton() throws InterruptedException {
+		
+		wait.until(ExpectedConditions.visibilityOf(savebutton));
+		ScrollView.scrollIntoView(driver, savebutton);
 		wait.until(ExpectedConditions.elementToBeClickable(savebutton));
 		savebutton.click();
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 		
 	}
 	
@@ -599,26 +658,136 @@ public class HomePageOrangeHRM {
 	
 	public void NavigateToPIMOption() throws InterruptedException {
 		
+		wait.until(ExpectedConditions.visibilityOf(pimOption));//Visibility checks before click...Headless needs visibility
+		ScrollView.scrollIntoView(driver, pimOption);//No real screen in headless....In headless mode, Selenium often needs manual scroll.
+		
+		
 		wait.until(ExpectedConditions.elementToBeClickable(pimOption));
 		pimOption.click();
+		logger.info("pimOption Clicking");
 		
-		Thread.sleep(2000);
+		//Thread.sleep(2000); 
+		//Sleep is blind waiting....If UI loads slower → next element not ready.......Headless needs smart waits, not sleep.
+		
+		wait.until(ExpectedConditions.visibilityOf(configurationdropdown));
+		ScrollView.scrollIntoView(driver, configurationdropdown);
 		
 		wait.until(ExpectedConditions.elementToBeClickable(configurationdropdown));
 		configurationdropdown.click();
+		logger.info("configurationdropdown Clicking");
 		
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 		
-		driver.findElement(By.partialLinkText("Data Im")).click();
+		//driver.findElement(By.partialLinkText("Data Im")).click();
+		
+		WebElement dataImport = driver.findElement(By.partialLinkText("Data Im"));
+		wait.until(ExpectedConditions.visibilityOf(dataImport));
+		wait.until(ExpectedConditions.elementToBeClickable(dataImport));
+		dataImport.click();
+		logger.info("dataImport option is clicked");
 		
 	}
 	
 	
 	public void NavigateToMyInfoOption() throws InterruptedException {
 		
+		wait.until(ExpectedConditions.visibilityOf(myInfoOption));
+		ScrollView.scrollIntoView(driver, myInfoOption);
 		wait.until(ExpectedConditions.elementToBeClickable(myInfoOption));
 		myInfoOption.click();
-		Thread.sleep(2000);
+		logger.info("Clicking on MyInfoOption");
+		
+	}
+	
+	public void ClickOnUploadButtonForFile() {
+		
+		wait.until(ExpectedConditions.visibilityOf(fileUploadButton));
+		ScrollView.scrollIntoView(driver, fileUploadButton);
+		wait.until(ExpectedConditions.elementToBeClickable(fileUploadButton));
+		fileUploadButton.click();
+		logger.info("Clicking on File upload button");
+	}
+	
+	public String getFileUploadToastMsg() {
+		wait.until(ExpectedConditions.visibilityOf(toastMsgForFileUpload));
+		//ScrollView.scrollIntoView(driver, toastMsgForFileUpload);
+		//wait.until(ExpectedConditions.elementToBeClickable(toastMsgForFileUpload));
+		String textCapture = toastMsgForFileUpload.getText();
+
+		return textCapture;
+	}
+	
+	
+	public void clickOnOkButton() {
+		wait.until(ExpectedConditions.visibilityOf(OkButton));
+		ScrollView.scrollIntoView(driver, OkButton);
+		wait.until(ExpectedConditions.elementToBeClickable(OkButton));
+		OkButton.click();
+		logger.info("Clicking on OkButton");
+	}
+	
+	
+	public void addDetailsInAddEmpoyeeSection() throws EncryptedDocumentException, IOException {
+		wait.until(ExpectedConditions.visibilityOf(addEmployeeTabButton));
+		ScrollView.scrollIntoView(driver, addEmployeeTabButton);
+		wait.until(ExpectedConditions.elementToBeClickable(addEmployeeTabButton));
+		addEmployeeTabButton.click();
+		logger.info("Clicking on AddEmployeeTab");
+		
+		wait.until(ExpectedConditions.visibilityOf(addEmployeeFirstName));
+		ScrollView.scrollIntoView(driver, addEmployeeFirstName);
+		wait.until(ExpectedConditions.elementToBeClickable(addEmployeeFirstName));
+		addEmployeeFirstName.sendKeys(FetchExcelData.getExcelFileData(1, 5));
+		logger.info("First name is entering");
+		
+		
+		wait.until(ExpectedConditions.visibilityOf(addEmployeeLastName));
+		ScrollView.scrollIntoView(driver, addEmployeeLastName);
+		wait.until(ExpectedConditions.elementToBeClickable(addEmployeeLastName));
+		addEmployeeLastName.sendKeys(FetchExcelData.getExcelFileData(1, 6));
+		logger.info("Last name is entering");
+		
+		wait.until(ExpectedConditions.visibilityOf(addEmployeeId));
+		ScrollView.scrollIntoView(driver, addEmployeeId);
+		wait.until(ExpectedConditions.elementToBeClickable(addEmployeeId));
+		addEmployeeId.sendKeys(String.valueOf(FetchExcelData.getExcelFileDataNumeric(1, 7))); //convert numeric into string text
+		logger.info("Employee Id is entering");
+		
+	}
+	
+	
+	public void clickOnAddEmployeeSaveButton() {
+		wait.until(ExpectedConditions.visibilityOf(addEmployeeSaveButton));
+		ScrollView.scrollIntoView(driver, addEmployeeSaveButton);
+		ScrollView.JSClick(driver, addEmployeeSaveButton); 	//JS click = direct DOM click, no mouse position involved.
+		logger.info("Clicking on addEmployeeSaveButton");
+	}
+	
+	public void clickOnImageAtMyInfo() {
+		wait.until(ExpectedConditions.visibilityOf(image));
+	//	ScrollView.scrollIntoView(driver, image);
+		wait.until(ExpectedConditions.elementToBeClickable(image));
+		image.click();
+		logger.info("Clicking on image at MyInfo");
+		
+	}
+	
+	
+	public void clickOnMyInfoSaveButton() {
+		wait.until(ExpectedConditions.visibilityOf(myInfoSaveButton));
+		ScrollView.scrollIntoView(driver, myInfoSaveButton);
+		wait.until(ExpectedConditions.elementToBeClickable(myInfoSaveButton));
+		myInfoSaveButton.click();
+		logger.info("Clicking on myInfoSaveButton");
+	}
+	
+	public String getImageUploadToastMsg() {
+		wait.until(ExpectedConditions.visibilityOf(toastMsgForImageUpload));
+		//ScrollView.scrollIntoView(driver, toastMsgForFileUpload);
+		//wait.until(ExpectedConditions.elementToBeClickable(toastMsgForFileUpload));
+		String ImagetextCapture = toastMsgForImageUpload.getText();
+
+		return ImagetextCapture;
 	}
 	
 }
